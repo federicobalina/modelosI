@@ -1,0 +1,5 @@
+- El archivo "Ejercicio B-Modelo Cplex.mod" contiene el modelo correspondiente al ejercicio, cumpliendo con la
+ sintáxis de CPLEX. Puede ser abierto con un editor de texto o importar a CPLEX.
+
+- El archivo "Ejercicio B.launch" contiene un archivo de ejecución del modelo, que puede ser interpretado
+por la IDE de CPLEX. Este archivo debe ser abierto con CPLEX STUDIO IDE.
