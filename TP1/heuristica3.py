@@ -72,17 +72,17 @@ class Tour(object):
 			descanso = int(distDescanso/3000)
 			tiempoSalida = tiempoLlegada + 7 + 5 * descanso
 			if (arista.destino == ARG):
-				if (tiempoSalida > 31):
+				if (tiempoSalida >= 31):
 					return False 
 			elif (arista.destino == PER):
-				if (tiempoLlegada > 31 and tiempoSalida <= 59):
+				if ((tiempoLlegada >= 31 and tiempoLlegada < 59) or ((tiempoSalida >= 31 and tiempoSalida < 59))):
 					return False
 			elif (arista.destino == BRA):
-				if (not(tiempoLlegada > 31 and tiempoSalida <= 59)):
+				if (not(tiempoLlegada >= 31 and tiempoSalida < 59)):
 					return False
-			elif ((not self.ciudadesVisitadas[ARG]) and tiempoSalida > 31):
+			elif ((not self.ciudadesVisitadas[ARG]) and tiempoSalida >= 31):
 				return False
-			elif ((not self.ciudadesVisitadas[BRA]) and tiempoSalida > 59):
+			elif ((not self.ciudadesVisitadas[BRA]) and tiempoSalida >= 59):
 				return False
 		return True;
 
@@ -149,7 +149,6 @@ def main():
 	heapsAux=copy.deepcopy(heaps)
 	tour = Tour(VEL,N)
 	i = 0
-	eliminado = False
 	while (not tour.estaCompleto()):
 		tour.mostrarTour(); #Se saca
 		if not(heapsAux[i]):

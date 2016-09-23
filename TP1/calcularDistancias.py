@@ -3,6 +3,10 @@ import csv
 import math as m
 from decimal import Decimal
 
+class prettyfloat(float):
+    def __repr__(self):
+        return "%0.2f" % self
+
 def main():
 	continente = 'AmericaSur'
 	fileName = 'capitales'+continente+'.csv'
@@ -30,6 +34,7 @@ def main():
 				lon1 = city1[1]
 				lon2 = city2[1]
 				d = diametroTierra * m.acos( m.cos(lat1) * m.cos(lat2) * m.cos(lon2-lon1) + m.sin(lat1) * m.sin(lat2) )
+			#dist.append(d)
 			dist.append(Decimal("%.2f" % d))
 		distancias.append(dist)
 
@@ -38,6 +43,7 @@ def main():
 	writer = csv.writer(file,dialect = 'excel')
 
 	writer.writerows(distancias)
+	#print [map(prettyfloat,x) for x in distancias]
 	file.close()
 
 if __name__ == "__main__":

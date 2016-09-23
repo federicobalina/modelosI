@@ -1,0 +1,13 @@
+data;
+set CIUDADES := 0..13 ;
+set CIUDADES_SO := 1..13 ;
+
+param N_CIUDADES := 13; 
+param M1 := 14; 
+param M2 := 150; 
+param TEF := 7; 
+param TD := 5; 
+param VEL := 4000;
+param K0 := 0;
+
+end;
