@@ -18,7 +18,7 @@ param ARG; #indice de país correspondiente a Argentina
 param PER; #indice de país correspondiente a Peru
 param BRA; #indice de país correspondiente a Brasil
 
-param COSTO{i in CIUDADES, j in CIUDADES};
+param C{i in CIUDADES, j in CIUDADES};
 
 var Y{ i in CIUDADES, j in CIUDADES}, binary; # Si se realiza el trayecto de i a j es igual a 1, sino es igual a 0.
 
@@ -38,7 +38,7 @@ var P, binary; # Variable bivalente utilizada solo para el equipo de SudamÃ©rica
 				# si se visita después de Febrero, vale 0
 
 
-minimize total: sum{i in CIUDADES, j in CIUDADES} COSTO[i,j] * Y[i,j];
+minimize total: sum{i in CIUDADES, j in CIUDADES} C[i,j] * Y[i,j];
 
 s.t. salida{i in CIUDADES}: sum{j in CIUDADES: j!=i } Y[i,j] = 1;
 
@@ -52,15 +52,21 @@ s.t. definicion1W{i in CIUDADES_SO, j in CIUDADES_SO: i!=j}: U[j] <= U[i] + M1 *
 
 s.t. definicion2W{i in CIUDADES_SO, j in CIUDADES_SO: i!=j}: U[i] <= U[j] + M1 * (1 - W[i,j]);
 
-s.t. tiempoEstadiaEnI{i in CIUDADES}: TE[i] >= TEF + TD * D[i];
+s.t. tiempoEstadiaEnI{i in CIUDADES}: TE[i] = TEF + TD * D[i];
 
-s.t. definicion1T{i in CIUDADES_SO, j in CIUDADES_SO: j != i}: D[i] - (1-W[i,j])*M3 <= T[i,j] <= M3 * W[i,j];
+s.t. definicion1T{i in CIUDADES_SO, j in CIUDADES_SO: j != i}: D[i] - (1-W[i,j])*M3 <= T[i,j];
 
-s.t. definicion2T{i in CIUDADES_SO, j in CIUDADES_SO: j != i}: 0 <= T[i,j] <= D[i];
+s.t. definicion2T{i in CIUDADES_SO, j in CIUDADES_SO: j != i}: T[i,j] <= M3 * W[i,j];
+
+s.t. definicion3T{i in CIUDADES_SO, j in CIUDADES_SO: j != i}: 0 <= T[i,j];
+
+s.t. definicion4T{i in CIUDADES_SO, j in CIUDADES_SO: j != i}: T[i,j] <= D[i];
 
 s.t. tiempoEstadiaAntesDeJ{j in CIUDADES_SO}: TEA[j] == sum{i in CIUDADES: i != j} (TEF * W[i,j] + TD * T[i,j] ); 
 
-s.t. definicionZ{i in CIUDADES_SO, j in CIUDADES_SO, k in CIUDADES_SO}: 2*Z[i,j,k] <= Y[i,j]+W[i,k] <= 1 + Z[i,j,k];  #VER SI SE HAY QUE DIFERENCIAR I,J,K
+s.t. definicion1Z{i in CIUDADES_SO, j in CIUDADES_SO, k in CIUDADES_SO}: 2*Z[i,j,k] <= Y[i,j]+W[i,k];  #VER SI HAY QUE DIFERENCIAR I,J,K
+
+s.t. definicion2Z{i in CIUDADES_SO, j in CIUDADES_SO, k in CIUDADES_SO}: Y[i,j]+W[i,k] <= 1 + Z[i,j,k];
 
 s.t. tiempoViajeAntesDeK{k in CIUDADES_SO}: TVA[k] = sum{j in CIUDADES_SO} ((C[0,j]*Y[0,j])/VEL) + sum{i in CIUDADES_SO, j in CIUDADES_SO: j != i} (C[i,j] * Z[i,j,k] / VEL);
 
@@ -81,5 +87,7 @@ s.t. estadiaBrasil2: TTA[BRA]+TE[BRA] <= 59;
 s.t. estadiaPeru1: TTA[PER]+TE[PER] <= 31 + M2*(1-P);
 
 s.t. estadiaPeru2: TTA[PER] >= 59 - M2 * P;
+
+solve;
 
 end;
