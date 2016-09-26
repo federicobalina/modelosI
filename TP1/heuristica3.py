@@ -9,7 +9,8 @@ ARG = 2
 BRA = 6
 PER = 7
 VEL = 4000 #km/dia
-N = 14 #el N aca incluye a la ciudad origen
+#N = 14 #el N aca incluye a la ciudad origen
+AMSUR = 'AmericaSur'
 
 class Arista(object):
 	def __init__(self,origen,destino,distancia):
@@ -105,11 +106,15 @@ class Tour(object):
 		self.tiempoViaje += (arista.distancia/self.vel)
 
 
-	def mostrarTour(self):
-		ciudades = [0]
+	def mostrarTour(self,names):
+		distTotal = 0
+		i = 0
+		print("{}. {}({})".format(i,names[0][0],names[0][1]))
 		for arista in self.aristas:
-			ciudades.append(arista.destino)
-		print ciudades
+			i += 1
+			print("{}. {}({})".format(i,names[arista.destino][0],names[arista.destino][1]))
+			distTotal += arista.distancia
+		print("Distancia total del tour: {} km".format(distTotal))
 
 
 
@@ -128,6 +133,21 @@ def cargarDistancias(name):
 
 	return distances
 
+def cargarNombres(name):
+	fileName = 'capitales'+name+'.csv'
+	file = open(fileName,'r')
+	reader = csv.reader(file,dialect = 'excel')
+	reader.next()
+
+	names = {}
+	i = 0
+	for row in reader:
+		names[i] = (row[0],row[1])
+		i += 1
+	file.close()
+
+	return names
+
 def heapsAristas(distancias):
 	heaps = []
 	i = 0
@@ -143,15 +163,24 @@ def heapsAristas(distancias):
 		i += 1
 	return heaps
 
-def main():
-	distancias = cargarDistancias('AmericaSur')
+def main(argv):
+	if (not argv):
+		continente = AMSUR
+	else:
+		continente = argv[0]	
+	americaSur = (continente == AMSUR)
+	distancias = cargarDistancias(continente)
+	nombres = cargarNombres(continente)
 	heaps = heapsAristas(distancias)
 	heapsAux=copy.deepcopy(heaps)
-	tour = Tour(VEL,N)
+	tour = Tour(VEL,len(nombres),americaSur)
+	
 	i = 0
 	while (not tour.estaCompleto()):
-		tour.mostrarTour(); #Se saca
 		if not(heapsAux[i]):
+			if(i==0):
+				print "NO SE ENCONTRO SOLUCION"
+				sys.exit()
 			heapsAux[i] = copy.deepcopy(heaps[i])
 			aristaElim = tour.eliminarUltimaArista()
 			i = aristaElim.origen
@@ -161,11 +190,7 @@ def main():
 			tour.agregarArista(arista)
 			i = arista.destino
 	tour.cerrarTour(distancias)
-	tour.mostrarTour()
-
-
-
-	
+	tour.mostrarTour(nombres)
 
 if __name__ == "__main__":
-    main()
+    main(sys.argv[1:])
