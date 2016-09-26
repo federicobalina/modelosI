@@ -1,7 +1,16 @@
 #!/usr/bin/python
 import csv
-import math as m
 import heapq
+import sys
+import copy
+
+#constantes
+ARG = 2
+BRA = 6
+PER = 7
+VEL = 4000 #km/dia
+#N = 14 #el N aca incluye a la ciudad origen
+AMSUR = 'AmericaSur'
 
 class Arista(object):
 	def __init__(self,origen,destino,distancia):
@@ -17,17 +26,96 @@ class Arista(object):
 		return 0
 
 class Tour(object):
-	def __init__(self,velocidad):
+	def __init__(self,velocidad,n,AmericaSur = True):
 		self.aristas = []
-		self.TiempoEstadia = 5
-		self.TiempoViaje = 0
+		self.tiempoEstadia = 7
+		self.tiempoViaje = 0
 		self.vel = velocidad
+		self.distDescanso = 0
+		self.descansos = []
+		self.descanso = 0
+		self.ciudadesVisitadas = {}
+		for i in range(n):
+			self.ciudadesVisitadas[i] = False
+		self.ciudadesVisitadas[0] = True
+		self.AmericaSur = AmericaSur
 
-	def agregarArista(arista):
+	def agregarArista(self,arista):
 		self.aristas.append(arista)
-		self.TiempoViaje += (arista.distancia/self.vel)
-		if (TiempoViaje*self.vel
-		self.TiempoEstadia += 5
+		self.ciudadesVisitadas[arista.destino] = True
+		self.tiempoViaje += (arista.distancia/self.vel)
+		self.distDescanso += arista.distancia
+		self.descanso = int(self.distDescanso/3000)
+		self.descansos.append(self.descanso)
+		if (self.descanso > 0):
+			self.distDescanso = self.distDescanso % 3000
+		self.tiempoEstadia += 7 + 5* self.descanso
+
+	def eliminarUltimaArista(self):
+	#Solo se puede usar una vez, no dos seguidas porque no tengo la informacion de descanso
+		arista = self.aristas.pop()
+		self.ciudadesVisitadas[arista.destino] = False
+		self.tiempoViaje -= (arista.distancia/self.vel)
+		if (self.descanso > 0):
+			self.distDescanso = self.distDescanso + 3000*self.descanso
+		self.distDescanso -= arista.distancia
+		self.tiempoEstadia -= 7 + 5* self.descanso
+		self.descansos.pop()
+		self.descanso = self.descansos[len(self.descansos)-1]
+		return arista
+	
+	def aristaEsPosible(self,arista):
+		if (self.ciudadesVisitadas[arista.destino]):
+			return False;
+		if (self.AmericaSur):
+			tiempoLlegada = self.tiempoViaje + (arista.distancia/self.vel) + self.tiempoEstadia
+			distDescanso = self.distDescanso + arista.distancia
+			descanso = int(distDescanso/3000)
+			tiempoSalida = tiempoLlegada + 7 + 5 * descanso
+			if (arista.destino == ARG):
+				if (tiempoSalida >= 31):
+					return False 
+			elif (arista.destino == PER):
+				if ((tiempoLlegada >= 31 and tiempoLlegada < 59) or ((tiempoSalida >= 31 and tiempoSalida < 59))):
+					return False
+			elif (arista.destino == BRA):
+				if (not(tiempoLlegada >= 31 and tiempoSalida < 59)):
+					return False
+			elif ((not self.ciudadesVisitadas[ARG]) and tiempoSalida >= 31):
+				return False
+			elif ((not self.ciudadesVisitadas[BRA]) and tiempoSalida >= 59):
+				return False
+		return True;
+
+	def verificarBrasil(self,distancias,origen):
+		if (self.ciudadesVisitadas[BRA]):
+			return True
+		aristaBrasil = Arista(origen,BRA,distancias[origen][BRA]) 
+		return self.aristaEsPosible(aristaBrasil)
+
+	def estaCompleto(self):
+		for ciudad in self.ciudadesVisitadas:
+			if (not self.ciudadesVisitadas[ciudad]):
+				return False
+		return True
+
+	def cerrarTour(self,distancias):
+		ultimaArista =self.aristas[len(self.aristas)-1]
+		arista = Arista(ultimaArista.destino,0,distancias[ultimaArista.destino][0])
+		self.aristas.append(arista)
+		self.tiempoViaje += (arista.distancia/self.vel)
+
+
+	def mostrarTour(self,names):
+		distTotal = 0
+		i = 0
+		print("{}. {}({})".format(i,names[0][0],names[0][1]))
+		for arista in self.aristas:
+			i += 1
+			print("{}. {}({})".format(i,names[arista.destino][0],names[arista.destino][1]))
+			distTotal += arista.distancia
+		print("Distancia total del tour: {} km".format(distTotal))
+
 
 
 def cargarDistancias(name):
@@ -45,6 +133,21 @@ def cargarDistancias(name):
 
 	return distances
 
+def cargarNombres(name):
+	fileName = 'capitales'+name+'.csv'
+	file = open(fileName,'r')
+	reader = csv.reader(file,dialect = 'excel')
+	reader.next()
+
+	names = {}
+	i = 0
+	for row in reader:
+		names[i] = (row[0],row[1])
+		i += 1
+	file.close()
+
+	return names
+
 def heapsAristas(distancias):
 	heaps = []
 	i = 0
@@ -60,61 +163,34 @@ def heapsAristas(distancias):
 		i += 1
 	return heaps
 
-def inicializarCiudades(n):
-	ciudadesVisitadas = {}
-	for i in range(n):
-		ciudadesVisitadas[i] = False
-	ciudadesVisitadas[0] = True
-	return ciudadesVisitadas	
-
-def cumpleRequisitos(arista,tour,ciudadesVisitadas):
-	if (ciudadesVisitadas[arista.destino]):
-		return False;
-	return True;
-
-def agregarAristaTour(tour,arista):
-
-
-def verificarTourCompleto(ciudadesVisitadas):
-	for ciudad in ciudadesVisitadas:
-		if (not ciudadesVisitadas[ciudad]):
-			return False
-	return True
-
-def mostrarTour(tour):
-	ciudades = [0]
-	for arista in tour:
-		ciudades.append(arista.destino)
-	print ciudades
-
-def main():
-	ARG = 2
-	BRA = 6
-	PER = 7
-	VEL = 4000
-	N = 14 #el N aca incluye a la ciudad origen
-	distancias = cargarDistancias('AmericaSur')
+def main(argv):
+	if (not argv):
+		continente = AMSUR
+	else:
+		continente = argv[0]	
+	americaSur = (continente == AMSUR)
+	distancias = cargarDistancias(continente)
+	nombres = cargarNombres(continente)
 	heaps = heapsAristas(distancias)
-	tour = Tour(VEL)
-	ciudadesVisitadas = inicializarCiudades(N)
-	tourCompleto = False
-	tiempoEstadia=5
-	tiempoViaje =0
-	i = 0
-	while (not tourCompleto):
-		arista = heapq.heappop(heaps[i])
-		if (cumpleRequisitos(arista,tour,ciudadesVisitadas)): #verificar otras condiciones
-			agregarAristaTour(tour,arista)
-			ciudadesVisitadas[arista.destino] = True
-			i = arista.destino
-			if (verificarTourCompleto(ciudadesVisitadas)):
-				tour.append(Arista(arista.destino,0,distancias[arista.destino][0]))
-				tourCompleto = True
-	mostrarTour(tour)
-
-
-
+	heapsAux=copy.deepcopy(heaps)
+	tour = Tour(VEL,len(nombres),americaSur)
 	
+	i = 0
+	while (not tour.estaCompleto()):
+		if not(heapsAux[i]):
+			if(i==0):
+				print "NO SE ENCONTRO SOLUCION"
+				sys.exit()
+			heapsAux[i] = copy.deepcopy(heaps[i])
+			aristaElim = tour.eliminarUltimaArista()
+			i = aristaElim.origen
+			continue
+		arista = heapq.heappop(heapsAux[i])
+		if (tour.aristaEsPosible(arista)):
+			tour.agregarArista(arista)
+			i = arista.destino
+	tour.cerrarTour(distancias)
+	tour.mostrarTour(nombres)
 
 if __name__ == "__main__":
-    main()
+    main(sys.argv[1:])

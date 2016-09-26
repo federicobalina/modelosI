@@ -31,7 +31,7 @@ var TEA{ i in CIUDADES} >= 0; # Tiempo de estadía acumulado antes de llegar a la
 var TVA{ i in CIUDADES} >= 0; # Tiempo de viaje acumulado antes de llegar a la ciudad i
 var TTA{ i in CIUDADES} >= 0; # Tiempo total acumulado antes de llegar a la ciudad i
 var T{ i in CIUDADES, j in CIUDADES}>=0; # Vale TEi si Wij es 1, sino 0.
-var D{ i in CIUDADES}; # Representa la cantidad de descansos que debe realizar el equipo en la ciudad i. 
+var D{ i in CIUDADES} >= 0; # Representa la cantidad de descansos que debe realizar el equipo en la ciudad i. 
 var K{ i in CIUDADES} >= 0, integer; # Representa la cantidad de veces que ya se recorrieron 3000 km antes de llegar a la ciudad i.
 
 var P, binary; # Variable bivalente utilizada solo para el equipo de SudamÃ©rica. Si se visita Perú Antes de Febrero vale 1,
@@ -58,13 +58,15 @@ s.t. definicion2Z{i in CIUDADES_SO, j in CIUDADES_SO, k in CIUDADES_SO: i != k}:
 
 s.t. tiempoViajeAntesDeK{k in CIUDADES_SO}: TVA[k] = sum{j in CIUDADES_SO} ((C[0,j]*Y[0,j])/VEL) + sum{i in CIUDADES_SO, j in CIUDADES_SO: i != k} (C[i,j] * Z[i,j,k] / VEL);
 
-#s.t. definicionK{i in CIUDADES_SO}: 3000 * K[i] = TVA[i] * VEL;
+s.t. definicion1K{i in CIUDADES_SO}: K[i] <= (TVA[i] * VEL) / 3000;
 
-#s.t. definicionK0: K[0] = K0;
+s.t. definicion2K{i in CIUDADES_SO}: K[i] >= ((TVA[i] * VEL) / 3000) - 0.9999;
 
-#s.t. definicionD{i in CIUDADES_SO}: D[i] = K[i] - K[i-1];
+s.t. definicionK0: K[0] = K0;
 
-s.t. tiempoEstadiaEnI{i in CIUDADES}: TE[i] = TEF; #+ TD * D[i];
+s.t. definicionD{i in CIUDADES_SO}: D[i] = K[i]-K[i-1];
+
+s.t. tiempoEstadiaEnI{i in CIUDADES}: TE[i] = TEF + TD * D[i];
 
 s.t. definicion1T{i in CIUDADES_SO, j in CIUDADES_SO: j != i}: TE[i] - (1-W[i,j])*M3 <= T[i,j];
 
@@ -74,7 +76,7 @@ s.t. definicion3T{i in CIUDADES_SO, j in CIUDADES_SO: j != i}: 0 <= T[i,j];
 
 s.t. definicion4T{i in CIUDADES_SO, j in CIUDADES_SO: j != i}: T[i,j] <= TE[i];
 
-s.t. tiempoEstadiaAntesDeJ{j in CIUDADES_SO}: TEA[j] == sum{i in CIUDADES: i != j} T[i,j]; 
+s.t. tiempoEstadiaAntesDeJ{j in CIUDADES_SO}: TEA[j] = TE[0] + sum{i in CIUDADES: i != j} T[i,j]; 
 
 s.t. tiempoTotalAntesDeJ{j in CIUDADES_SO}: TTA[j] = TEA[j] + TVA[j];
 
