@@ -3,11 +3,11 @@ Rows:       2706
 Columns:    2703 (2652 integer, 2652 binary)
 Non-zeros:  15657
 Status:     INTEGER NON-OPTIMAL
-Objective:  total = 25505.5 (MINimum)
+Objective:  total = 24440.3 (MINimum)
 
    No.   Row name        Activity     Lower bound   Upper bound
 ------ ------------    ------------- ------------- -------------
-     1 total                 25505.5                             
+     1 total                 24440.3                             
      2 salida[0]                   1             1             = 
      3 salida[1]                   1             1             = 
      4 salida[2]                   1             1             = 
@@ -113,249 +113,249 @@ Objective:  total = 25505.5 (MINimum)
    104 llegada[50]                 1             1             = 
    105 llegada[51]                 1             1             = 
    106 evitarSubTours[1,2]
-                                  30                          50 
+                                  21                          50 
    107 evitarSubTours[1,3]
-                                  -2                          50 
-   108 evitarSubTours[1,4]
-                                  31                          50 
-   109 evitarSubTours[1,5]
-                                  29                          50 
-   110 evitarSubTours[1,6]
                                   50                          50 
+   108 evitarSubTours[1,4]
+                                  22                          50 
+   109 evitarSubTours[1,5]
+                                  23                          50 
+   110 evitarSubTours[1,6]
+                                  11                          50 
    111 evitarSubTours[1,7]
-                                   1                          50 
-   112 evitarSubTours[1,8]
                                    2                          50 
+   112 evitarSubTours[1,8]
+                                   1                          50 
    113 evitarSubTours[1,9]
-                                   7                          50 
+                                   8                          50 
    114 evitarSubTours[1,10]
                                   10                          50 
    115 evitarSubTours[1,11]
-                                  24                          50 
+                                  20                          50 
    116 evitarSubTours[1,12]
-                                   8                          50 
-   117 evitarSubTours[1,13]
                                    9                          50 
+   117 evitarSubTours[1,13]
+                                   7                          50 
    118 evitarSubTours[1,14]
-                                  23                          50 
+                                  19                          50 
    119 evitarSubTours[1,15]
                                    6                          50 
    120 evitarSubTours[1,16]
                                    3                          50 
    121 evitarSubTours[1,17]
-                                  48                          50 
+                                  49                          50 
    122 evitarSubTours[1,18]
-                                  11                          50 
+                                  12                          50 
    123 evitarSubTours[1,19]
                                    5                          50 
    124 evitarSubTours[1,20]
                                    4                          50 
    125 evitarSubTours[1,21]
-                                  21                          50 
-   126 evitarSubTours[1,22]
-                                  47                          50 
-   127 evitarSubTours[1,23]
-                                  22                          50 
-   128 evitarSubTours[1,24]
-                                  12                          50 
-   129 evitarSubTours[1,25]
-                                  13                          50 
-   130 evitarSubTours[1,26]
-                                  14                          50 
-   131 evitarSubTours[1,27]
-                                  28                          50 
-   132 evitarSubTours[1,28]
-                                  25                          50 
-   133 evitarSubTours[1,29]
-                                  26                          50 
-   134 evitarSubTours[1,30]
-                                  20                          50 
-   135 evitarSubTours[1,31]
-                                  15                          50 
-   136 evitarSubTours[1,32]
-                                  46                          50 
-   137 evitarSubTours[1,33]
-                                  19                          50 
-   138 evitarSubTours[1,34]
-                                  27                          50 
-   139 evitarSubTours[1,35]
-                                  43                          50 
-   140 evitarSubTours[1,36]
                                   18                          50 
-   141 evitarSubTours[1,37]
-                                  16                          50 
-   142 evitarSubTours[1,38]
-                                  32                          50 
-   143 evitarSubTours[1,39]
-                                  44                          50 
-   144 evitarSubTours[1,40]
-                                  33                          50 
-   145 evitarSubTours[1,41]
-                                  42                          50 
-   146 evitarSubTours[1,42]
+   126 evitarSubTours[1,22]
+                                  48                          50 
+   127 evitarSubTours[1,23]
                                   17                          50 
-   147 evitarSubTours[1,43]
-                                  45                          50 
-   148 evitarSubTours[1,44]
+   128 evitarSubTours[1,24]
+                                  13                          50 
+   129 evitarSubTours[1,25]
+                                  14                          50 
+   130 evitarSubTours[1,26]
+                                  15                          50 
+   131 evitarSubTours[1,27]
+                                  27                          50 
+   132 evitarSubTours[1,28]
+                                  24                          50 
+   133 evitarSubTours[1,29]
+                                  25                          50 
+   134 evitarSubTours[1,30]
+                                  28                          50 
+   135 evitarSubTours[1,31]
+                                  16                          50 
+   136 evitarSubTours[1,32]
+                                  47                          50 
+   137 evitarSubTours[1,33]
+                                  29                          50 
+   138 evitarSubTours[1,34]
+                                  26                          50 
+   139 evitarSubTours[1,35]
+                                  42                          50 
+   140 evitarSubTours[1,36]
+                                  30                          50 
+   141 evitarSubTours[1,37]
                                   41                          50 
+   142 evitarSubTours[1,38]
+                                  31                          50 
+   143 evitarSubTours[1,39]
+                                  45                          50 
+   144 evitarSubTours[1,40]
+                                  32                          50 
+   145 evitarSubTours[1,41]
+                                  44                          50 
+   146 evitarSubTours[1,42]
+                                  40                          50 
+   147 evitarSubTours[1,43]
+                                  46                          50 
+   148 evitarSubTours[1,44]
+                                  43                          50 
    149 evitarSubTours[1,45]
                                   38                          50 
    150 evitarSubTours[1,46]
-                                  39                          50 
-   151 evitarSubTours[1,47]
                                   37                          50 
+   151 evitarSubTours[1,47]
+                                  39                          50 
    152 evitarSubTours[1,48]
-                                  40                          50 
-   153 evitarSubTours[1,49]
-                                  34                          50 
-   154 evitarSubTours[1,50]
-                                  35                          50 
-   155 evitarSubTours[1,51]
                                   36                          50 
+   153 evitarSubTours[1,49]
+                                  33                          50 
+   154 evitarSubTours[1,50]
+                                  34                          50 
+   155 evitarSubTours[1,51]
+                                  35                          50 
    156 evitarSubTours[2,1]
-                                 -30                          50 
+                                 -21                          50 
    157 evitarSubTours[2,3]
-                                 -32                          50 
+                                 -22                          50 
    158 evitarSubTours[2,4]
                                    1                          50 
    159 evitarSubTours[2,5]
-                                  50                          50 
+                                   2                          50 
    160 evitarSubTours[2,6]
-                                 -31                          50 
-   161 evitarSubTours[2,7]
-                                 -29                          50 
-   162 evitarSubTours[2,8]
-                                 -28                          50 
-   163 evitarSubTours[2,9]
-                                 -23                          50 
-   164 evitarSubTours[2,10]
-                                 -20                          50 
-   165 evitarSubTours[2,11]
-                                  -6                          50 
-   166 evitarSubTours[2,12]
-                                 -22                          50 
-   167 evitarSubTours[2,13]
-                                 -21                          50 
-   168 evitarSubTours[2,14]
-                                  -7                          50 
-   169 evitarSubTours[2,15]
-                                 -24                          50 
-   170 evitarSubTours[2,16]
-                                 -27                          50 
-   171 evitarSubTours[2,17]
-                                  18                          50 
-   172 evitarSubTours[2,18]
-                                 -19                          50 
-   173 evitarSubTours[2,19]
-                                 -25                          50 
-   174 evitarSubTours[2,20]
-                                 -26                          50 
-   175 evitarSubTours[2,21]
-                                  -9                          50 
-   176 evitarSubTours[2,22]
-                                  17                          50 
-   177 evitarSubTours[2,23]
-                                  -8                          50 
-   178 evitarSubTours[2,24]
-                                 -18                          50 
-   179 evitarSubTours[2,25]
-                                 -17                          50 
-   180 evitarSubTours[2,26]
-                                 -16                          50 
-   181 evitarSubTours[2,27]
-                                  -2                          50 
-   182 evitarSubTours[2,28]
-                                  -5                          50 
-   183 evitarSubTours[2,29]
-                                  -4                          50 
-   184 evitarSubTours[2,30]
                                  -10                          50 
-   185 evitarSubTours[2,31]
-                                 -15                          50 
-   186 evitarSubTours[2,32]
-                                  16                          50 
-   187 evitarSubTours[2,33]
-                                 -11                          50 
-   188 evitarSubTours[2,34]
-                                  -3                          50 
-   189 evitarSubTours[2,35]
-                                  13                          50 
-   190 evitarSubTours[2,36]
-                                 -12                          50 
-   191 evitarSubTours[2,37]
-                                 -14                          50 
-   192 evitarSubTours[2,38]
-                                   2                          50 
-   193 evitarSubTours[2,39]
-                                  14                          50 
-   194 evitarSubTours[2,40]
-                                   3                          50 
-   195 evitarSubTours[2,41]
-                                  12                          50 
-   196 evitarSubTours[2,42]
+   161 evitarSubTours[2,7]
+                                 -19                          50 
+   162 evitarSubTours[2,8]
+                                 -20                          50 
+   163 evitarSubTours[2,9]
                                  -13                          50 
-   197 evitarSubTours[2,43]
-                                  15                          50 
-   198 evitarSubTours[2,44]
-                                  11                          50 
-   199 evitarSubTours[2,45]
-                                   8                          50 
-   200 evitarSubTours[2,46]
-                                   9                          50 
-   201 evitarSubTours[2,47]
-                                   7                          50 
-   202 evitarSubTours[2,48]
-                                  10                          50 
-   203 evitarSubTours[2,49]
-                                   4                          50 
-   204 evitarSubTours[2,50]
-                                   5                          50 
-   205 evitarSubTours[2,51]
+   164 evitarSubTours[2,10]
+                                 -11                          50 
+   165 evitarSubTours[2,11]
+                                  50                          50 
+   166 evitarSubTours[2,12]
+                                 -12                          50 
+   167 evitarSubTours[2,13]
+                                 -14                          50 
+   168 evitarSubTours[2,14]
+                                  -2                          50 
+   169 evitarSubTours[2,15]
+                                 -15                          50 
+   170 evitarSubTours[2,16]
+                                 -18                          50 
+   171 evitarSubTours[2,17]
+                                  28                          50 
+   172 evitarSubTours[2,18]
+                                  -9                          50 
+   173 evitarSubTours[2,19]
+                                 -16                          50 
+   174 evitarSubTours[2,20]
+                                 -17                          50 
+   175 evitarSubTours[2,21]
+                                  -3                          50 
+   176 evitarSubTours[2,22]
+                                  27                          50 
+   177 evitarSubTours[2,23]
+                                  -4                          50 
+   178 evitarSubTours[2,24]
+                                  -8                          50 
+   179 evitarSubTours[2,25]
+                                  -7                          50 
+   180 evitarSubTours[2,26]
+                                  -6                          50 
+   181 evitarSubTours[2,27]
                                    6                          50 
+   182 evitarSubTours[2,28]
+                                   3                          50 
+   183 evitarSubTours[2,29]
+                                   4                          50 
+   184 evitarSubTours[2,30]
+                                   7                          50 
+   185 evitarSubTours[2,31]
+                                  -5                          50 
+   186 evitarSubTours[2,32]
+                                  26                          50 
+   187 evitarSubTours[2,33]
+                                   8                          50 
+   188 evitarSubTours[2,34]
+                                   5                          50 
+   189 evitarSubTours[2,35]
+                                  21                          50 
+   190 evitarSubTours[2,36]
+                                   9                          50 
+   191 evitarSubTours[2,37]
+                                  20                          50 
+   192 evitarSubTours[2,38]
+                                  10                          50 
+   193 evitarSubTours[2,39]
+                                  24                          50 
+   194 evitarSubTours[2,40]
+                                  11                          50 
+   195 evitarSubTours[2,41]
+                                  23                          50 
+   196 evitarSubTours[2,42]
+                                  19                          50 
+   197 evitarSubTours[2,43]
+                                  25                          50 
+   198 evitarSubTours[2,44]
+                                  22                          50 
+   199 evitarSubTours[2,45]
+                                  17                          50 
+   200 evitarSubTours[2,46]
+                                  16                          50 
+   201 evitarSubTours[2,47]
+                                  18                          50 
+   202 evitarSubTours[2,48]
+                                  15                          50 
+   203 evitarSubTours[2,49]
+                                  12                          50 
+   204 evitarSubTours[2,50]
+                                  13                          50 
+   205 evitarSubTours[2,51]
+                                  14                          50 
    206 evitarSubTours[3,1]
-                                   2                          50 
-   207 evitarSubTours[3,2]
-                                  32                          50 
-   208 evitarSubTours[3,4]
-                                  33                          50 
-   209 evitarSubTours[3,5]
-                                  31                          50 
-   210 evitarSubTours[3,6]
                                    1                          50 
+   207 evitarSubTours[3,2]
+                                  22                          50 
+   208 evitarSubTours[3,4]
+                                  23                          50 
+   209 evitarSubTours[3,5]
+                                  24                          50 
+   210 evitarSubTours[3,6]
+                                  12                          50 
    211 evitarSubTours[3,7]
                                    3                          50 
    212 evitarSubTours[3,8]
-                                   4                          50 
+                                   2                          50 
    213 evitarSubTours[3,9]
                                    9                          50 
    214 evitarSubTours[3,10]
-                                  12                          50 
+                                  11                          50 
    215 evitarSubTours[3,11]
-                                  26                          50 
+                                  21                          50 
    216 evitarSubTours[3,12]
                                   10                          50 
    217 evitarSubTours[3,13]
-                                  11                          50 
-   218 evitarSubTours[3,14]
-                                  25                          50 
-   219 evitarSubTours[3,15]
                                    8                          50 
+   218 evitarSubTours[3,14]
+                                  20                          50 
+   219 evitarSubTours[3,15]
+                                   7                          50 
    220 evitarSubTours[3,16]
-                                   5                          50 
+                                   4                          50 
    221 evitarSubTours[3,17]
                                   50                          50 
    222 evitarSubTours[3,18]
                                   13                          50 
    223 evitarSubTours[3,19]
-                                   7                          50 
-   224 evitarSubTours[3,20]
                                    6                          50 
+   224 evitarSubTours[3,20]
+                                   5                          50 
    225 evitarSubTours[3,21]
-                                  23                          50 
+                                  19                          50 
    226 evitarSubTours[3,22]
                                   49                          50 
    227 evitarSubTours[3,23]
-                                  24                          50 
+                                  18                          50 
    228 evitarSubTours[3,24]
                                   14                          50 
    229 evitarSubTours[3,25]
@@ -363,399 +363,399 @@ Objective:  total = 25505.5 (MINimum)
    230 evitarSubTours[3,26]
                                   16                          50 
    231 evitarSubTours[3,27]
-                                  30                          50 
-   232 evitarSubTours[3,28]
-                                  27                          50 
-   233 evitarSubTours[3,29]
                                   28                          50 
+   232 evitarSubTours[3,28]
+                                  25                          50 
+   233 evitarSubTours[3,29]
+                                  26                          50 
    234 evitarSubTours[3,30]
-                                  22                          50 
+                                  29                          50 
    235 evitarSubTours[3,31]
                                   17                          50 
    236 evitarSubTours[3,32]
                                   48                          50 
    237 evitarSubTours[3,33]
-                                  21                          50 
+                                  30                          50 
    238 evitarSubTours[3,34]
-                                  29                          50 
+                                  27                          50 
    239 evitarSubTours[3,35]
-                                  45                          50 
+                                  43                          50 
    240 evitarSubTours[3,36]
-                                  20                          50 
+                                  31                          50 
    241 evitarSubTours[3,37]
-                                  18                          50 
+                                  42                          50 
    242 evitarSubTours[3,38]
-                                  34                          50 
+                                  32                          50 
    243 evitarSubTours[3,39]
                                   46                          50 
    244 evitarSubTours[3,40]
-                                  35                          50 
+                                  33                          50 
    245 evitarSubTours[3,41]
-                                  44                          50 
+                                  45                          50 
    246 evitarSubTours[3,42]
-                                  19                          50 
+                                  41                          50 
    247 evitarSubTours[3,43]
                                   47                          50 
    248 evitarSubTours[3,44]
-                                  43                          50 
+                                  44                          50 
    249 evitarSubTours[3,45]
-                                  40                          50 
-   250 evitarSubTours[3,46]
-                                  41                          50 
-   251 evitarSubTours[3,47]
                                   39                          50 
-   252 evitarSubTours[3,48]
-                                  42                          50 
-   253 evitarSubTours[3,49]
-                                  36                          50 
-   254 evitarSubTours[3,50]
-                                  37                          50 
-   255 evitarSubTours[3,51]
+   250 evitarSubTours[3,46]
                                   38                          50 
+   251 evitarSubTours[3,47]
+                                  40                          50 
+   252 evitarSubTours[3,48]
+                                  37                          50 
+   253 evitarSubTours[3,49]
+                                  34                          50 
+   254 evitarSubTours[3,50]
+                                  35                          50 
+   255 evitarSubTours[3,51]
+                                  36                          50 
    256 evitarSubTours[4,1]
-                                 -31                          50 
+                                 -22                          50 
    257 evitarSubTours[4,2]
                                   50                          50 
    258 evitarSubTours[4,3]
-                                 -33                          50 
+                                 -23                          50 
    259 evitarSubTours[4,5]
-                                  -2                          50 
+                                   1                          50 
    260 evitarSubTours[4,6]
-                                 -32                          50 
+                                 -11                          50 
    261 evitarSubTours[4,7]
-                                 -30                          50 
+                                 -20                          50 
    262 evitarSubTours[4,8]
-                                 -29                          50 
+                                 -21                          50 
    263 evitarSubTours[4,9]
-                                 -24                          50 
+                                 -14                          50 
    264 evitarSubTours[4,10]
-                                 -21                          50 
+                                 -12                          50 
    265 evitarSubTours[4,11]
-                                  -7                          50 
-   266 evitarSubTours[4,12]
-                                 -23                          50 
-   267 evitarSubTours[4,13]
-                                 -22                          50 
-   268 evitarSubTours[4,14]
-                                  -8                          50 
-   269 evitarSubTours[4,15]
-                                 -25                          50 
-   270 evitarSubTours[4,16]
-                                 -28                          50 
-   271 evitarSubTours[4,17]
-                                  17                          50 
-   272 evitarSubTours[4,18]
-                                 -20                          50 
-   273 evitarSubTours[4,19]
-                                 -26                          50 
-   274 evitarSubTours[4,20]
-                                 -27                          50 
-   275 evitarSubTours[4,21]
-                                 -10                          50 
-   276 evitarSubTours[4,22]
-                                  16                          50 
-   277 evitarSubTours[4,23]
-                                  -9                          50 
-   278 evitarSubTours[4,24]
-                                 -19                          50 
-   279 evitarSubTours[4,25]
-                                 -18                          50 
-   280 evitarSubTours[4,26]
-                                 -17                          50 
-   281 evitarSubTours[4,27]
-                                  -3                          50 
-   282 evitarSubTours[4,28]
-                                  -6                          50 
-   283 evitarSubTours[4,29]
-                                  -5                          50 
-   284 evitarSubTours[4,30]
-                                 -11                          50 
-   285 evitarSubTours[4,31]
-                                 -16                          50 
-   286 evitarSubTours[4,32]
-                                  15                          50 
-   287 evitarSubTours[4,33]
-                                 -12                          50 
-   288 evitarSubTours[4,34]
-                                  -4                          50 
-   289 evitarSubTours[4,35]
-                                  12                          50 
-   290 evitarSubTours[4,36]
-                                 -13                          50 
-   291 evitarSubTours[4,37]
-                                 -15                          50 
-   292 evitarSubTours[4,38]
-                                   1                          50 
-   293 evitarSubTours[4,39]
-                                  13                          50 
-   294 evitarSubTours[4,40]
-                                   2                          50 
-   295 evitarSubTours[4,41]
-                                  11                          50 
-   296 evitarSubTours[4,42]
-                                 -14                          50 
-   297 evitarSubTours[4,43]
-                                  14                          50 
-   298 evitarSubTours[4,44]
-                                  10                          50 
-   299 evitarSubTours[4,45]
-                                   7                          50 
-   300 evitarSubTours[4,46]
-                                   8                          50 
-   301 evitarSubTours[4,47]
-                                   6                          50 
-   302 evitarSubTours[4,48]
-                                   9                          50 
-   303 evitarSubTours[4,49]
-                                   3                          50 
-   304 evitarSubTours[4,50]
-                                   4                          50 
-   305 evitarSubTours[4,51]
-                                   5                          50 
-   306 evitarSubTours[5,1]
-                                 -29                          50 
-   307 evitarSubTours[5,2]
-                                   1                          50 
-   308 evitarSubTours[5,3]
-                                 -31                          50 
-   309 evitarSubTours[5,4]
-                                   2                          50 
-   310 evitarSubTours[5,6]
-                                 -30                          50 
-   311 evitarSubTours[5,7]
-                                 -28                          50 
-   312 evitarSubTours[5,8]
-                                 -27                          50 
-   313 evitarSubTours[5,9]
-                                 -22                          50 
-   314 evitarSubTours[5,10]
-                                 -19                          50 
-   315 evitarSubTours[5,11]
-                                  -5                          50 
-   316 evitarSubTours[5,12]
-                                 -21                          50 
-   317 evitarSubTours[5,13]
-                                 -20                          50 
-   318 evitarSubTours[5,14]
-                                  -6                          50 
-   319 evitarSubTours[5,15]
-                                 -23                          50 
-   320 evitarSubTours[5,16]
-                                 -26                          50 
-   321 evitarSubTours[5,17]
-                                  19                          50 
-   322 evitarSubTours[5,18]
-                                 -18                          50 
-   323 evitarSubTours[5,19]
-                                 -24                          50 
-   324 evitarSubTours[5,20]
-                                 -25                          50 
-   325 evitarSubTours[5,21]
-                                  -8                          50 
-   326 evitarSubTours[5,22]
-                                  18                          50 
-   327 evitarSubTours[5,23]
-                                  -7                          50 
-   328 evitarSubTours[5,24]
-                                 -17                          50 
-   329 evitarSubTours[5,25]
-                                 -16                          50 
-   330 evitarSubTours[5,26]
-                                 -15                          50 
-   331 evitarSubTours[5,27]
-                                  50                          50 
-   332 evitarSubTours[5,28]
-                                  -4                          50 
-   333 evitarSubTours[5,29]
-                                  -3                          50 
-   334 evitarSubTours[5,30]
-                                  -9                          50 
-   335 evitarSubTours[5,31]
-                                 -14                          50 
-   336 evitarSubTours[5,32]
-                                  17                          50 
-   337 evitarSubTours[5,33]
-                                 -10                          50 
-   338 evitarSubTours[5,34]
                                   -2                          50 
-   339 evitarSubTours[5,35]
-                                  14                          50 
-   340 evitarSubTours[5,36]
-                                 -11                          50 
-   341 evitarSubTours[5,37]
+   266 evitarSubTours[4,12]
                                  -13                          50 
-   342 evitarSubTours[5,38]
-                                   3                          50 
-   343 evitarSubTours[5,39]
-                                  15                          50 
-   344 evitarSubTours[5,40]
-                                   4                          50 
-   345 evitarSubTours[5,41]
-                                  13                          50 
-   346 evitarSubTours[5,42]
-                                 -12                          50 
-   347 evitarSubTours[5,43]
-                                  16                          50 
-   348 evitarSubTours[5,44]
-                                  12                          50 
-   349 evitarSubTours[5,45]
-                                   9                          50 
-   350 evitarSubTours[5,46]
-                                  10                          50 
-   351 evitarSubTours[5,47]
-                                   8                          50 
-   352 evitarSubTours[5,48]
-                                  11                          50 
-   353 evitarSubTours[5,49]
-                                   5                          50 
-   354 evitarSubTours[5,50]
-                                   6                          50 
-   355 evitarSubTours[5,51]
-                                   7                          50 
-   356 evitarSubTours[6,1]
-                                   1                          50 
-   357 evitarSubTours[6,2]
-                                  31                          50 
-   358 evitarSubTours[6,3]
-                                  50                          50 
-   359 evitarSubTours[6,4]
-                                  32                          50 
-   360 evitarSubTours[6,5]
-                                  30                          50 
-   361 evitarSubTours[6,7]
-                                   2                          50 
-   362 evitarSubTours[6,8]
-                                   3                          50 
-   363 evitarSubTours[6,9]
-                                   8                          50 
-   364 evitarSubTours[6,10]
-                                  11                          50 
-   365 evitarSubTours[6,11]
-                                  25                          50 
-   366 evitarSubTours[6,12]
-                                   9                          50 
-   367 evitarSubTours[6,13]
-                                  10                          50 
-   368 evitarSubTours[6,14]
-                                  24                          50 
-   369 evitarSubTours[6,15]
-                                   7                          50 
-   370 evitarSubTours[6,16]
-                                   4                          50 
-   371 evitarSubTours[6,17]
-                                  49                          50 
-   372 evitarSubTours[6,18]
-                                  12                          50 
-   373 evitarSubTours[6,19]
-                                   6                          50 
-   374 evitarSubTours[6,20]
-                                   5                          50 
-   375 evitarSubTours[6,21]
-                                  22                          50 
-   376 evitarSubTours[6,22]
-                                  48                          50 
-   377 evitarSubTours[6,23]
-                                  23                          50 
-   378 evitarSubTours[6,24]
-                                  13                          50 
-   379 evitarSubTours[6,25]
-                                  14                          50 
-   380 evitarSubTours[6,26]
-                                  15                          50 
-   381 evitarSubTours[6,27]
-                                  29                          50 
-   382 evitarSubTours[6,28]
-                                  26                          50 
-   383 evitarSubTours[6,29]
+   267 evitarSubTours[4,13]
+                                 -15                          50 
+   268 evitarSubTours[4,14]
+                                  -3                          50 
+   269 evitarSubTours[4,15]
+                                 -16                          50 
+   270 evitarSubTours[4,16]
+                                 -19                          50 
+   271 evitarSubTours[4,17]
                                   27                          50 
-   384 evitarSubTours[6,30]
-                                  21                          50 
-   385 evitarSubTours[6,31]
-                                  16                          50 
-   386 evitarSubTours[6,32]
-                                  47                          50 
-   387 evitarSubTours[6,33]
+   272 evitarSubTours[4,18]
+                                 -10                          50 
+   273 evitarSubTours[4,19]
+                                 -17                          50 
+   274 evitarSubTours[4,20]
+                                 -18                          50 
+   275 evitarSubTours[4,21]
+                                  -4                          50 
+   276 evitarSubTours[4,22]
+                                  26                          50 
+   277 evitarSubTours[4,23]
+                                  -5                          50 
+   278 evitarSubTours[4,24]
+                                  -9                          50 
+   279 evitarSubTours[4,25]
+                                  -8                          50 
+   280 evitarSubTours[4,26]
+                                  -7                          50 
+   281 evitarSubTours[4,27]
+                                   5                          50 
+   282 evitarSubTours[4,28]
+                                   2                          50 
+   283 evitarSubTours[4,29]
+                                   3                          50 
+   284 evitarSubTours[4,30]
+                                   6                          50 
+   285 evitarSubTours[4,31]
+                                  -6                          50 
+   286 evitarSubTours[4,32]
+                                  25                          50 
+   287 evitarSubTours[4,33]
+                                   7                          50 
+   288 evitarSubTours[4,34]
+                                   4                          50 
+   289 evitarSubTours[4,35]
                                   20                          50 
+   290 evitarSubTours[4,36]
+                                   8                          50 
+   291 evitarSubTours[4,37]
+                                  19                          50 
+   292 evitarSubTours[4,38]
+                                   9                          50 
+   293 evitarSubTours[4,39]
+                                  23                          50 
+   294 evitarSubTours[4,40]
+                                  10                          50 
+   295 evitarSubTours[4,41]
+                                  22                          50 
+   296 evitarSubTours[4,42]
+                                  18                          50 
+   297 evitarSubTours[4,43]
+                                  24                          50 
+   298 evitarSubTours[4,44]
+                                  21                          50 
+   299 evitarSubTours[4,45]
+                                  16                          50 
+   300 evitarSubTours[4,46]
+                                  15                          50 
+   301 evitarSubTours[4,47]
+                                  17                          50 
+   302 evitarSubTours[4,48]
+                                  14                          50 
+   303 evitarSubTours[4,49]
+                                  11                          50 
+   304 evitarSubTours[4,50]
+                                  12                          50 
+   305 evitarSubTours[4,51]
+                                  13                          50 
+   306 evitarSubTours[5,1]
+                                 -23                          50 
+   307 evitarSubTours[5,2]
+                                  -2                          50 
+   308 evitarSubTours[5,3]
+                                 -24                          50 
+   309 evitarSubTours[5,4]
+                                  50                          50 
+   310 evitarSubTours[5,6]
+                                 -12                          50 
+   311 evitarSubTours[5,7]
+                                 -21                          50 
+   312 evitarSubTours[5,8]
+                                 -22                          50 
+   313 evitarSubTours[5,9]
+                                 -15                          50 
+   314 evitarSubTours[5,10]
+                                 -13                          50 
+   315 evitarSubTours[5,11]
+                                  -3                          50 
+   316 evitarSubTours[5,12]
+                                 -14                          50 
+   317 evitarSubTours[5,13]
+                                 -16                          50 
+   318 evitarSubTours[5,14]
+                                  -4                          50 
+   319 evitarSubTours[5,15]
+                                 -17                          50 
+   320 evitarSubTours[5,16]
+                                 -20                          50 
+   321 evitarSubTours[5,17]
+                                  26                          50 
+   322 evitarSubTours[5,18]
+                                 -11                          50 
+   323 evitarSubTours[5,19]
+                                 -18                          50 
+   324 evitarSubTours[5,20]
+                                 -19                          50 
+   325 evitarSubTours[5,21]
+                                  -5                          50 
+   326 evitarSubTours[5,22]
+                                  25                          50 
+   327 evitarSubTours[5,23]
+                                  -6                          50 
+   328 evitarSubTours[5,24]
+                                 -10                          50 
+   329 evitarSubTours[5,25]
+                                  -9                          50 
+   330 evitarSubTours[5,26]
+                                  -8                          50 
+   331 evitarSubTours[5,27]
+                                   4                          50 
+   332 evitarSubTours[5,28]
+                                   1                          50 
+   333 evitarSubTours[5,29]
+                                   2                          50 
+   334 evitarSubTours[5,30]
+                                   5                          50 
+   335 evitarSubTours[5,31]
+                                  -7                          50 
+   336 evitarSubTours[5,32]
+                                  24                          50 
+   337 evitarSubTours[5,33]
+                                   6                          50 
+   338 evitarSubTours[5,34]
+                                   3                          50 
+   339 evitarSubTours[5,35]
+                                  19                          50 
+   340 evitarSubTours[5,36]
+                                   7                          50 
+   341 evitarSubTours[5,37]
+                                  18                          50 
+   342 evitarSubTours[5,38]
+                                   8                          50 
+   343 evitarSubTours[5,39]
+                                  22                          50 
+   344 evitarSubTours[5,40]
+                                   9                          50 
+   345 evitarSubTours[5,41]
+                                  21                          50 
+   346 evitarSubTours[5,42]
+                                  17                          50 
+   347 evitarSubTours[5,43]
+                                  23                          50 
+   348 evitarSubTours[5,44]
+                                  20                          50 
+   349 evitarSubTours[5,45]
+                                  15                          50 
+   350 evitarSubTours[5,46]
+                                  14                          50 
+   351 evitarSubTours[5,47]
+                                  16                          50 
+   352 evitarSubTours[5,48]
+                                  13                          50 
+   353 evitarSubTours[5,49]
+                                  10                          50 
+   354 evitarSubTours[5,50]
+                                  11                          50 
+   355 evitarSubTours[5,51]
+                                  12                          50 
+   356 evitarSubTours[6,1]
+                                 -11                          50 
+   357 evitarSubTours[6,2]
+                                  10                          50 
+   358 evitarSubTours[6,3]
+                                 -12                          50 
+   359 evitarSubTours[6,4]
+                                  11                          50 
+   360 evitarSubTours[6,5]
+                                  12                          50 
+   361 evitarSubTours[6,7]
+                                  -9                          50 
+   362 evitarSubTours[6,8]
+                                 -10                          50 
+   363 evitarSubTours[6,9]
+                                  -3                          50 
+   364 evitarSubTours[6,10]
+                                  50                          50 
+   365 evitarSubTours[6,11]
+                                   9                          50 
+   366 evitarSubTours[6,12]
+                                  -2                          50 
+   367 evitarSubTours[6,13]
+                                  -4                          50 
+   368 evitarSubTours[6,14]
+                                   8                          50 
+   369 evitarSubTours[6,15]
+                                  -5                          50 
+   370 evitarSubTours[6,16]
+                                  -8                          50 
+   371 evitarSubTours[6,17]
+                                  38                          50 
+   372 evitarSubTours[6,18]
+                                   1                          50 
+   373 evitarSubTours[6,19]
+                                  -6                          50 
+   374 evitarSubTours[6,20]
+                                  -7                          50 
+   375 evitarSubTours[6,21]
+                                   7                          50 
+   376 evitarSubTours[6,22]
+                                  37                          50 
+   377 evitarSubTours[6,23]
+                                   6                          50 
+   378 evitarSubTours[6,24]
+                                   2                          50 
+   379 evitarSubTours[6,25]
+                                   3                          50 
+   380 evitarSubTours[6,26]
+                                   4                          50 
+   381 evitarSubTours[6,27]
+                                  16                          50 
+   382 evitarSubTours[6,28]
+                                  13                          50 
+   383 evitarSubTours[6,29]
+                                  14                          50 
+   384 evitarSubTours[6,30]
+                                  17                          50 
+   385 evitarSubTours[6,31]
+                                   5                          50 
+   386 evitarSubTours[6,32]
+                                  36                          50 
+   387 evitarSubTours[6,33]
+                                  18                          50 
    388 evitarSubTours[6,34]
-                                  28                          50 
+                                  15                          50 
    389 evitarSubTours[6,35]
-                                  44                          50 
+                                  31                          50 
    390 evitarSubTours[6,36]
                                   19                          50 
    391 evitarSubTours[6,37]
-                                  17                          50 
+                                  30                          50 
    392 evitarSubTours[6,38]
-                                  33                          50 
+                                  20                          50 
    393 evitarSubTours[6,39]
-                                  45                          50 
-   394 evitarSubTours[6,40]
                                   34                          50 
+   394 evitarSubTours[6,40]
+                                  21                          50 
    395 evitarSubTours[6,41]
-                                  43                          50 
+                                  33                          50 
    396 evitarSubTours[6,42]
-                                  18                          50 
-   397 evitarSubTours[6,43]
-                                  46                          50 
-   398 evitarSubTours[6,44]
-                                  42                          50 
-   399 evitarSubTours[6,45]
-                                  39                          50 
-   400 evitarSubTours[6,46]
-                                  40                          50 
-   401 evitarSubTours[6,47]
-                                  38                          50 
-   402 evitarSubTours[6,48]
-                                  41                          50 
-   403 evitarSubTours[6,49]
-                                  35                          50 
-   404 evitarSubTours[6,50]
-                                  36                          50 
-   405 evitarSubTours[6,51]
-                                  37                          50 
-   406 evitarSubTours[7,1]
-                                  50                          50 
-   407 evitarSubTours[7,2]
                                   29                          50 
+   397 evitarSubTours[6,43]
+                                  35                          50 
+   398 evitarSubTours[6,44]
+                                  32                          50 
+   399 evitarSubTours[6,45]
+                                  27                          50 
+   400 evitarSubTours[6,46]
+                                  26                          50 
+   401 evitarSubTours[6,47]
+                                  28                          50 
+   402 evitarSubTours[6,48]
+                                  25                          50 
+   403 evitarSubTours[6,49]
+                                  22                          50 
+   404 evitarSubTours[6,50]
+                                  23                          50 
+   405 evitarSubTours[6,51]
+                                  24                          50 
+   406 evitarSubTours[7,1]
+                                  -2                          50 
+   407 evitarSubTours[7,2]
+                                  19                          50 
    408 evitarSubTours[7,3]
                                   -3                          50 
    409 evitarSubTours[7,4]
-                                  30                          50 
+                                  20                          50 
    410 evitarSubTours[7,5]
-                                  28                          50 
+                                  21                          50 
    411 evitarSubTours[7,6]
-                                  -2                          50 
+                                   9                          50 
    412 evitarSubTours[7,8]
-                                   1                          50 
+                                  50                          50 
    413 evitarSubTours[7,9]
                                    6                          50 
    414 evitarSubTours[7,10]
-                                   9                          50 
+                                   8                          50 
    415 evitarSubTours[7,11]
-                                  23                          50 
+                                  18                          50 
    416 evitarSubTours[7,12]
                                    7                          50 
    417 evitarSubTours[7,13]
-                                   8                          50 
-   418 evitarSubTours[7,14]
-                                  22                          50 
-   419 evitarSubTours[7,15]
                                    5                          50 
+   418 evitarSubTours[7,14]
+                                  17                          50 
+   419 evitarSubTours[7,15]
+                                   4                          50 
    420 evitarSubTours[7,16]
-                                   2                          50 
+                                   1                          50 
    421 evitarSubTours[7,17]
                                   47                          50 
    422 evitarSubTours[7,18]
                                   10                          50 
    423 evitarSubTours[7,19]
-                                   4                          50 
-   424 evitarSubTours[7,20]
                                    3                          50 
+   424 evitarSubTours[7,20]
+                                   2                          50 
    425 evitarSubTours[7,21]
-                                  20                          50 
+                                  16                          50 
    426 evitarSubTours[7,22]
                                   46                          50 
    427 evitarSubTours[7,23]
-                                  21                          50 
+                                  15                          50 
    428 evitarSubTours[7,24]
                                   11                          50 
    429 evitarSubTours[7,25]
@@ -763,105 +763,105 @@ Objective:  total = 25505.5 (MINimum)
    430 evitarSubTours[7,26]
                                   13                          50 
    431 evitarSubTours[7,27]
-                                  27                          50 
-   432 evitarSubTours[7,28]
-                                  24                          50 
-   433 evitarSubTours[7,29]
                                   25                          50 
+   432 evitarSubTours[7,28]
+                                  22                          50 
+   433 evitarSubTours[7,29]
+                                  23                          50 
    434 evitarSubTours[7,30]
-                                  19                          50 
+                                  26                          50 
    435 evitarSubTours[7,31]
                                   14                          50 
    436 evitarSubTours[7,32]
                                   45                          50 
    437 evitarSubTours[7,33]
-                                  18                          50 
+                                  27                          50 
    438 evitarSubTours[7,34]
-                                  26                          50 
+                                  24                          50 
    439 evitarSubTours[7,35]
-                                  42                          50 
+                                  40                          50 
    440 evitarSubTours[7,36]
-                                  17                          50 
+                                  28                          50 
    441 evitarSubTours[7,37]
-                                  15                          50 
+                                  39                          50 
    442 evitarSubTours[7,38]
-                                  31                          50 
+                                  29                          50 
    443 evitarSubTours[7,39]
                                   43                          50 
    444 evitarSubTours[7,40]
-                                  32                          50 
+                                  30                          50 
    445 evitarSubTours[7,41]
-                                  41                          50 
+                                  42                          50 
    446 evitarSubTours[7,42]
-                                  16                          50 
+                                  38                          50 
    447 evitarSubTours[7,43]
                                   44                          50 
    448 evitarSubTours[7,44]
-                                  40                          50 
+                                  41                          50 
    449 evitarSubTours[7,45]
-                                  37                          50 
-   450 evitarSubTours[7,46]
-                                  38                          50 
-   451 evitarSubTours[7,47]
                                   36                          50 
-   452 evitarSubTours[7,48]
-                                  39                          50 
-   453 evitarSubTours[7,49]
-                                  33                          50 
-   454 evitarSubTours[7,50]
-                                  34                          50 
-   455 evitarSubTours[7,51]
+   450 evitarSubTours[7,46]
                                   35                          50 
+   451 evitarSubTours[7,47]
+                                  37                          50 
+   452 evitarSubTours[7,48]
+                                  34                          50 
+   453 evitarSubTours[7,49]
+                                  31                          50 
+   454 evitarSubTours[7,50]
+                                  32                          50 
+   455 evitarSubTours[7,51]
+                                  33                          50 
    456 evitarSubTours[8,1]
-                                  -2                          50 
-   457 evitarSubTours[8,2]
-                                  28                          50 
-   458 evitarSubTours[8,3]
-                                  -4                          50 
-   459 evitarSubTours[8,4]
-                                  29                          50 
-   460 evitarSubTours[8,5]
-                                  27                          50 
-   461 evitarSubTours[8,6]
-                                  -3                          50 
-   462 evitarSubTours[8,7]
                                   50                          50 
-   463 evitarSubTours[8,9]
-                                   5                          50 
-   464 evitarSubTours[8,10]
-                                   8                          50 
-   465 evitarSubTours[8,11]
-                                  22                          50 
-   466 evitarSubTours[8,12]
-                                   6                          50 
-   467 evitarSubTours[8,13]
-                                   7                          50 
-   468 evitarSubTours[8,14]
-                                  21                          50 
-   469 evitarSubTours[8,15]
-                                   4                          50 
-   470 evitarSubTours[8,16]
-                                   1                          50 
-   471 evitarSubTours[8,17]
-                                  46                          50 
-   472 evitarSubTours[8,18]
-                                   9                          50 
-   473 evitarSubTours[8,19]
-                                   3                          50 
-   474 evitarSubTours[8,20]
-                                   2                          50 
-   475 evitarSubTours[8,21]
-                                  19                          50 
-   476 evitarSubTours[8,22]
-                                  45                          50 
-   477 evitarSubTours[8,23]
+   457 evitarSubTours[8,2]
                                   20                          50 
-   478 evitarSubTours[8,24]
+   458 evitarSubTours[8,3]
+                                  -2                          50 
+   459 evitarSubTours[8,4]
+                                  21                          50 
+   460 evitarSubTours[8,5]
+                                  22                          50 
+   461 evitarSubTours[8,6]
                                   10                          50 
-   479 evitarSubTours[8,25]
+   462 evitarSubTours[8,7]
+                                   1                          50 
+   463 evitarSubTours[8,9]
+                                   7                          50 
+   464 evitarSubTours[8,10]
+                                   9                          50 
+   465 evitarSubTours[8,11]
+                                  19                          50 
+   466 evitarSubTours[8,12]
+                                   8                          50 
+   467 evitarSubTours[8,13]
+                                   6                          50 
+   468 evitarSubTours[8,14]
+                                  18                          50 
+   469 evitarSubTours[8,15]
+                                   5                          50 
+   470 evitarSubTours[8,16]
+                                   2                          50 
+   471 evitarSubTours[8,17]
+                                  48                          50 
+   472 evitarSubTours[8,18]
                                   11                          50 
-   480 evitarSubTours[8,26]
+   473 evitarSubTours[8,19]
+                                   4                          50 
+   474 evitarSubTours[8,20]
+                                   3                          50 
+   475 evitarSubTours[8,21]
+                                  17                          50 
+   476 evitarSubTours[8,22]
+                                  47                          50 
+   477 evitarSubTours[8,23]
+                                  16                          50 
+   478 evitarSubTours[8,24]
                                   12                          50 
+   479 evitarSubTours[8,25]
+                                  13                          50 
+   480 evitarSubTours[8,26]
+                                  14                          50 
    481 evitarSubTours[8,27]
                                   26                          50 
    482 evitarSubTours[8,28]
@@ -869,43 +869,43 @@ Objective:  total = 25505.5 (MINimum)
    483 evitarSubTours[8,29]
                                   24                          50 
    484 evitarSubTours[8,30]
-                                  18                          50 
+                                  27                          50 
    485 evitarSubTours[8,31]
-                                  13                          50 
+                                  15                          50 
    486 evitarSubTours[8,32]
-                                  44                          50 
+                                  46                          50 
    487 evitarSubTours[8,33]
-                                  17                          50 
+                                  28                          50 
    488 evitarSubTours[8,34]
                                   25                          50 
    489 evitarSubTours[8,35]
                                   41                          50 
    490 evitarSubTours[8,36]
-                                  16                          50 
+                                  29                          50 
    491 evitarSubTours[8,37]
-                                  14                          50 
+                                  40                          50 
    492 evitarSubTours[8,38]
                                   30                          50 
    493 evitarSubTours[8,39]
-                                  42                          50 
+                                  44                          50 
    494 evitarSubTours[8,40]
                                   31                          50 
    495 evitarSubTours[8,41]
-                                  40                          50 
-   496 evitarSubTours[8,42]
-                                  15                          50 
-   497 evitarSubTours[8,43]
                                   43                          50 
-   498 evitarSubTours[8,44]
+   496 evitarSubTours[8,42]
                                   39                          50 
+   497 evitarSubTours[8,43]
+                                  45                          50 
+   498 evitarSubTours[8,44]
+                                  42                          50 
    499 evitarSubTours[8,45]
-                                  36                          50 
-   500 evitarSubTours[8,46]
                                   37                          50 
+   500 evitarSubTours[8,46]
+                                  36                          50 
    501 evitarSubTours[8,47]
-                                  35                          50 
-   502 evitarSubTours[8,48]
                                   38                          50 
+   502 evitarSubTours[8,48]
+                                  35                          50 
    503 evitarSubTours[8,49]
                                   32                          50 
    504 evitarSubTours[8,50]
@@ -913,49 +913,49 @@ Objective:  total = 25505.5 (MINimum)
    505 evitarSubTours[8,51]
                                   34                          50 
    506 evitarSubTours[9,1]
-                                  -7                          50 
+                                  -8                          50 
    507 evitarSubTours[9,2]
-                                  23                          50 
+                                  13                          50 
    508 evitarSubTours[9,3]
                                   -9                          50 
    509 evitarSubTours[9,4]
-                                  24                          50 
+                                  14                          50 
    510 evitarSubTours[9,5]
-                                  22                          50 
+                                  15                          50 
    511 evitarSubTours[9,6]
-                                  -8                          50 
+                                   3                          50 
    512 evitarSubTours[9,7]
                                   -6                          50 
    513 evitarSubTours[9,8]
-                                  -5                          50 
+                                  -7                          50 
    514 evitarSubTours[9,10]
-                                   3                          50 
+                                   2                          50 
    515 evitarSubTours[9,11]
-                                  17                          50 
+                                  12                          50 
    516 evitarSubTours[9,12]
                                    1                          50 
    517 evitarSubTours[9,13]
-                                   2                          50 
-   518 evitarSubTours[9,14]
-                                  16                          50 
-   519 evitarSubTours[9,15]
                                   50                          50 
+   518 evitarSubTours[9,14]
+                                  11                          50 
+   519 evitarSubTours[9,15]
+                                  -2                          50 
    520 evitarSubTours[9,16]
-                                  -4                          50 
+                                  -5                          50 
    521 evitarSubTours[9,17]
                                   41                          50 
    522 evitarSubTours[9,18]
                                    4                          50 
    523 evitarSubTours[9,19]
-                                  -2                          50 
-   524 evitarSubTours[9,20]
                                   -3                          50 
+   524 evitarSubTours[9,20]
+                                  -4                          50 
    525 evitarSubTours[9,21]
-                                  14                          50 
+                                  10                          50 
    526 evitarSubTours[9,22]
                                   40                          50 
    527 evitarSubTours[9,23]
-                                  15                          50 
+                                   9                          50 
    528 evitarSubTours[9,24]
                                    5                          50 
    529 evitarSubTours[9,25]
@@ -963,299 +963,299 @@ Objective:  total = 25505.5 (MINimum)
    530 evitarSubTours[9,26]
                                    7                          50 
    531 evitarSubTours[9,27]
-                                  21                          50 
-   532 evitarSubTours[9,28]
-                                  18                          50 
-   533 evitarSubTours[9,29]
                                   19                          50 
+   532 evitarSubTours[9,28]
+                                  16                          50 
+   533 evitarSubTours[9,29]
+                                  17                          50 
    534 evitarSubTours[9,30]
-                                  13                          50 
+                                  20                          50 
    535 evitarSubTours[9,31]
                                    8                          50 
    536 evitarSubTours[9,32]
                                   39                          50 
    537 evitarSubTours[9,33]
-                                  12                          50 
+                                  21                          50 
    538 evitarSubTours[9,34]
-                                  20                          50 
+                                  18                          50 
    539 evitarSubTours[9,35]
-                                  36                          50 
+                                  34                          50 
    540 evitarSubTours[9,36]
-                                  11                          50 
+                                  22                          50 
    541 evitarSubTours[9,37]
-                                   9                          50 
+                                  33                          50 
    542 evitarSubTours[9,38]
-                                  25                          50 
+                                  23                          50 
    543 evitarSubTours[9,39]
                                   37                          50 
    544 evitarSubTours[9,40]
-                                  26                          50 
+                                  24                          50 
    545 evitarSubTours[9,41]
-                                  35                          50 
+                                  36                          50 
    546 evitarSubTours[9,42]
-                                  10                          50 
+                                  32                          50 
    547 evitarSubTours[9,43]
                                   38                          50 
    548 evitarSubTours[9,44]
-                                  34                          50 
+                                  35                          50 
    549 evitarSubTours[9,45]
-                                  31                          50 
-   550 evitarSubTours[9,46]
-                                  32                          50 
-   551 evitarSubTours[9,47]
                                   30                          50 
-   552 evitarSubTours[9,48]
-                                  33                          50 
-   553 evitarSubTours[9,49]
-                                  27                          50 
-   554 evitarSubTours[9,50]
-                                  28                          50 
-   555 evitarSubTours[9,51]
+   550 evitarSubTours[9,46]
                                   29                          50 
+   551 evitarSubTours[9,47]
+                                  31                          50 
+   552 evitarSubTours[9,48]
+                                  28                          50 
+   553 evitarSubTours[9,49]
+                                  25                          50 
+   554 evitarSubTours[9,50]
+                                  26                          50 
+   555 evitarSubTours[9,51]
+                                  27                          50 
    556 evitarSubTours[10,1]
                                  -10                          50 
    557 evitarSubTours[10,2]
-                                  20                          50 
+                                  11                          50 
    558 evitarSubTours[10,3]
-                                 -12                          50 
-   559 evitarSubTours[10,4]
-                                  21                          50 
-   560 evitarSubTours[10,5]
-                                  19                          50 
-   561 evitarSubTours[10,6]
                                  -11                          50 
-   562 evitarSubTours[10,7]
-                                  -9                          50 
-   563 evitarSubTours[10,8]
-                                  -8                          50 
-   564 evitarSubTours[10,9]
-                                  -3                          50 
-   565 evitarSubTours[10,11]
-                                  14                          50 
-   566 evitarSubTours[10,12]
-                                  -2                          50 
-   567 evitarSubTours[10,13]
-                                  50                          50 
-   568 evitarSubTours[10,14]
+   559 evitarSubTours[10,4]
+                                  12                          50 
+   560 evitarSubTours[10,5]
                                   13                          50 
+   561 evitarSubTours[10,6]
+                                   1                          50 
+   562 evitarSubTours[10,7]
+                                  -8                          50 
+   563 evitarSubTours[10,8]
+                                  -9                          50 
+   564 evitarSubTours[10,9]
+                                  -2                          50 
+   565 evitarSubTours[10,11]
+                                  10                          50 
+   566 evitarSubTours[10,12]
+                                  50                          50 
+   567 evitarSubTours[10,13]
+                                  -3                          50 
+   568 evitarSubTours[10,14]
+                                   9                          50 
    569 evitarSubTours[10,15]
                                   -4                          50 
    570 evitarSubTours[10,16]
                                   -7                          50 
    571 evitarSubTours[10,17]
-                                  38                          50 
+                                  39                          50 
    572 evitarSubTours[10,18]
-                                   1                          50 
+                                   2                          50 
    573 evitarSubTours[10,19]
                                   -5                          50 
    574 evitarSubTours[10,20]
                                   -6                          50 
    575 evitarSubTours[10,21]
-                                  11                          50 
-   576 evitarSubTours[10,22]
-                                  37                          50 
-   577 evitarSubTours[10,23]
-                                  12                          50 
-   578 evitarSubTours[10,24]
-                                   2                          50 
-   579 evitarSubTours[10,25]
-                                   3                          50 
-   580 evitarSubTours[10,26]
-                                   4                          50 
-   581 evitarSubTours[10,27]
-                                  18                          50 
-   582 evitarSubTours[10,28]
-                                  15                          50 
-   583 evitarSubTours[10,29]
-                                  16                          50 
-   584 evitarSubTours[10,30]
-                                  10                          50 
-   585 evitarSubTours[10,31]
-                                   5                          50 
-   586 evitarSubTours[10,32]
-                                  36                          50 
-   587 evitarSubTours[10,33]
-                                   9                          50 
-   588 evitarSubTours[10,34]
-                                  17                          50 
-   589 evitarSubTours[10,35]
-                                  33                          50 
-   590 evitarSubTours[10,36]
                                    8                          50 
-   591 evitarSubTours[10,37]
-                                   6                          50 
-   592 evitarSubTours[10,38]
-                                  22                          50 
-   593 evitarSubTours[10,39]
-                                  34                          50 
-   594 evitarSubTours[10,40]
-                                  23                          50 
-   595 evitarSubTours[10,41]
-                                  32                          50 
-   596 evitarSubTours[10,42]
+   576 evitarSubTours[10,22]
+                                  38                          50 
+   577 evitarSubTours[10,23]
                                    7                          50 
-   597 evitarSubTours[10,43]
-                                  35                          50 
-   598 evitarSubTours[10,44]
+   578 evitarSubTours[10,24]
+                                   3                          50 
+   579 evitarSubTours[10,25]
+                                   4                          50 
+   580 evitarSubTours[10,26]
+                                   5                          50 
+   581 evitarSubTours[10,27]
+                                  17                          50 
+   582 evitarSubTours[10,28]
+                                  14                          50 
+   583 evitarSubTours[10,29]
+                                  15                          50 
+   584 evitarSubTours[10,30]
+                                  18                          50 
+   585 evitarSubTours[10,31]
+                                   6                          50 
+   586 evitarSubTours[10,32]
+                                  37                          50 
+   587 evitarSubTours[10,33]
+                                  19                          50 
+   588 evitarSubTours[10,34]
+                                  16                          50 
+   589 evitarSubTours[10,35]
+                                  32                          50 
+   590 evitarSubTours[10,36]
+                                  20                          50 
+   591 evitarSubTours[10,37]
                                   31                          50 
+   592 evitarSubTours[10,38]
+                                  21                          50 
+   593 evitarSubTours[10,39]
+                                  35                          50 
+   594 evitarSubTours[10,40]
+                                  22                          50 
+   595 evitarSubTours[10,41]
+                                  34                          50 
+   596 evitarSubTours[10,42]
+                                  30                          50 
+   597 evitarSubTours[10,43]
+                                  36                          50 
+   598 evitarSubTours[10,44]
+                                  33                          50 
    599 evitarSubTours[10,45]
                                   28                          50 
    600 evitarSubTours[10,46]
-                                  29                          50 
-   601 evitarSubTours[10,47]
                                   27                          50 
+   601 evitarSubTours[10,47]
+                                  29                          50 
    602 evitarSubTours[10,48]
-                                  30                          50 
-   603 evitarSubTours[10,49]
-                                  24                          50 
-   604 evitarSubTours[10,50]
-                                  25                          50 
-   605 evitarSubTours[10,51]
                                   26                          50 
+   603 evitarSubTours[10,49]
+                                  23                          50 
+   604 evitarSubTours[10,50]
+                                  24                          50 
+   605 evitarSubTours[10,51]
+                                  25                          50 
    606 evitarSubTours[11,1]
-                                 -24                          50 
+                                 -20                          50 
    607 evitarSubTours[11,2]
-                                   6                          50 
+                                   1                          50 
    608 evitarSubTours[11,3]
-                                 -26                          50 
+                                 -21                          50 
    609 evitarSubTours[11,4]
-                                   7                          50 
+                                   2                          50 
    610 evitarSubTours[11,5]
-                                   5                          50 
+                                   3                          50 
    611 evitarSubTours[11,6]
-                                 -25                          50 
+                                  -9                          50 
    612 evitarSubTours[11,7]
-                                 -23                          50 
+                                 -18                          50 
    613 evitarSubTours[11,8]
-                                 -22                          50 
+                                 -19                          50 
    614 evitarSubTours[11,9]
-                                 -17                          50 
+                                 -12                          50 
    615 evitarSubTours[11,10]
-                                 -14                          50 
+                                 -10                          50 
    616 evitarSubTours[11,12]
-                                 -16                          50 
+                                 -11                          50 
    617 evitarSubTours[11,13]
-                                 -15                          50 
+                                 -13                          50 
    618 evitarSubTours[11,14]
                                   50                          50 
    619 evitarSubTours[11,15]
-                                 -18                          50 
+                                 -14                          50 
    620 evitarSubTours[11,16]
-                                 -21                          50 
+                                 -17                          50 
    621 evitarSubTours[11,17]
-                                  24                          50 
+                                  29                          50 
    622 evitarSubTours[11,18]
-                                 -13                          50 
-   623 evitarSubTours[11,19]
-                                 -19                          50 
-   624 evitarSubTours[11,20]
-                                 -20                          50 
-   625 evitarSubTours[11,21]
-                                  -3                          50 
-   626 evitarSubTours[11,22]
-                                  23                          50 
-   627 evitarSubTours[11,23]
-                                  -2                          50 
-   628 evitarSubTours[11,24]
-                                 -12                          50 
-   629 evitarSubTours[11,25]
-                                 -11                          50 
-   630 evitarSubTours[11,26]
-                                 -10                          50 
-   631 evitarSubTours[11,27]
-                                   4                          50 
-   632 evitarSubTours[11,28]
-                                   1                          50 
-   633 evitarSubTours[11,29]
-                                   2                          50 
-   634 evitarSubTours[11,30]
-                                  -4                          50 
-   635 evitarSubTours[11,31]
-                                  -9                          50 
-   636 evitarSubTours[11,32]
-                                  22                          50 
-   637 evitarSubTours[11,33]
-                                  -5                          50 
-   638 evitarSubTours[11,34]
-                                   3                          50 
-   639 evitarSubTours[11,35]
-                                  19                          50 
-   640 evitarSubTours[11,36]
-                                  -6                          50 
-   641 evitarSubTours[11,37]
                                   -8                          50 
-   642 evitarSubTours[11,38]
-                                   8                          50 
-   643 evitarSubTours[11,39]
-                                  20                          50 
-   644 evitarSubTours[11,40]
-                                   9                          50 
-   645 evitarSubTours[11,41]
-                                  18                          50 
-   646 evitarSubTours[11,42]
+   623 evitarSubTours[11,19]
+                                 -15                          50 
+   624 evitarSubTours[11,20]
+                                 -16                          50 
+   625 evitarSubTours[11,21]
+                                  -2                          50 
+   626 evitarSubTours[11,22]
+                                  28                          50 
+   627 evitarSubTours[11,23]
+                                  -3                          50 
+   628 evitarSubTours[11,24]
                                   -7                          50 
-   647 evitarSubTours[11,43]
+   629 evitarSubTours[11,25]
+                                  -6                          50 
+   630 evitarSubTours[11,26]
+                                  -5                          50 
+   631 evitarSubTours[11,27]
+                                   7                          50 
+   632 evitarSubTours[11,28]
+                                   4                          50 
+   633 evitarSubTours[11,29]
+                                   5                          50 
+   634 evitarSubTours[11,30]
+                                   8                          50 
+   635 evitarSubTours[11,31]
+                                  -4                          50 
+   636 evitarSubTours[11,32]
+                                  27                          50 
+   637 evitarSubTours[11,33]
+                                   9                          50 
+   638 evitarSubTours[11,34]
+                                   6                          50 
+   639 evitarSubTours[11,35]
+                                  22                          50 
+   640 evitarSubTours[11,36]
+                                  10                          50 
+   641 evitarSubTours[11,37]
                                   21                          50 
+   642 evitarSubTours[11,38]
+                                  11                          50 
+   643 evitarSubTours[11,39]
+                                  25                          50 
+   644 evitarSubTours[11,40]
+                                  12                          50 
+   645 evitarSubTours[11,41]
+                                  24                          50 
+   646 evitarSubTours[11,42]
+                                  20                          50 
+   647 evitarSubTours[11,43]
+                                  26                          50 
    648 evitarSubTours[11,44]
-                                  17                          50 
+                                  23                          50 
    649 evitarSubTours[11,45]
-                                  14                          50 
+                                  18                          50 
    650 evitarSubTours[11,46]
-                                  15                          50 
+                                  17                          50 
    651 evitarSubTours[11,47]
-                                  13                          50 
+                                  19                          50 
    652 evitarSubTours[11,48]
                                   16                          50 
    653 evitarSubTours[11,49]
-                                  10                          50 
+                                  13                          50 
    654 evitarSubTours[11,50]
-                                  11                          50 
+                                  14                          50 
    655 evitarSubTours[11,51]
-                                  12                          50 
+                                  15                          50 
    656 evitarSubTours[12,1]
-                                  -8                          50 
+                                  -9                          50 
    657 evitarSubTours[12,2]
-                                  22                          50 
+                                  12                          50 
    658 evitarSubTours[12,3]
                                  -10                          50 
    659 evitarSubTours[12,4]
-                                  23                          50 
+                                  13                          50 
    660 evitarSubTours[12,5]
-                                  21                          50 
+                                  14                          50 
    661 evitarSubTours[12,6]
-                                  -9                          50 
+                                   2                          50 
    662 evitarSubTours[12,7]
                                   -7                          50 
    663 evitarSubTours[12,8]
-                                  -6                          50 
+                                  -8                          50 
    664 evitarSubTours[12,9]
                                   50                          50 
    665 evitarSubTours[12,10]
-                                   2                          50 
-   666 evitarSubTours[12,11]
-                                  16                          50 
-   667 evitarSubTours[12,13]
                                    1                          50 
-   668 evitarSubTours[12,14]
-                                  15                          50 
-   669 evitarSubTours[12,15]
+   666 evitarSubTours[12,11]
+                                  11                          50 
+   667 evitarSubTours[12,13]
                                   -2                          50 
+   668 evitarSubTours[12,14]
+                                  10                          50 
+   669 evitarSubTours[12,15]
+                                  -3                          50 
    670 evitarSubTours[12,16]
-                                  -5                          50 
+                                  -6                          50 
    671 evitarSubTours[12,17]
                                   40                          50 
    672 evitarSubTours[12,18]
                                    3                          50 
    673 evitarSubTours[12,19]
-                                  -3                          50 
-   674 evitarSubTours[12,20]
                                   -4                          50 
+   674 evitarSubTours[12,20]
+                                  -5                          50 
    675 evitarSubTours[12,21]
-                                  13                          50 
+                                   9                          50 
    676 evitarSubTours[12,22]
                                   39                          50 
    677 evitarSubTours[12,23]
-                                  14                          50 
+                                   8                          50 
    678 evitarSubTours[12,24]
                                    4                          50 
    679 evitarSubTours[12,25]
@@ -1263,499 +1263,499 @@ Objective:  total = 25505.5 (MINimum)
    680 evitarSubTours[12,26]
                                    6                          50 
    681 evitarSubTours[12,27]
-                                  20                          50 
-   682 evitarSubTours[12,28]
-                                  17                          50 
-   683 evitarSubTours[12,29]
                                   18                          50 
+   682 evitarSubTours[12,28]
+                                  15                          50 
+   683 evitarSubTours[12,29]
+                                  16                          50 
    684 evitarSubTours[12,30]
-                                  12                          50 
+                                  19                          50 
    685 evitarSubTours[12,31]
                                    7                          50 
    686 evitarSubTours[12,32]
                                   38                          50 
    687 evitarSubTours[12,33]
-                                  11                          50 
+                                  20                          50 
    688 evitarSubTours[12,34]
-                                  19                          50 
+                                  17                          50 
    689 evitarSubTours[12,35]
-                                  35                          50 
+                                  33                          50 
    690 evitarSubTours[12,36]
-                                  10                          50 
+                                  21                          50 
    691 evitarSubTours[12,37]
-                                   8                          50 
+                                  32                          50 
    692 evitarSubTours[12,38]
-                                  24                          50 
+                                  22                          50 
    693 evitarSubTours[12,39]
                                   36                          50 
    694 evitarSubTours[12,40]
-                                  25                          50 
+                                  23                          50 
    695 evitarSubTours[12,41]
-                                  34                          50 
+                                  35                          50 
    696 evitarSubTours[12,42]
-                                   9                          50 
+                                  31                          50 
    697 evitarSubTours[12,43]
                                   37                          50 
    698 evitarSubTours[12,44]
-                                  33                          50 
-   699 evitarSubTours[12,45]
-                                  30                          50 
-   700 evitarSubTours[12,46]
-                                  31                          50 
-   701 evitarSubTours[12,47]
-                                  29                          50 
-   702 evitarSubTours[12,48]
-                                  32                          50 
-   703 evitarSubTours[12,49]
-                                  26                          50 
-   704 evitarSubTours[12,50]
-                                  27                          50 
-   705 evitarSubTours[12,51]
-                                  28                          50 
-   706 evitarSubTours[13,1]
-                                  -9                          50 
-   707 evitarSubTours[13,2]
-                                  21                          50 
-   708 evitarSubTours[13,3]
-                                 -11                          50 
-   709 evitarSubTours[13,4]
-                                  22                          50 
-   710 evitarSubTours[13,5]
-                                  20                          50 
-   711 evitarSubTours[13,6]
-                                 -10                          50 
-   712 evitarSubTours[13,7]
-                                  -8                          50 
-   713 evitarSubTours[13,8]
-                                  -7                          50 
-   714 evitarSubTours[13,9]
-                                  -2                          50 
-   715 evitarSubTours[13,10]
-                                   1                          50 
-   716 evitarSubTours[13,11]
-                                  15                          50 
-   717 evitarSubTours[13,12]
-                                  50                          50 
-   718 evitarSubTours[13,14]
-                                  14                          50 
-   719 evitarSubTours[13,15]
-                                  -3                          50 
-   720 evitarSubTours[13,16]
-                                  -6                          50 
-   721 evitarSubTours[13,17]
-                                  39                          50 
-   722 evitarSubTours[13,18]
-                                   2                          50 
-   723 evitarSubTours[13,19]
-                                  -4                          50 
-   724 evitarSubTours[13,20]
-                                  -5                          50 
-   725 evitarSubTours[13,21]
-                                  12                          50 
-   726 evitarSubTours[13,22]
-                                  38                          50 
-   727 evitarSubTours[13,23]
-                                  13                          50 
-   728 evitarSubTours[13,24]
-                                   3                          50 
-   729 evitarSubTours[13,25]
-                                   4                          50 
-   730 evitarSubTours[13,26]
-                                   5                          50 
-   731 evitarSubTours[13,27]
-                                  19                          50 
-   732 evitarSubTours[13,28]
-                                  16                          50 
-   733 evitarSubTours[13,29]
-                                  17                          50 
-   734 evitarSubTours[13,30]
-                                  11                          50 
-   735 evitarSubTours[13,31]
-                                   6                          50 
-   736 evitarSubTours[13,32]
-                                  37                          50 
-   737 evitarSubTours[13,33]
-                                  10                          50 
-   738 evitarSubTours[13,34]
-                                  18                          50 
-   739 evitarSubTours[13,35]
                                   34                          50 
-   740 evitarSubTours[13,36]
-                                   9                          50 
-   741 evitarSubTours[13,37]
-                                   7                          50 
-   742 evitarSubTours[13,38]
-                                  23                          50 
-   743 evitarSubTours[13,39]
-                                  35                          50 
-   744 evitarSubTours[13,40]
-                                  24                          50 
-   745 evitarSubTours[13,41]
-                                  33                          50 
-   746 evitarSubTours[13,42]
-                                   8                          50 
-   747 evitarSubTours[13,43]
-                                  36                          50 
-   748 evitarSubTours[13,44]
-                                  32                          50 
-   749 evitarSubTours[13,45]
+   699 evitarSubTours[12,45]
                                   29                          50 
+   700 evitarSubTours[12,46]
+                                  28                          50 
+   701 evitarSubTours[12,47]
+                                  30                          50 
+   702 evitarSubTours[12,48]
+                                  27                          50 
+   703 evitarSubTours[12,49]
+                                  24                          50 
+   704 evitarSubTours[12,50]
+                                  25                          50 
+   705 evitarSubTours[12,51]
+                                  26                          50 
+   706 evitarSubTours[13,1]
+                                  -7                          50 
+   707 evitarSubTours[13,2]
+                                  14                          50 
+   708 evitarSubTours[13,3]
+                                  -8                          50 
+   709 evitarSubTours[13,4]
+                                  15                          50 
+   710 evitarSubTours[13,5]
+                                  16                          50 
+   711 evitarSubTours[13,6]
+                                   4                          50 
+   712 evitarSubTours[13,7]
+                                  -5                          50 
+   713 evitarSubTours[13,8]
+                                  -6                          50 
+   714 evitarSubTours[13,9]
+                                   1                          50 
+   715 evitarSubTours[13,10]
+                                   3                          50 
+   716 evitarSubTours[13,11]
+                                  13                          50 
+   717 evitarSubTours[13,12]
+                                   2                          50 
+   718 evitarSubTours[13,14]
+                                  12                          50 
+   719 evitarSubTours[13,15]
+                                  50                          50 
+   720 evitarSubTours[13,16]
+                                  -4                          50 
+   721 evitarSubTours[13,17]
+                                  42                          50 
+   722 evitarSubTours[13,18]
+                                   5                          50 
+   723 evitarSubTours[13,19]
+                                  -2                          50 
+   724 evitarSubTours[13,20]
+                                  -3                          50 
+   725 evitarSubTours[13,21]
+                                  11                          50 
+   726 evitarSubTours[13,22]
+                                  41                          50 
+   727 evitarSubTours[13,23]
+                                  10                          50 
+   728 evitarSubTours[13,24]
+                                   6                          50 
+   729 evitarSubTours[13,25]
+                                   7                          50 
+   730 evitarSubTours[13,26]
+                                   8                          50 
+   731 evitarSubTours[13,27]
+                                  20                          50 
+   732 evitarSubTours[13,28]
+                                  17                          50 
+   733 evitarSubTours[13,29]
+                                  18                          50 
+   734 evitarSubTours[13,30]
+                                  21                          50 
+   735 evitarSubTours[13,31]
+                                   9                          50 
+   736 evitarSubTours[13,32]
+                                  40                          50 
+   737 evitarSubTours[13,33]
+                                  22                          50 
+   738 evitarSubTours[13,34]
+                                  19                          50 
+   739 evitarSubTours[13,35]
+                                  35                          50 
+   740 evitarSubTours[13,36]
+                                  23                          50 
+   741 evitarSubTours[13,37]
+                                  34                          50 
+   742 evitarSubTours[13,38]
+                                  24                          50 
+   743 evitarSubTours[13,39]
+                                  38                          50 
+   744 evitarSubTours[13,40]
+                                  25                          50 
+   745 evitarSubTours[13,41]
+                                  37                          50 
+   746 evitarSubTours[13,42]
+                                  33                          50 
+   747 evitarSubTours[13,43]
+                                  39                          50 
+   748 evitarSubTours[13,44]
+                                  36                          50 
+   749 evitarSubTours[13,45]
+                                  31                          50 
    750 evitarSubTours[13,46]
                                   30                          50 
    751 evitarSubTours[13,47]
-                                  28                          50 
+                                  32                          50 
    752 evitarSubTours[13,48]
-                                  31                          50 
+                                  29                          50 
    753 evitarSubTours[13,49]
-                                  25                          50 
-   754 evitarSubTours[13,50]
                                   26                          50 
-   755 evitarSubTours[13,51]
+   754 evitarSubTours[13,50]
                                   27                          50 
+   755 evitarSubTours[13,51]
+                                  28                          50 
    756 evitarSubTours[14,1]
-                                 -23                          50 
+                                 -19                          50 
    757 evitarSubTours[14,2]
-                                   7                          50 
+                                   2                          50 
    758 evitarSubTours[14,3]
-                                 -25                          50 
+                                 -20                          50 
    759 evitarSubTours[14,4]
-                                   8                          50 
+                                   3                          50 
    760 evitarSubTours[14,5]
-                                   6                          50 
+                                   4                          50 
    761 evitarSubTours[14,6]
-                                 -24                          50 
+                                  -8                          50 
    762 evitarSubTours[14,7]
-                                 -22                          50 
+                                 -17                          50 
    763 evitarSubTours[14,8]
-                                 -21                          50 
+                                 -18                          50 
    764 evitarSubTours[14,9]
-                                 -16                          50 
+                                 -11                          50 
    765 evitarSubTours[14,10]
-                                 -13                          50 
+                                  -9                          50 
    766 evitarSubTours[14,11]
                                    1                          50 
    767 evitarSubTours[14,12]
-                                 -15                          50 
-   768 evitarSubTours[14,13]
-                                 -14                          50 
-   769 evitarSubTours[14,15]
-                                 -17                          50 
-   770 evitarSubTours[14,16]
-                                 -20                          50 
-   771 evitarSubTours[14,17]
-                                  25                          50 
-   772 evitarSubTours[14,18]
-                                 -12                          50 
-   773 evitarSubTours[14,19]
-                                 -18                          50 
-   774 evitarSubTours[14,20]
-                                 -19                          50 
-   775 evitarSubTours[14,21]
-                                  -2                          50 
-   776 evitarSubTours[14,22]
-                                  24                          50 
-   777 evitarSubTours[14,23]
-                                  50                          50 
-   778 evitarSubTours[14,24]
-                                 -11                          50 
-   779 evitarSubTours[14,25]
                                  -10                          50 
-   780 evitarSubTours[14,26]
-                                  -9                          50 
-   781 evitarSubTours[14,27]
-                                   5                          50 
-   782 evitarSubTours[14,28]
-                                   2                          50 
-   783 evitarSubTours[14,29]
-                                   3                          50 
-   784 evitarSubTours[14,30]
-                                  -3                          50 
-   785 evitarSubTours[14,31]
-                                  -8                          50 
-   786 evitarSubTours[14,32]
-                                  23                          50 
-   787 evitarSubTours[14,33]
-                                  -4                          50 
-   788 evitarSubTours[14,34]
-                                   4                          50 
-   789 evitarSubTours[14,35]
-                                  20                          50 
-   790 evitarSubTours[14,36]
-                                  -5                          50 
-   791 evitarSubTours[14,37]
+   768 evitarSubTours[14,13]
+                                 -12                          50 
+   769 evitarSubTours[14,15]
+                                 -13                          50 
+   770 evitarSubTours[14,16]
+                                 -16                          50 
+   771 evitarSubTours[14,17]
+                                  30                          50 
+   772 evitarSubTours[14,18]
                                   -7                          50 
-   792 evitarSubTours[14,38]
-                                   9                          50 
-   793 evitarSubTours[14,39]
-                                  21                          50 
-   794 evitarSubTours[14,40]
-                                  10                          50 
-   795 evitarSubTours[14,41]
-                                  19                          50 
-   796 evitarSubTours[14,42]
+   773 evitarSubTours[14,19]
+                                 -14                          50 
+   774 evitarSubTours[14,20]
+                                 -15                          50 
+   775 evitarSubTours[14,21]
+                                  50                          50 
+   776 evitarSubTours[14,22]
+                                  29                          50 
+   777 evitarSubTours[14,23]
+                                  -2                          50 
+   778 evitarSubTours[14,24]
                                   -6                          50 
-   797 evitarSubTours[14,43]
+   779 evitarSubTours[14,25]
+                                  -5                          50 
+   780 evitarSubTours[14,26]
+                                  -4                          50 
+   781 evitarSubTours[14,27]
+                                   8                          50 
+   782 evitarSubTours[14,28]
+                                   5                          50 
+   783 evitarSubTours[14,29]
+                                   6                          50 
+   784 evitarSubTours[14,30]
+                                   9                          50 
+   785 evitarSubTours[14,31]
+                                  -3                          50 
+   786 evitarSubTours[14,32]
+                                  28                          50 
+   787 evitarSubTours[14,33]
+                                  10                          50 
+   788 evitarSubTours[14,34]
+                                   7                          50 
+   789 evitarSubTours[14,35]
+                                  23                          50 
+   790 evitarSubTours[14,36]
+                                  11                          50 
+   791 evitarSubTours[14,37]
                                   22                          50 
+   792 evitarSubTours[14,38]
+                                  12                          50 
+   793 evitarSubTours[14,39]
+                                  26                          50 
+   794 evitarSubTours[14,40]
+                                  13                          50 
+   795 evitarSubTours[14,41]
+                                  25                          50 
+   796 evitarSubTours[14,42]
+                                  21                          50 
+   797 evitarSubTours[14,43]
+                                  27                          50 
    798 evitarSubTours[14,44]
-                                  18                          50 
+                                  24                          50 
    799 evitarSubTours[14,45]
-                                  15                          50 
+                                  19                          50 
    800 evitarSubTours[14,46]
-                                  16                          50 
+                                  18                          50 
    801 evitarSubTours[14,47]
-                                  14                          50 
+                                  20                          50 
    802 evitarSubTours[14,48]
                                   17                          50 
    803 evitarSubTours[14,49]
-                                  11                          50 
+                                  14                          50 
    804 evitarSubTours[14,50]
-                                  12                          50 
+                                  15                          50 
    805 evitarSubTours[14,51]
-                                  13                          50 
+                                  16                          50 
    806 evitarSubTours[15,1]
                                   -6                          50 
    807 evitarSubTours[15,2]
-                                  24                          50 
+                                  15                          50 
    808 evitarSubTours[15,3]
-                                  -8                          50 
-   809 evitarSubTours[15,4]
-                                  25                          50 
-   810 evitarSubTours[15,5]
-                                  23                          50 
-   811 evitarSubTours[15,6]
                                   -7                          50 
+   809 evitarSubTours[15,4]
+                                  16                          50 
+   810 evitarSubTours[15,5]
+                                  17                          50 
+   811 evitarSubTours[15,6]
+                                   5                          50 
    812 evitarSubTours[15,7]
-                                  -5                          50 
-   813 evitarSubTours[15,8]
                                   -4                          50 
+   813 evitarSubTours[15,8]
+                                  -5                          50 
    814 evitarSubTours[15,9]
-                                   1                          50 
+                                   2                          50 
    815 evitarSubTours[15,10]
                                    4                          50 
    816 evitarSubTours[15,11]
-                                  18                          50 
+                                  14                          50 
    817 evitarSubTours[15,12]
-                                   2                          50 
-   818 evitarSubTours[15,13]
                                    3                          50 
+   818 evitarSubTours[15,13]
+                                   1                          50 
    819 evitarSubTours[15,14]
-                                  17                          50 
+                                  13                          50 
    820 evitarSubTours[15,16]
                                   -3                          50 
    821 evitarSubTours[15,17]
-                                  42                          50 
+                                  43                          50 
    822 evitarSubTours[15,18]
-                                   5                          50 
+                                   6                          50 
    823 evitarSubTours[15,19]
                                   50                          50 
    824 evitarSubTours[15,20]
                                   -2                          50 
    825 evitarSubTours[15,21]
-                                  15                          50 
-   826 evitarSubTours[15,22]
-                                  41                          50 
-   827 evitarSubTours[15,23]
-                                  16                          50 
-   828 evitarSubTours[15,24]
-                                   6                          50 
-   829 evitarSubTours[15,25]
-                                   7                          50 
-   830 evitarSubTours[15,26]
-                                   8                          50 
-   831 evitarSubTours[15,27]
-                                  22                          50 
-   832 evitarSubTours[15,28]
-                                  19                          50 
-   833 evitarSubTours[15,29]
-                                  20                          50 
-   834 evitarSubTours[15,30]
-                                  14                          50 
-   835 evitarSubTours[15,31]
-                                   9                          50 
-   836 evitarSubTours[15,32]
-                                  40                          50 
-   837 evitarSubTours[15,33]
-                                  13                          50 
-   838 evitarSubTours[15,34]
-                                  21                          50 
-   839 evitarSubTours[15,35]
-                                  37                          50 
-   840 evitarSubTours[15,36]
                                   12                          50 
-   841 evitarSubTours[15,37]
-                                  10                          50 
-   842 evitarSubTours[15,38]
-                                  26                          50 
-   843 evitarSubTours[15,39]
-                                  38                          50 
-   844 evitarSubTours[15,40]
-                                  27                          50 
-   845 evitarSubTours[15,41]
-                                  36                          50 
-   846 evitarSubTours[15,42]
+   826 evitarSubTours[15,22]
+                                  42                          50 
+   827 evitarSubTours[15,23]
                                   11                          50 
-   847 evitarSubTours[15,43]
-                                  39                          50 
-   848 evitarSubTours[15,44]
+   828 evitarSubTours[15,24]
+                                   7                          50 
+   829 evitarSubTours[15,25]
+                                   8                          50 
+   830 evitarSubTours[15,26]
+                                   9                          50 
+   831 evitarSubTours[15,27]
+                                  21                          50 
+   832 evitarSubTours[15,28]
+                                  18                          50 
+   833 evitarSubTours[15,29]
+                                  19                          50 
+   834 evitarSubTours[15,30]
+                                  22                          50 
+   835 evitarSubTours[15,31]
+                                  10                          50 
+   836 evitarSubTours[15,32]
+                                  41                          50 
+   837 evitarSubTours[15,33]
+                                  23                          50 
+   838 evitarSubTours[15,34]
+                                  20                          50 
+   839 evitarSubTours[15,35]
+                                  36                          50 
+   840 evitarSubTours[15,36]
+                                  24                          50 
+   841 evitarSubTours[15,37]
                                   35                          50 
+   842 evitarSubTours[15,38]
+                                  25                          50 
+   843 evitarSubTours[15,39]
+                                  39                          50 
+   844 evitarSubTours[15,40]
+                                  26                          50 
+   845 evitarSubTours[15,41]
+                                  38                          50 
+   846 evitarSubTours[15,42]
+                                  34                          50 
+   847 evitarSubTours[15,43]
+                                  40                          50 
+   848 evitarSubTours[15,44]
+                                  37                          50 
    849 evitarSubTours[15,45]
                                   32                          50 
    850 evitarSubTours[15,46]
-                                  33                          50 
-   851 evitarSubTours[15,47]
                                   31                          50 
+   851 evitarSubTours[15,47]
+                                  33                          50 
    852 evitarSubTours[15,48]
-                                  34                          50 
-   853 evitarSubTours[15,49]
-                                  28                          50 
-   854 evitarSubTours[15,50]
-                                  29                          50 
-   855 evitarSubTours[15,51]
                                   30                          50 
+   853 evitarSubTours[15,49]
+                                  27                          50 
+   854 evitarSubTours[15,50]
+                                  28                          50 
+   855 evitarSubTours[15,51]
+                                  29                          50 
    856 evitarSubTours[16,1]
                                   -3                          50 
    857 evitarSubTours[16,2]
-                                  27                          50 
+                                  18                          50 
    858 evitarSubTours[16,3]
-                                  -5                          50 
-   859 evitarSubTours[16,4]
-                                  28                          50 
-   860 evitarSubTours[16,5]
-                                  26                          50 
-   861 evitarSubTours[16,6]
                                   -4                          50 
+   859 evitarSubTours[16,4]
+                                  19                          50 
+   860 evitarSubTours[16,5]
+                                  20                          50 
+   861 evitarSubTours[16,6]
+                                   8                          50 
    862 evitarSubTours[16,7]
-                                  -2                          50 
-   863 evitarSubTours[16,8]
                                   50                          50 
+   863 evitarSubTours[16,8]
+                                  -2                          50 
    864 evitarSubTours[16,9]
-                                   4                          50 
+                                   5                          50 
    865 evitarSubTours[16,10]
                                    7                          50 
    866 evitarSubTours[16,11]
-                                  21                          50 
+                                  17                          50 
    867 evitarSubTours[16,12]
-                                   5                          50 
-   868 evitarSubTours[16,13]
                                    6                          50 
+   868 evitarSubTours[16,13]
+                                   4                          50 
    869 evitarSubTours[16,14]
-                                  20                          50 
+                                  16                          50 
    870 evitarSubTours[16,15]
                                    3                          50 
    871 evitarSubTours[16,17]
-                                  45                          50 
+                                  46                          50 
    872 evitarSubTours[16,18]
-                                   8                          50 
+                                   9                          50 
    873 evitarSubTours[16,19]
                                    2                          50 
    874 evitarSubTours[16,20]
                                    1                          50 
    875 evitarSubTours[16,21]
-                                  18                          50 
-   876 evitarSubTours[16,22]
-                                  44                          50 
-   877 evitarSubTours[16,23]
-                                  19                          50 
-   878 evitarSubTours[16,24]
-                                   9                          50 
-   879 evitarSubTours[16,25]
-                                  10                          50 
-   880 evitarSubTours[16,26]
-                                  11                          50 
-   881 evitarSubTours[16,27]
-                                  25                          50 
-   882 evitarSubTours[16,28]
-                                  22                          50 
-   883 evitarSubTours[16,29]
-                                  23                          50 
-   884 evitarSubTours[16,30]
-                                  17                          50 
-   885 evitarSubTours[16,31]
-                                  12                          50 
-   886 evitarSubTours[16,32]
-                                  43                          50 
-   887 evitarSubTours[16,33]
-                                  16                          50 
-   888 evitarSubTours[16,34]
-                                  24                          50 
-   889 evitarSubTours[16,35]
-                                  40                          50 
-   890 evitarSubTours[16,36]
                                   15                          50 
-   891 evitarSubTours[16,37]
-                                  13                          50 
-   892 evitarSubTours[16,38]
-                                  29                          50 
-   893 evitarSubTours[16,39]
-                                  41                          50 
-   894 evitarSubTours[16,40]
-                                  30                          50 
-   895 evitarSubTours[16,41]
-                                  39                          50 
-   896 evitarSubTours[16,42]
+   876 evitarSubTours[16,22]
+                                  45                          50 
+   877 evitarSubTours[16,23]
                                   14                          50 
-   897 evitarSubTours[16,43]
-                                  42                          50 
-   898 evitarSubTours[16,44]
+   878 evitarSubTours[16,24]
+                                  10                          50 
+   879 evitarSubTours[16,25]
+                                  11                          50 
+   880 evitarSubTours[16,26]
+                                  12                          50 
+   881 evitarSubTours[16,27]
+                                  24                          50 
+   882 evitarSubTours[16,28]
+                                  21                          50 
+   883 evitarSubTours[16,29]
+                                  22                          50 
+   884 evitarSubTours[16,30]
+                                  25                          50 
+   885 evitarSubTours[16,31]
+                                  13                          50 
+   886 evitarSubTours[16,32]
+                                  44                          50 
+   887 evitarSubTours[16,33]
+                                  26                          50 
+   888 evitarSubTours[16,34]
+                                  23                          50 
+   889 evitarSubTours[16,35]
+                                  39                          50 
+   890 evitarSubTours[16,36]
+                                  27                          50 
+   891 evitarSubTours[16,37]
                                   38                          50 
+   892 evitarSubTours[16,38]
+                                  28                          50 
+   893 evitarSubTours[16,39]
+                                  42                          50 
+   894 evitarSubTours[16,40]
+                                  29                          50 
+   895 evitarSubTours[16,41]
+                                  41                          50 
+   896 evitarSubTours[16,42]
+                                  37                          50 
+   897 evitarSubTours[16,43]
+                                  43                          50 
+   898 evitarSubTours[16,44]
+                                  40                          50 
    899 evitarSubTours[16,45]
                                   35                          50 
    900 evitarSubTours[16,46]
-                                  36                          50 
-   901 evitarSubTours[16,47]
                                   34                          50 
+   901 evitarSubTours[16,47]
+                                  36                          50 
    902 evitarSubTours[16,48]
-                                  37                          50 
-   903 evitarSubTours[16,49]
-                                  31                          50 
-   904 evitarSubTours[16,50]
-                                  32                          50 
-   905 evitarSubTours[16,51]
                                   33                          50 
+   903 evitarSubTours[16,49]
+                                  30                          50 
+   904 evitarSubTours[16,50]
+                                  31                          50 
+   905 evitarSubTours[16,51]
+                                  32                          50 
    906 evitarSubTours[17,1]
-                                 -48                          50 
+                                 -49                          50 
    907 evitarSubTours[17,2]
-                                 -18                          50 
+                                 -28                          50 
    908 evitarSubTours[17,3]
                                  -50                          50 
    909 evitarSubTours[17,4]
-                                 -17                          50 
+                                 -27                          50 
    910 evitarSubTours[17,5]
-                                 -19                          50 
+                                 -26                          50 
    911 evitarSubTours[17,6]
-                                 -49                          50 
+                                 -38                          50 
    912 evitarSubTours[17,7]
                                  -47                          50 
    913 evitarSubTours[17,8]
-                                 -46                          50 
+                                 -48                          50 
    914 evitarSubTours[17,9]
                                  -41                          50 
    915 evitarSubTours[17,10]
-                                 -38                          50 
+                                 -39                          50 
    916 evitarSubTours[17,11]
-                                 -24                          50 
+                                 -29                          50 
    917 evitarSubTours[17,12]
                                  -40                          50 
    918 evitarSubTours[17,13]
-                                 -39                          50 
-   919 evitarSubTours[17,14]
-                                 -25                          50 
-   920 evitarSubTours[17,15]
                                  -42                          50 
+   919 evitarSubTours[17,14]
+                                 -30                          50 
+   920 evitarSubTours[17,15]
+                                 -43                          50 
    921 evitarSubTours[17,16]
-                                 -45                          50 
+                                 -46                          50 
    922 evitarSubTours[17,18]
                                  -37                          50 
    923 evitarSubTours[17,19]
-                                 -43                          50 
-   924 evitarSubTours[17,20]
                                  -44                          50 
+   924 evitarSubTours[17,20]
+                                 -45                          50 
    925 evitarSubTours[17,21]
-                                 -27                          50 
+                                 -31                          50 
    926 evitarSubTours[17,22]
                                   50                          50 
    927 evitarSubTours[17,23]
-                                 -26                          50 
+                                 -32                          50 
    928 evitarSubTours[17,24]
                                  -36                          50 
    929 evitarSubTours[17,25]
@@ -1763,99 +1763,99 @@ Objective:  total = 25505.5 (MINimum)
    930 evitarSubTours[17,26]
                                  -34                          50 
    931 evitarSubTours[17,27]
-                                 -20                          50 
-   932 evitarSubTours[17,28]
-                                 -23                          50 
-   933 evitarSubTours[17,29]
                                  -22                          50 
+   932 evitarSubTours[17,28]
+                                 -25                          50 
+   933 evitarSubTours[17,29]
+                                 -24                          50 
    934 evitarSubTours[17,30]
-                                 -28                          50 
+                                 -21                          50 
    935 evitarSubTours[17,31]
                                  -33                          50 
    936 evitarSubTours[17,32]
                                   -2                          50 
    937 evitarSubTours[17,33]
-                                 -29                          50 
+                                 -20                          50 
    938 evitarSubTours[17,34]
-                                 -21                          50 
+                                 -23                          50 
    939 evitarSubTours[17,35]
-                                  -5                          50 
+                                  -7                          50 
    940 evitarSubTours[17,36]
-                                 -30                          50 
+                                 -19                          50 
    941 evitarSubTours[17,37]
-                                 -32                          50 
+                                  -8                          50 
    942 evitarSubTours[17,38]
-                                 -16                          50 
+                                 -18                          50 
    943 evitarSubTours[17,39]
                                   -4                          50 
    944 evitarSubTours[17,40]
-                                 -15                          50 
+                                 -17                          50 
    945 evitarSubTours[17,41]
-                                  -6                          50 
+                                  -5                          50 
    946 evitarSubTours[17,42]
-                                 -31                          50 
+                                  -9                          50 
    947 evitarSubTours[17,43]
                                   -3                          50 
    948 evitarSubTours[17,44]
-                                  -7                          50 
+                                  -6                          50 
    949 evitarSubTours[17,45]
-                                 -10                          50 
+                                 -11                          50 
    950 evitarSubTours[17,46]
-                                  -9                          50 
-   951 evitarSubTours[17,47]
-                                 -11                          50 
-   952 evitarSubTours[17,48]
-                                  -8                          50 
-   953 evitarSubTours[17,49]
-                                 -14                          50 
-   954 evitarSubTours[17,50]
-                                 -13                          50 
-   955 evitarSubTours[17,51]
                                  -12                          50 
+   951 evitarSubTours[17,47]
+                                 -10                          50 
+   952 evitarSubTours[17,48]
+                                 -13                          50 
+   953 evitarSubTours[17,49]
+                                 -16                          50 
+   954 evitarSubTours[17,50]
+                                 -15                          50 
+   955 evitarSubTours[17,51]
+                                 -14                          50 
    956 evitarSubTours[18,1]
-                                 -11                          50 
+                                 -12                          50 
    957 evitarSubTours[18,2]
-                                  19                          50 
+                                   9                          50 
    958 evitarSubTours[18,3]
                                  -13                          50 
    959 evitarSubTours[18,4]
-                                  20                          50 
+                                  10                          50 
    960 evitarSubTours[18,5]
-                                  18                          50 
+                                  11                          50 
    961 evitarSubTours[18,6]
-                                 -12                          50 
+                                  50                          50 
    962 evitarSubTours[18,7]
                                  -10                          50 
    963 evitarSubTours[18,8]
-                                  -9                          50 
+                                 -11                          50 
    964 evitarSubTours[18,9]
                                   -4                          50 
    965 evitarSubTours[18,10]
-                                  50                          50 
+                                  -2                          50 
    966 evitarSubTours[18,11]
-                                  13                          50 
+                                   8                          50 
    967 evitarSubTours[18,12]
                                   -3                          50 
    968 evitarSubTours[18,13]
-                                  -2                          50 
-   969 evitarSubTours[18,14]
-                                  12                          50 
-   970 evitarSubTours[18,15]
                                   -5                          50 
+   969 evitarSubTours[18,14]
+                                   7                          50 
+   970 evitarSubTours[18,15]
+                                  -6                          50 
    971 evitarSubTours[18,16]
-                                  -8                          50 
+                                  -9                          50 
    972 evitarSubTours[18,17]
                                   37                          50 
    973 evitarSubTours[18,19]
-                                  -6                          50 
-   974 evitarSubTours[18,20]
                                   -7                          50 
+   974 evitarSubTours[18,20]
+                                  -8                          50 
    975 evitarSubTours[18,21]
-                                  10                          50 
+                                   6                          50 
    976 evitarSubTours[18,22]
                                   36                          50 
    977 evitarSubTours[18,23]
-                                  11                          50 
+                                   5                          50 
    978 evitarSubTours[18,24]
                                    1                          50 
    979 evitarSubTours[18,25]
@@ -1863,399 +1863,399 @@ Objective:  total = 25505.5 (MINimum)
    980 evitarSubTours[18,26]
                                    3                          50 
    981 evitarSubTours[18,27]
-                                  17                          50 
-   982 evitarSubTours[18,28]
-                                  14                          50 
-   983 evitarSubTours[18,29]
                                   15                          50 
+   982 evitarSubTours[18,28]
+                                  12                          50 
+   983 evitarSubTours[18,29]
+                                  13                          50 
    984 evitarSubTours[18,30]
-                                   9                          50 
+                                  16                          50 
    985 evitarSubTours[18,31]
                                    4                          50 
    986 evitarSubTours[18,32]
                                   35                          50 
    987 evitarSubTours[18,33]
-                                   8                          50 
+                                  17                          50 
    988 evitarSubTours[18,34]
-                                  16                          50 
+                                  14                          50 
    989 evitarSubTours[18,35]
-                                  32                          50 
+                                  30                          50 
    990 evitarSubTours[18,36]
-                                   7                          50 
+                                  18                          50 
    991 evitarSubTours[18,37]
-                                   5                          50 
+                                  29                          50 
    992 evitarSubTours[18,38]
-                                  21                          50 
+                                  19                          50 
    993 evitarSubTours[18,39]
                                   33                          50 
    994 evitarSubTours[18,40]
-                                  22                          50 
+                                  20                          50 
    995 evitarSubTours[18,41]
-                                  31                          50 
+                                  32                          50 
    996 evitarSubTours[18,42]
-                                   6                          50 
+                                  28                          50 
    997 evitarSubTours[18,43]
                                   34                          50 
    998 evitarSubTours[18,44]
-                                  30                          50 
+                                  31                          50 
    999 evitarSubTours[18,45]
-                                  27                          50 
-  1000 evitarSubTours[18,46]
-                                  28                          50 
-  1001 evitarSubTours[18,47]
                                   26                          50 
-  1002 evitarSubTours[18,48]
-                                  29                          50 
-  1003 evitarSubTours[18,49]
-                                  23                          50 
-  1004 evitarSubTours[18,50]
-                                  24                          50 
-  1005 evitarSubTours[18,51]
+  1000 evitarSubTours[18,46]
                                   25                          50 
+  1001 evitarSubTours[18,47]
+                                  27                          50 
+  1002 evitarSubTours[18,48]
+                                  24                          50 
+  1003 evitarSubTours[18,49]
+                                  21                          50 
+  1004 evitarSubTours[18,50]
+                                  22                          50 
+  1005 evitarSubTours[18,51]
+                                  23                          50 
   1006 evitarSubTours[19,1]
                                   -5                          50 
   1007 evitarSubTours[19,2]
-                                  25                          50 
+                                  16                          50 
   1008 evitarSubTours[19,3]
-                                  -7                          50 
-  1009 evitarSubTours[19,4]
-                                  26                          50 
-  1010 evitarSubTours[19,5]
-                                  24                          50 
-  1011 evitarSubTours[19,6]
                                   -6                          50 
+  1009 evitarSubTours[19,4]
+                                  17                          50 
+  1010 evitarSubTours[19,5]
+                                  18                          50 
+  1011 evitarSubTours[19,6]
+                                   6                          50 
   1012 evitarSubTours[19,7]
-                                  -4                          50 
-  1013 evitarSubTours[19,8]
                                   -3                          50 
+  1013 evitarSubTours[19,8]
+                                  -4                          50 
   1014 evitarSubTours[19,9]
-                                   2                          50 
+                                   3                          50 
   1015 evitarSubTours[19,10]
                                    5                          50 
   1016 evitarSubTours[19,11]
-                                  19                          50 
+                                  15                          50 
   1017 evitarSubTours[19,12]
-                                   3                          50 
-  1018 evitarSubTours[19,13]
                                    4                          50 
+  1018 evitarSubTours[19,13]
+                                   2                          50 
   1019 evitarSubTours[19,14]
-                                  18                          50 
+                                  14                          50 
   1020 evitarSubTours[19,15]
                                    1                          50 
   1021 evitarSubTours[19,16]
                                   -2                          50 
   1022 evitarSubTours[19,17]
-                                  43                          50 
+                                  44                          50 
   1023 evitarSubTours[19,18]
-                                   6                          50 
+                                   7                          50 
   1024 evitarSubTours[19,20]
                                   50                          50 
   1025 evitarSubTours[19,21]
-                                  16                          50 
-  1026 evitarSubTours[19,22]
-                                  42                          50 
-  1027 evitarSubTours[19,23]
-                                  17                          50 
-  1028 evitarSubTours[19,24]
-                                   7                          50 
-  1029 evitarSubTours[19,25]
-                                   8                          50 
-  1030 evitarSubTours[19,26]
-                                   9                          50 
-  1031 evitarSubTours[19,27]
-                                  23                          50 
-  1032 evitarSubTours[19,28]
-                                  20                          50 
-  1033 evitarSubTours[19,29]
-                                  21                          50 
-  1034 evitarSubTours[19,30]
-                                  15                          50 
-  1035 evitarSubTours[19,31]
-                                  10                          50 
-  1036 evitarSubTours[19,32]
-                                  41                          50 
-  1037 evitarSubTours[19,33]
-                                  14                          50 
-  1038 evitarSubTours[19,34]
-                                  22                          50 
-  1039 evitarSubTours[19,35]
-                                  38                          50 
-  1040 evitarSubTours[19,36]
                                   13                          50 
-  1041 evitarSubTours[19,37]
-                                  11                          50 
-  1042 evitarSubTours[19,38]
-                                  27                          50 
-  1043 evitarSubTours[19,39]
-                                  39                          50 
-  1044 evitarSubTours[19,40]
-                                  28                          50 
-  1045 evitarSubTours[19,41]
-                                  37                          50 
-  1046 evitarSubTours[19,42]
+  1026 evitarSubTours[19,22]
+                                  43                          50 
+  1027 evitarSubTours[19,23]
                                   12                          50 
-  1047 evitarSubTours[19,43]
-                                  40                          50 
-  1048 evitarSubTours[19,44]
+  1028 evitarSubTours[19,24]
+                                   8                          50 
+  1029 evitarSubTours[19,25]
+                                   9                          50 
+  1030 evitarSubTours[19,26]
+                                  10                          50 
+  1031 evitarSubTours[19,27]
+                                  22                          50 
+  1032 evitarSubTours[19,28]
+                                  19                          50 
+  1033 evitarSubTours[19,29]
+                                  20                          50 
+  1034 evitarSubTours[19,30]
+                                  23                          50 
+  1035 evitarSubTours[19,31]
+                                  11                          50 
+  1036 evitarSubTours[19,32]
+                                  42                          50 
+  1037 evitarSubTours[19,33]
+                                  24                          50 
+  1038 evitarSubTours[19,34]
+                                  21                          50 
+  1039 evitarSubTours[19,35]
+                                  37                          50 
+  1040 evitarSubTours[19,36]
+                                  25                          50 
+  1041 evitarSubTours[19,37]
                                   36                          50 
+  1042 evitarSubTours[19,38]
+                                  26                          50 
+  1043 evitarSubTours[19,39]
+                                  40                          50 
+  1044 evitarSubTours[19,40]
+                                  27                          50 
+  1045 evitarSubTours[19,41]
+                                  39                          50 
+  1046 evitarSubTours[19,42]
+                                  35                          50 
+  1047 evitarSubTours[19,43]
+                                  41                          50 
+  1048 evitarSubTours[19,44]
+                                  38                          50 
   1049 evitarSubTours[19,45]
                                   33                          50 
   1050 evitarSubTours[19,46]
-                                  34                          50 
-  1051 evitarSubTours[19,47]
                                   32                          50 
+  1051 evitarSubTours[19,47]
+                                  34                          50 
   1052 evitarSubTours[19,48]
-                                  35                          50 
-  1053 evitarSubTours[19,49]
-                                  29                          50 
-  1054 evitarSubTours[19,50]
-                                  30                          50 
-  1055 evitarSubTours[19,51]
                                   31                          50 
+  1053 evitarSubTours[19,49]
+                                  28                          50 
+  1054 evitarSubTours[19,50]
+                                  29                          50 
+  1055 evitarSubTours[19,51]
+                                  30                          50 
   1056 evitarSubTours[20,1]
                                   -4                          50 
   1057 evitarSubTours[20,2]
-                                  26                          50 
+                                  17                          50 
   1058 evitarSubTours[20,3]
-                                  -6                          50 
-  1059 evitarSubTours[20,4]
-                                  27                          50 
-  1060 evitarSubTours[20,5]
-                                  25                          50 
-  1061 evitarSubTours[20,6]
                                   -5                          50 
+  1059 evitarSubTours[20,4]
+                                  18                          50 
+  1060 evitarSubTours[20,5]
+                                  19                          50 
+  1061 evitarSubTours[20,6]
+                                   7                          50 
   1062 evitarSubTours[20,7]
-                                  -3                          50 
-  1063 evitarSubTours[20,8]
                                   -2                          50 
+  1063 evitarSubTours[20,8]
+                                  -3                          50 
   1064 evitarSubTours[20,9]
-                                   3                          50 
+                                   4                          50 
   1065 evitarSubTours[20,10]
                                    6                          50 
   1066 evitarSubTours[20,11]
-                                  20                          50 
+                                  16                          50 
   1067 evitarSubTours[20,12]
-                                   4                          50 
-  1068 evitarSubTours[20,13]
                                    5                          50 
+  1068 evitarSubTours[20,13]
+                                   3                          50 
   1069 evitarSubTours[20,14]
-                                  19                          50 
+                                  15                          50 
   1070 evitarSubTours[20,15]
                                    2                          50 
   1071 evitarSubTours[20,16]
                                   50                          50 
   1072 evitarSubTours[20,17]
-                                  44                          50 
+                                  45                          50 
   1073 evitarSubTours[20,18]
-                                   7                          50 
+                                   8                          50 
   1074 evitarSubTours[20,19]
                                    1                          50 
   1075 evitarSubTours[20,21]
-                                  17                          50 
-  1076 evitarSubTours[20,22]
-                                  43                          50 
-  1077 evitarSubTours[20,23]
-                                  18                          50 
-  1078 evitarSubTours[20,24]
-                                   8                          50 
-  1079 evitarSubTours[20,25]
-                                   9                          50 
-  1080 evitarSubTours[20,26]
-                                  10                          50 
-  1081 evitarSubTours[20,27]
-                                  24                          50 
-  1082 evitarSubTours[20,28]
-                                  21                          50 
-  1083 evitarSubTours[20,29]
-                                  22                          50 
-  1084 evitarSubTours[20,30]
-                                  16                          50 
-  1085 evitarSubTours[20,31]
-                                  11                          50 
-  1086 evitarSubTours[20,32]
-                                  42                          50 
-  1087 evitarSubTours[20,33]
-                                  15                          50 
-  1088 evitarSubTours[20,34]
-                                  23                          50 
-  1089 evitarSubTours[20,35]
-                                  39                          50 
-  1090 evitarSubTours[20,36]
                                   14                          50 
-  1091 evitarSubTours[20,37]
-                                  12                          50 
-  1092 evitarSubTours[20,38]
-                                  28                          50 
-  1093 evitarSubTours[20,39]
-                                  40                          50 
-  1094 evitarSubTours[20,40]
-                                  29                          50 
-  1095 evitarSubTours[20,41]
-                                  38                          50 
-  1096 evitarSubTours[20,42]
+  1076 evitarSubTours[20,22]
+                                  44                          50 
+  1077 evitarSubTours[20,23]
                                   13                          50 
-  1097 evitarSubTours[20,43]
-                                  41                          50 
-  1098 evitarSubTours[20,44]
+  1078 evitarSubTours[20,24]
+                                   9                          50 
+  1079 evitarSubTours[20,25]
+                                  10                          50 
+  1080 evitarSubTours[20,26]
+                                  11                          50 
+  1081 evitarSubTours[20,27]
+                                  23                          50 
+  1082 evitarSubTours[20,28]
+                                  20                          50 
+  1083 evitarSubTours[20,29]
+                                  21                          50 
+  1084 evitarSubTours[20,30]
+                                  24                          50 
+  1085 evitarSubTours[20,31]
+                                  12                          50 
+  1086 evitarSubTours[20,32]
+                                  43                          50 
+  1087 evitarSubTours[20,33]
+                                  25                          50 
+  1088 evitarSubTours[20,34]
+                                  22                          50 
+  1089 evitarSubTours[20,35]
+                                  38                          50 
+  1090 evitarSubTours[20,36]
+                                  26                          50 
+  1091 evitarSubTours[20,37]
                                   37                          50 
+  1092 evitarSubTours[20,38]
+                                  27                          50 
+  1093 evitarSubTours[20,39]
+                                  41                          50 
+  1094 evitarSubTours[20,40]
+                                  28                          50 
+  1095 evitarSubTours[20,41]
+                                  40                          50 
+  1096 evitarSubTours[20,42]
+                                  36                          50 
+  1097 evitarSubTours[20,43]
+                                  42                          50 
+  1098 evitarSubTours[20,44]
+                                  39                          50 
   1099 evitarSubTours[20,45]
                                   34                          50 
   1100 evitarSubTours[20,46]
-                                  35                          50 
-  1101 evitarSubTours[20,47]
                                   33                          50 
+  1101 evitarSubTours[20,47]
+                                  35                          50 
   1102 evitarSubTours[20,48]
-                                  36                          50 
-  1103 evitarSubTours[20,49]
-                                  30                          50 
-  1104 evitarSubTours[20,50]
-                                  31                          50 
-  1105 evitarSubTours[20,51]
                                   32                          50 
+  1103 evitarSubTours[20,49]
+                                  29                          50 
+  1104 evitarSubTours[20,50]
+                                  30                          50 
+  1105 evitarSubTours[20,51]
+                                  31                          50 
   1106 evitarSubTours[21,1]
-                                 -21                          50 
-  1107 evitarSubTours[21,2]
-                                   9                          50 
-  1108 evitarSubTours[21,3]
-                                 -23                          50 
-  1109 evitarSubTours[21,4]
-                                  10                          50 
-  1110 evitarSubTours[21,5]
-                                   8                          50 
-  1111 evitarSubTours[21,6]
-                                 -22                          50 
-  1112 evitarSubTours[21,7]
-                                 -20                          50 
-  1113 evitarSubTours[21,8]
-                                 -19                          50 
-  1114 evitarSubTours[21,9]
-                                 -14                          50 
-  1115 evitarSubTours[21,10]
-                                 -11                          50 
-  1116 evitarSubTours[21,11]
-                                   3                          50 
-  1117 evitarSubTours[21,12]
-                                 -13                          50 
-  1118 evitarSubTours[21,13]
-                                 -12                          50 
-  1119 evitarSubTours[21,14]
-                                   2                          50 
-  1120 evitarSubTours[21,15]
-                                 -15                          50 
-  1121 evitarSubTours[21,16]
                                  -18                          50 
-  1122 evitarSubTours[21,17]
-                                  27                          50 
-  1123 evitarSubTours[21,18]
-                                 -10                          50 
-  1124 evitarSubTours[21,19]
-                                 -16                          50 
-  1125 evitarSubTours[21,20]
-                                 -17                          50 
-  1126 evitarSubTours[21,22]
-                                  26                          50 
-  1127 evitarSubTours[21,23]
-                                   1                          50 
-  1128 evitarSubTours[21,24]
-                                  -9                          50 
-  1129 evitarSubTours[21,25]
-                                  -8                          50 
-  1130 evitarSubTours[21,26]
-                                  -7                          50 
-  1131 evitarSubTours[21,27]
-                                   7                          50 
-  1132 evitarSubTours[21,28]
+  1107 evitarSubTours[21,2]
+                                   3                          50 
+  1108 evitarSubTours[21,3]
+                                 -19                          50 
+  1109 evitarSubTours[21,4]
                                    4                          50 
-  1133 evitarSubTours[21,29]
+  1110 evitarSubTours[21,5]
                                    5                          50 
-  1134 evitarSubTours[21,30]
-                                  50                          50 
-  1135 evitarSubTours[21,31]
-                                  -6                          50 
-  1136 evitarSubTours[21,32]
-                                  25                          50 
-  1137 evitarSubTours[21,33]
-                                  -2                          50 
-  1138 evitarSubTours[21,34]
-                                   6                          50 
-  1139 evitarSubTours[21,35]
-                                  22                          50 
-  1140 evitarSubTours[21,36]
-                                  -3                          50 
-  1141 evitarSubTours[21,37]
-                                  -5                          50 
-  1142 evitarSubTours[21,38]
-                                  11                          50 
-  1143 evitarSubTours[21,39]
-                                  23                          50 
-  1144 evitarSubTours[21,40]
-                                  12                          50 
-  1145 evitarSubTours[21,41]
-                                  21                          50 
-  1146 evitarSubTours[21,42]
-                                  -4                          50 
-  1147 evitarSubTours[21,43]
-                                  24                          50 
-  1148 evitarSubTours[21,44]
-                                  20                          50 
-  1149 evitarSubTours[21,45]
-                                  17                          50 
-  1150 evitarSubTours[21,46]
-                                  18                          50 
-  1151 evitarSubTours[21,47]
-                                  16                          50 
-  1152 evitarSubTours[21,48]
-                                  19                          50 
-  1153 evitarSubTours[21,49]
-                                  13                          50 
-  1154 evitarSubTours[21,50]
-                                  14                          50 
-  1155 evitarSubTours[21,51]
-                                  15                          50 
-  1156 evitarSubTours[22,1]
-                                 -47                          50 
-  1157 evitarSubTours[22,2]
+  1111 evitarSubTours[21,6]
+                                  -7                          50 
+  1112 evitarSubTours[21,7]
+                                 -16                          50 
+  1113 evitarSubTours[21,8]
                                  -17                          50 
+  1114 evitarSubTours[21,9]
+                                 -10                          50 
+  1115 evitarSubTours[21,10]
+                                  -8                          50 
+  1116 evitarSubTours[21,11]
+                                   2                          50 
+  1117 evitarSubTours[21,12]
+                                  -9                          50 
+  1118 evitarSubTours[21,13]
+                                 -11                          50 
+  1119 evitarSubTours[21,14]
+                                   1                          50 
+  1120 evitarSubTours[21,15]
+                                 -12                          50 
+  1121 evitarSubTours[21,16]
+                                 -15                          50 
+  1122 evitarSubTours[21,17]
+                                  31                          50 
+  1123 evitarSubTours[21,18]
+                                  -6                          50 
+  1124 evitarSubTours[21,19]
+                                 -13                          50 
+  1125 evitarSubTours[21,20]
+                                 -14                          50 
+  1126 evitarSubTours[21,22]
+                                  30                          50 
+  1127 evitarSubTours[21,23]
+                                  50                          50 
+  1128 evitarSubTours[21,24]
+                                  -5                          50 
+  1129 evitarSubTours[21,25]
+                                  -4                          50 
+  1130 evitarSubTours[21,26]
+                                  -3                          50 
+  1131 evitarSubTours[21,27]
+                                   9                          50 
+  1132 evitarSubTours[21,28]
+                                   6                          50 
+  1133 evitarSubTours[21,29]
+                                   7                          50 
+  1134 evitarSubTours[21,30]
+                                  10                          50 
+  1135 evitarSubTours[21,31]
+                                  -2                          50 
+  1136 evitarSubTours[21,32]
+                                  29                          50 
+  1137 evitarSubTours[21,33]
+                                  11                          50 
+  1138 evitarSubTours[21,34]
+                                   8                          50 
+  1139 evitarSubTours[21,35]
+                                  24                          50 
+  1140 evitarSubTours[21,36]
+                                  12                          50 
+  1141 evitarSubTours[21,37]
+                                  23                          50 
+  1142 evitarSubTours[21,38]
+                                  13                          50 
+  1143 evitarSubTours[21,39]
+                                  27                          50 
+  1144 evitarSubTours[21,40]
+                                  14                          50 
+  1145 evitarSubTours[21,41]
+                                  26                          50 
+  1146 evitarSubTours[21,42]
+                                  22                          50 
+  1147 evitarSubTours[21,43]
+                                  28                          50 
+  1148 evitarSubTours[21,44]
+                                  25                          50 
+  1149 evitarSubTours[21,45]
+                                  20                          50 
+  1150 evitarSubTours[21,46]
+                                  19                          50 
+  1151 evitarSubTours[21,47]
+                                  21                          50 
+  1152 evitarSubTours[21,48]
+                                  18                          50 
+  1153 evitarSubTours[21,49]
+                                  15                          50 
+  1154 evitarSubTours[21,50]
+                                  16                          50 
+  1155 evitarSubTours[21,51]
+                                  17                          50 
+  1156 evitarSubTours[22,1]
+                                 -48                          50 
+  1157 evitarSubTours[22,2]
+                                 -27                          50 
   1158 evitarSubTours[22,3]
                                  -49                          50 
   1159 evitarSubTours[22,4]
-                                 -16                          50 
+                                 -26                          50 
   1160 evitarSubTours[22,5]
-                                 -18                          50 
+                                 -25                          50 
   1161 evitarSubTours[22,6]
-                                 -48                          50 
+                                 -37                          50 
   1162 evitarSubTours[22,7]
                                  -46                          50 
   1163 evitarSubTours[22,8]
-                                 -45                          50 
+                                 -47                          50 
   1164 evitarSubTours[22,9]
                                  -40                          50 
   1165 evitarSubTours[22,10]
-                                 -37                          50 
+                                 -38                          50 
   1166 evitarSubTours[22,11]
-                                 -23                          50 
+                                 -28                          50 
   1167 evitarSubTours[22,12]
                                  -39                          50 
   1168 evitarSubTours[22,13]
-                                 -38                          50 
-  1169 evitarSubTours[22,14]
-                                 -24                          50 
-  1170 evitarSubTours[22,15]
                                  -41                          50 
+  1169 evitarSubTours[22,14]
+                                 -29                          50 
+  1170 evitarSubTours[22,15]
+                                 -42                          50 
   1171 evitarSubTours[22,16]
-                                 -44                          50 
+                                 -45                          50 
   1172 evitarSubTours[22,17]
                                    1                          50 
   1173 evitarSubTours[22,18]
                                  -36                          50 
   1174 evitarSubTours[22,19]
-                                 -42                          50 
-  1175 evitarSubTours[22,20]
                                  -43                          50 
+  1175 evitarSubTours[22,20]
+                                 -44                          50 
   1176 evitarSubTours[22,21]
-                                 -26                          50 
+                                 -30                          50 
   1177 evitarSubTours[22,23]
-                                 -25                          50 
+                                 -31                          50 
   1178 evitarSubTours[22,24]
                                  -35                          50 
   1179 evitarSubTours[22,25]
@@ -2263,549 +2263,549 @@ Objective:  total = 25505.5 (MINimum)
   1180 evitarSubTours[22,26]
                                  -33                          50 
   1181 evitarSubTours[22,27]
-                                 -19                          50 
-  1182 evitarSubTours[22,28]
-                                 -22                          50 
-  1183 evitarSubTours[22,29]
                                  -21                          50 
+  1182 evitarSubTours[22,28]
+                                 -24                          50 
+  1183 evitarSubTours[22,29]
+                                 -23                          50 
   1184 evitarSubTours[22,30]
-                                 -27                          50 
+                                 -20                          50 
   1185 evitarSubTours[22,31]
                                  -32                          50 
   1186 evitarSubTours[22,32]
                                   50                          50 
   1187 evitarSubTours[22,33]
-                                 -28                          50 
+                                 -19                          50 
   1188 evitarSubTours[22,34]
-                                 -20                          50 
+                                 -22                          50 
   1189 evitarSubTours[22,35]
-                                  -4                          50 
+                                  -6                          50 
   1190 evitarSubTours[22,36]
-                                 -29                          50 
+                                 -18                          50 
   1191 evitarSubTours[22,37]
-                                 -31                          50 
+                                  -7                          50 
   1192 evitarSubTours[22,38]
-                                 -15                          50 
+                                 -17                          50 
   1193 evitarSubTours[22,39]
                                   -3                          50 
   1194 evitarSubTours[22,40]
-                                 -14                          50 
+                                 -16                          50 
   1195 evitarSubTours[22,41]
-                                  -5                          50 
+                                  -4                          50 
   1196 evitarSubTours[22,42]
-                                 -30                          50 
+                                  -8                          50 
   1197 evitarSubTours[22,43]
                                   -2                          50 
   1198 evitarSubTours[22,44]
-                                  -6                          50 
-  1199 evitarSubTours[22,45]
-                                  -9                          50 
-  1200 evitarSubTours[22,46]
-                                  -8                          50 
-  1201 evitarSubTours[22,47]
-                                 -10                          50 
-  1202 evitarSubTours[22,48]
-                                  -7                          50 
-  1203 evitarSubTours[22,49]
-                                 -13                          50 
-  1204 evitarSubTours[22,50]
-                                 -12                          50 
-  1205 evitarSubTours[22,51]
-                                 -11                          50 
-  1206 evitarSubTours[23,1]
-                                 -22                          50 
-  1207 evitarSubTours[23,2]
-                                   8                          50 
-  1208 evitarSubTours[23,3]
-                                 -24                          50 
-  1209 evitarSubTours[23,4]
-                                   9                          50 
-  1210 evitarSubTours[23,5]
-                                   7                          50 
-  1211 evitarSubTours[23,6]
-                                 -23                          50 
-  1212 evitarSubTours[23,7]
-                                 -21                          50 
-  1213 evitarSubTours[23,8]
-                                 -20                          50 
-  1214 evitarSubTours[23,9]
-                                 -15                          50 
-  1215 evitarSubTours[23,10]
-                                 -12                          50 
-  1216 evitarSubTours[23,11]
-                                   2                          50 
-  1217 evitarSubTours[23,12]
-                                 -14                          50 
-  1218 evitarSubTours[23,13]
-                                 -13                          50 
-  1219 evitarSubTours[23,14]
-                                   1                          50 
-  1220 evitarSubTours[23,15]
-                                 -16                          50 
-  1221 evitarSubTours[23,16]
-                                 -19                          50 
-  1222 evitarSubTours[23,17]
-                                  26                          50 
-  1223 evitarSubTours[23,18]
-                                 -11                          50 
-  1224 evitarSubTours[23,19]
-                                 -17                          50 
-  1225 evitarSubTours[23,20]
-                                 -18                          50 
-  1226 evitarSubTours[23,21]
-                                  50                          50 
-  1227 evitarSubTours[23,22]
-                                  25                          50 
-  1228 evitarSubTours[23,24]
-                                 -10                          50 
-  1229 evitarSubTours[23,25]
-                                  -9                          50 
-  1230 evitarSubTours[23,26]
-                                  -8                          50 
-  1231 evitarSubTours[23,27]
-                                   6                          50 
-  1232 evitarSubTours[23,28]
-                                   3                          50 
-  1233 evitarSubTours[23,29]
-                                   4                          50 
-  1234 evitarSubTours[23,30]
-                                  -2                          50 
-  1235 evitarSubTours[23,31]
-                                  -7                          50 
-  1236 evitarSubTours[23,32]
-                                  24                          50 
-  1237 evitarSubTours[23,33]
-                                  -3                          50 
-  1238 evitarSubTours[23,34]
-                                   5                          50 
-  1239 evitarSubTours[23,35]
-                                  21                          50 
-  1240 evitarSubTours[23,36]
-                                  -4                          50 
-  1241 evitarSubTours[23,37]
-                                  -6                          50 
-  1242 evitarSubTours[23,38]
-                                  10                          50 
-  1243 evitarSubTours[23,39]
-                                  22                          50 
-  1244 evitarSubTours[23,40]
-                                  11                          50 
-  1245 evitarSubTours[23,41]
-                                  20                          50 
-  1246 evitarSubTours[23,42]
                                   -5                          50 
-  1247 evitarSubTours[23,43]
-                                  23                          50 
-  1248 evitarSubTours[23,44]
-                                  19                          50 
-  1249 evitarSubTours[23,45]
-                                  16                          50 
-  1250 evitarSubTours[23,46]
-                                  17                          50 
-  1251 evitarSubTours[23,47]
-                                  15                          50 
-  1252 evitarSubTours[23,48]
-                                  18                          50 
-  1253 evitarSubTours[23,49]
-                                  12                          50 
-  1254 evitarSubTours[23,50]
-                                  13                          50 
-  1255 evitarSubTours[23,51]
-                                  14                          50 
-  1256 evitarSubTours[24,1]
+  1199 evitarSubTours[22,45]
+                                 -10                          50 
+  1200 evitarSubTours[22,46]
+                                 -11                          50 
+  1201 evitarSubTours[22,47]
+                                  -9                          50 
+  1202 evitarSubTours[22,48]
                                  -12                          50 
-  1257 evitarSubTours[24,2]
+  1203 evitarSubTours[22,49]
+                                 -15                          50 
+  1204 evitarSubTours[22,50]
+                                 -14                          50 
+  1205 evitarSubTours[22,51]
+                                 -13                          50 
+  1206 evitarSubTours[23,1]
+                                 -17                          50 
+  1207 evitarSubTours[23,2]
+                                   4                          50 
+  1208 evitarSubTours[23,3]
+                                 -18                          50 
+  1209 evitarSubTours[23,4]
+                                   5                          50 
+  1210 evitarSubTours[23,5]
+                                   6                          50 
+  1211 evitarSubTours[23,6]
+                                  -6                          50 
+  1212 evitarSubTours[23,7]
+                                 -15                          50 
+  1213 evitarSubTours[23,8]
+                                 -16                          50 
+  1214 evitarSubTours[23,9]
+                                  -9                          50 
+  1215 evitarSubTours[23,10]
+                                  -7                          50 
+  1216 evitarSubTours[23,11]
+                                   3                          50 
+  1217 evitarSubTours[23,12]
+                                  -8                          50 
+  1218 evitarSubTours[23,13]
+                                 -10                          50 
+  1219 evitarSubTours[23,14]
+                                   2                          50 
+  1220 evitarSubTours[23,15]
+                                 -11                          50 
+  1221 evitarSubTours[23,16]
+                                 -14                          50 
+  1222 evitarSubTours[23,17]
+                                  32                          50 
+  1223 evitarSubTours[23,18]
+                                  -5                          50 
+  1224 evitarSubTours[23,19]
+                                 -12                          50 
+  1225 evitarSubTours[23,20]
+                                 -13                          50 
+  1226 evitarSubTours[23,21]
+                                   1                          50 
+  1227 evitarSubTours[23,22]
+                                  31                          50 
+  1228 evitarSubTours[23,24]
+                                  -4                          50 
+  1229 evitarSubTours[23,25]
+                                  -3                          50 
+  1230 evitarSubTours[23,26]
+                                  -2                          50 
+  1231 evitarSubTours[23,27]
+                                  10                          50 
+  1232 evitarSubTours[23,28]
+                                   7                          50 
+  1233 evitarSubTours[23,29]
+                                   8                          50 
+  1234 evitarSubTours[23,30]
+                                  11                          50 
+  1235 evitarSubTours[23,31]
+                                  50                          50 
+  1236 evitarSubTours[23,32]
+                                  30                          50 
+  1237 evitarSubTours[23,33]
+                                  12                          50 
+  1238 evitarSubTours[23,34]
+                                   9                          50 
+  1239 evitarSubTours[23,35]
+                                  25                          50 
+  1240 evitarSubTours[23,36]
+                                  13                          50 
+  1241 evitarSubTours[23,37]
+                                  24                          50 
+  1242 evitarSubTours[23,38]
+                                  14                          50 
+  1243 evitarSubTours[23,39]
+                                  28                          50 
+  1244 evitarSubTours[23,40]
+                                  15                          50 
+  1245 evitarSubTours[23,41]
+                                  27                          50 
+  1246 evitarSubTours[23,42]
+                                  23                          50 
+  1247 evitarSubTours[23,43]
+                                  29                          50 
+  1248 evitarSubTours[23,44]
+                                  26                          50 
+  1249 evitarSubTours[23,45]
+                                  21                          50 
+  1250 evitarSubTours[23,46]
+                                  20                          50 
+  1251 evitarSubTours[23,47]
+                                  22                          50 
+  1252 evitarSubTours[23,48]
+                                  19                          50 
+  1253 evitarSubTours[23,49]
+                                  16                          50 
+  1254 evitarSubTours[23,50]
+                                  17                          50 
+  1255 evitarSubTours[23,51]
                                   18                          50 
+  1256 evitarSubTours[24,1]
+                                 -13                          50 
+  1257 evitarSubTours[24,2]
+                                   8                          50 
   1258 evitarSubTours[24,3]
                                  -14                          50 
   1259 evitarSubTours[24,4]
-                                  19                          50 
+                                   9                          50 
   1260 evitarSubTours[24,5]
-                                  17                          50 
+                                  10                          50 
   1261 evitarSubTours[24,6]
-                                 -13                          50 
+                                  -2                          50 
   1262 evitarSubTours[24,7]
                                  -11                          50 
   1263 evitarSubTours[24,8]
-                                 -10                          50 
+                                 -12                          50 
   1264 evitarSubTours[24,9]
                                   -5                          50 
   1265 evitarSubTours[24,10]
-                                  -2                          50 
+                                  -3                          50 
   1266 evitarSubTours[24,11]
-                                  12                          50 
+                                   7                          50 
   1267 evitarSubTours[24,12]
                                   -4                          50 
   1268 evitarSubTours[24,13]
-                                  -3                          50 
-  1269 evitarSubTours[24,14]
-                                  11                          50 
-  1270 evitarSubTours[24,15]
                                   -6                          50 
+  1269 evitarSubTours[24,14]
+                                   6                          50 
+  1270 evitarSubTours[24,15]
+                                  -7                          50 
   1271 evitarSubTours[24,16]
-                                  -9                          50 
+                                 -10                          50 
   1272 evitarSubTours[24,17]
                                   36                          50 
   1273 evitarSubTours[24,18]
                                   50                          50 
   1274 evitarSubTours[24,19]
-                                  -7                          50 
-  1275 evitarSubTours[24,20]
                                   -8                          50 
+  1275 evitarSubTours[24,20]
+                                  -9                          50 
   1276 evitarSubTours[24,21]
-                                   9                          50 
+                                   5                          50 
   1277 evitarSubTours[24,22]
                                   35                          50 
   1278 evitarSubTours[24,23]
-                                  10                          50 
+                                   4                          50 
   1279 evitarSubTours[24,25]
                                    1                          50 
   1280 evitarSubTours[24,26]
                                    2                          50 
   1281 evitarSubTours[24,27]
-                                  16                          50 
-  1282 evitarSubTours[24,28]
-                                  13                          50 
-  1283 evitarSubTours[24,29]
                                   14                          50 
+  1282 evitarSubTours[24,28]
+                                  11                          50 
+  1283 evitarSubTours[24,29]
+                                  12                          50 
   1284 evitarSubTours[24,30]
-                                   8                          50 
+                                  15                          50 
   1285 evitarSubTours[24,31]
                                    3                          50 
   1286 evitarSubTours[24,32]
                                   34                          50 
   1287 evitarSubTours[24,33]
-                                   7                          50 
+                                  16                          50 
   1288 evitarSubTours[24,34]
-                                  15                          50 
+                                  13                          50 
   1289 evitarSubTours[24,35]
-                                  31                          50 
+                                  29                          50 
   1290 evitarSubTours[24,36]
-                                   6                          50 
+                                  17                          50 
   1291 evitarSubTours[24,37]
-                                   4                          50 
+                                  28                          50 
   1292 evitarSubTours[24,38]
-                                  20                          50 
+                                  18                          50 
   1293 evitarSubTours[24,39]
                                   32                          50 
   1294 evitarSubTours[24,40]
-                                  21                          50 
+                                  19                          50 
   1295 evitarSubTours[24,41]
-                                  30                          50 
+                                  31                          50 
   1296 evitarSubTours[24,42]
-                                   5                          50 
+                                  27                          50 
   1297 evitarSubTours[24,43]
                                   33                          50 
   1298 evitarSubTours[24,44]
-                                  29                          50 
+                                  30                          50 
   1299 evitarSubTours[24,45]
-                                  26                          50 
-  1300 evitarSubTours[24,46]
-                                  27                          50 
-  1301 evitarSubTours[24,47]
                                   25                          50 
-  1302 evitarSubTours[24,48]
-                                  28                          50 
-  1303 evitarSubTours[24,49]
-                                  22                          50 
-  1304 evitarSubTours[24,50]
-                                  23                          50 
-  1305 evitarSubTours[24,51]
+  1300 evitarSubTours[24,46]
                                   24                          50 
+  1301 evitarSubTours[24,47]
+                                  26                          50 
+  1302 evitarSubTours[24,48]
+                                  23                          50 
+  1303 evitarSubTours[24,49]
+                                  20                          50 
+  1304 evitarSubTours[24,50]
+                                  21                          50 
+  1305 evitarSubTours[24,51]
+                                  22                          50 
   1306 evitarSubTours[25,1]
-                                 -13                          50 
+                                 -14                          50 
   1307 evitarSubTours[25,2]
-                                  17                          50 
+                                   7                          50 
   1308 evitarSubTours[25,3]
                                  -15                          50 
   1309 evitarSubTours[25,4]
-                                  18                          50 
+                                   8                          50 
   1310 evitarSubTours[25,5]
-                                  16                          50 
+                                   9                          50 
   1311 evitarSubTours[25,6]
-                                 -14                          50 
+                                  -3                          50 
   1312 evitarSubTours[25,7]
                                  -12                          50 
   1313 evitarSubTours[25,8]
-                                 -11                          50 
+                                 -13                          50 
   1314 evitarSubTours[25,9]
                                   -6                          50 
   1315 evitarSubTours[25,10]
-                                  -3                          50 
+                                  -4                          50 
   1316 evitarSubTours[25,11]
-                                  11                          50 
+                                   6                          50 
   1317 evitarSubTours[25,12]
                                   -5                          50 
   1318 evitarSubTours[25,13]
-                                  -4                          50 
-  1319 evitarSubTours[25,14]
-                                  10                          50 
-  1320 evitarSubTours[25,15]
                                   -7                          50 
+  1319 evitarSubTours[25,14]
+                                   5                          50 
+  1320 evitarSubTours[25,15]
+                                  -8                          50 
   1321 evitarSubTours[25,16]
-                                 -10                          50 
+                                 -11                          50 
   1322 evitarSubTours[25,17]
                                   35                          50 
   1323 evitarSubTours[25,18]
                                   -2                          50 
   1324 evitarSubTours[25,19]
-                                  -8                          50 
-  1325 evitarSubTours[25,20]
                                   -9                          50 
+  1325 evitarSubTours[25,20]
+                                 -10                          50 
   1326 evitarSubTours[25,21]
-                                   8                          50 
+                                   4                          50 
   1327 evitarSubTours[25,22]
                                   34                          50 
   1328 evitarSubTours[25,23]
-                                   9                          50 
+                                   3                          50 
   1329 evitarSubTours[25,24]
                                   50                          50 
   1330 evitarSubTours[25,26]
                                    1                          50 
   1331 evitarSubTours[25,27]
-                                  15                          50 
-  1332 evitarSubTours[25,28]
-                                  12                          50 
-  1333 evitarSubTours[25,29]
                                   13                          50 
+  1332 evitarSubTours[25,28]
+                                  10                          50 
+  1333 evitarSubTours[25,29]
+                                  11                          50 
   1334 evitarSubTours[25,30]
-                                   7                          50 
+                                  14                          50 
   1335 evitarSubTours[25,31]
                                    2                          50 
   1336 evitarSubTours[25,32]
                                   33                          50 
   1337 evitarSubTours[25,33]
-                                   6                          50 
+                                  15                          50 
   1338 evitarSubTours[25,34]
-                                  14                          50 
+                                  12                          50 
   1339 evitarSubTours[25,35]
-                                  30                          50 
+                                  28                          50 
   1340 evitarSubTours[25,36]
-                                   5                          50 
+                                  16                          50 
   1341 evitarSubTours[25,37]
-                                   3                          50 
+                                  27                          50 
   1342 evitarSubTours[25,38]
-                                  19                          50 
+                                  17                          50 
   1343 evitarSubTours[25,39]
                                   31                          50 
   1344 evitarSubTours[25,40]
-                                  20                          50 
+                                  18                          50 
   1345 evitarSubTours[25,41]
-                                  29                          50 
+                                  30                          50 
   1346 evitarSubTours[25,42]
-                                   4                          50 
+                                  26                          50 
   1347 evitarSubTours[25,43]
                                   32                          50 
   1348 evitarSubTours[25,44]
-                                  28                          50 
+                                  29                          50 
   1349 evitarSubTours[25,45]
-                                  25                          50 
-  1350 evitarSubTours[25,46]
-                                  26                          50 
-  1351 evitarSubTours[25,47]
                                   24                          50 
-  1352 evitarSubTours[25,48]
-                                  27                          50 
-  1353 evitarSubTours[25,49]
-                                  21                          50 
-  1354 evitarSubTours[25,50]
-                                  22                          50 
-  1355 evitarSubTours[25,51]
+  1350 evitarSubTours[25,46]
                                   23                          50 
+  1351 evitarSubTours[25,47]
+                                  25                          50 
+  1352 evitarSubTours[25,48]
+                                  22                          50 
+  1353 evitarSubTours[25,49]
+                                  19                          50 
+  1354 evitarSubTours[25,50]
+                                  20                          50 
+  1355 evitarSubTours[25,51]
+                                  21                          50 
   1356 evitarSubTours[26,1]
-                                 -14                          50 
+                                 -15                          50 
   1357 evitarSubTours[26,2]
-                                  16                          50 
+                                   6                          50 
   1358 evitarSubTours[26,3]
                                  -16                          50 
   1359 evitarSubTours[26,4]
-                                  17                          50 
+                                   7                          50 
   1360 evitarSubTours[26,5]
-                                  15                          50 
+                                   8                          50 
   1361 evitarSubTours[26,6]
-                                 -15                          50 
+                                  -4                          50 
   1362 evitarSubTours[26,7]
                                  -13                          50 
   1363 evitarSubTours[26,8]
-                                 -12                          50 
+                                 -14                          50 
   1364 evitarSubTours[26,9]
                                   -7                          50 
   1365 evitarSubTours[26,10]
-                                  -4                          50 
+                                  -5                          50 
   1366 evitarSubTours[26,11]
-                                  10                          50 
+                                   5                          50 
   1367 evitarSubTours[26,12]
                                   -6                          50 
   1368 evitarSubTours[26,13]
-                                  -5                          50 
-  1369 evitarSubTours[26,14]
-                                   9                          50 
-  1370 evitarSubTours[26,15]
                                   -8                          50 
+  1369 evitarSubTours[26,14]
+                                   4                          50 
+  1370 evitarSubTours[26,15]
+                                  -9                          50 
   1371 evitarSubTours[26,16]
-                                 -11                          50 
+                                 -12                          50 
   1372 evitarSubTours[26,17]
                                   34                          50 
   1373 evitarSubTours[26,18]
                                   -3                          50 
   1374 evitarSubTours[26,19]
-                                  -9                          50 
-  1375 evitarSubTours[26,20]
                                  -10                          50 
+  1375 evitarSubTours[26,20]
+                                 -11                          50 
   1376 evitarSubTours[26,21]
-                                   7                          50 
+                                   3                          50 
   1377 evitarSubTours[26,22]
                                   33                          50 
   1378 evitarSubTours[26,23]
-                                   8                          50 
+                                   2                          50 
   1379 evitarSubTours[26,24]
                                   -2                          50 
   1380 evitarSubTours[26,25]
                                   50                          50 
   1381 evitarSubTours[26,27]
-                                  14                          50 
-  1382 evitarSubTours[26,28]
-                                  11                          50 
-  1383 evitarSubTours[26,29]
                                   12                          50 
+  1382 evitarSubTours[26,28]
+                                   9                          50 
+  1383 evitarSubTours[26,29]
+                                  10                          50 
   1384 evitarSubTours[26,30]
-                                   6                          50 
+                                  13                          50 
   1385 evitarSubTours[26,31]
                                    1                          50 
   1386 evitarSubTours[26,32]
                                   32                          50 
   1387 evitarSubTours[26,33]
-                                   5                          50 
+                                  14                          50 
   1388 evitarSubTours[26,34]
-                                  13                          50 
+                                  11                          50 
   1389 evitarSubTours[26,35]
-                                  29                          50 
+                                  27                          50 
   1390 evitarSubTours[26,36]
-                                   4                          50 
+                                  15                          50 
   1391 evitarSubTours[26,37]
-                                   2                          50 
+                                  26                          50 
   1392 evitarSubTours[26,38]
-                                  18                          50 
+                                  16                          50 
   1393 evitarSubTours[26,39]
                                   30                          50 
   1394 evitarSubTours[26,40]
-                                  19                          50 
+                                  17                          50 
   1395 evitarSubTours[26,41]
-                                  28                          50 
+                                  29                          50 
   1396 evitarSubTours[26,42]
-                                   3                          50 
+                                  25                          50 
   1397 evitarSubTours[26,43]
                                   31                          50 
   1398 evitarSubTours[26,44]
-                                  27                          50 
+                                  28                          50 
   1399 evitarSubTours[26,45]
-                                  24                          50 
-  1400 evitarSubTours[26,46]
-                                  25                          50 
-  1401 evitarSubTours[26,47]
                                   23                          50 
-  1402 evitarSubTours[26,48]
-                                  26                          50 
-  1403 evitarSubTours[26,49]
-                                  20                          50 
-  1404 evitarSubTours[26,50]
-                                  21                          50 
-  1405 evitarSubTours[26,51]
+  1400 evitarSubTours[26,46]
                                   22                          50 
+  1401 evitarSubTours[26,47]
+                                  24                          50 
+  1402 evitarSubTours[26,48]
+                                  21                          50 
+  1403 evitarSubTours[26,49]
+                                  18                          50 
+  1404 evitarSubTours[26,50]
+                                  19                          50 
+  1405 evitarSubTours[26,51]
+                                  20                          50 
   1406 evitarSubTours[27,1]
-                                 -28                          50 
-  1407 evitarSubTours[27,2]
-                                   2                          50 
-  1408 evitarSubTours[27,3]
-                                 -30                          50 
-  1409 evitarSubTours[27,4]
-                                   3                          50 
-  1410 evitarSubTours[27,5]
-                                   1                          50 
-  1411 evitarSubTours[27,6]
-                                 -29                          50 
-  1412 evitarSubTours[27,7]
                                  -27                          50 
+  1407 evitarSubTours[27,2]
+                                  -6                          50 
+  1408 evitarSubTours[27,3]
+                                 -28                          50 
+  1409 evitarSubTours[27,4]
+                                  -5                          50 
+  1410 evitarSubTours[27,5]
+                                  -4                          50 
+  1411 evitarSubTours[27,6]
+                                 -16                          50 
+  1412 evitarSubTours[27,7]
+                                 -25                          50 
   1413 evitarSubTours[27,8]
                                  -26                          50 
   1414 evitarSubTours[27,9]
-                                 -21                          50 
-  1415 evitarSubTours[27,10]
-                                 -18                          50 
-  1416 evitarSubTours[27,11]
-                                  -4                          50 
-  1417 evitarSubTours[27,12]
-                                 -20                          50 
-  1418 evitarSubTours[27,13]
                                  -19                          50 
-  1419 evitarSubTours[27,14]
-                                  -5                          50 
-  1420 evitarSubTours[27,15]
-                                 -22                          50 
-  1421 evitarSubTours[27,16]
-                                 -25                          50 
-  1422 evitarSubTours[27,17]
-                                  20                          50 
-  1423 evitarSubTours[27,18]
+  1415 evitarSubTours[27,10]
                                  -17                          50 
-  1424 evitarSubTours[27,19]
-                                 -23                          50 
-  1425 evitarSubTours[27,20]
-                                 -24                          50 
-  1426 evitarSubTours[27,21]
+  1416 evitarSubTours[27,11]
                                   -7                          50 
-  1427 evitarSubTours[27,22]
-                                  19                          50 
-  1428 evitarSubTours[27,23]
-                                  -6                          50 
-  1429 evitarSubTours[27,24]
-                                 -16                          50 
-  1430 evitarSubTours[27,25]
+  1417 evitarSubTours[27,12]
+                                 -18                          50 
+  1418 evitarSubTours[27,13]
+                                 -20                          50 
+  1419 evitarSubTours[27,14]
+                                  -8                          50 
+  1420 evitarSubTours[27,15]
+                                 -21                          50 
+  1421 evitarSubTours[27,16]
+                                 -24                          50 
+  1422 evitarSubTours[27,17]
+                                  22                          50 
+  1423 evitarSubTours[27,18]
                                  -15                          50 
-  1431 evitarSubTours[27,26]
+  1424 evitarSubTours[27,19]
+                                 -22                          50 
+  1425 evitarSubTours[27,20]
+                                 -23                          50 
+  1426 evitarSubTours[27,21]
+                                  -9                          50 
+  1427 evitarSubTours[27,22]
+                                  21                          50 
+  1428 evitarSubTours[27,23]
+                                 -10                          50 
+  1429 evitarSubTours[27,24]
                                  -14                          50 
+  1430 evitarSubTours[27,25]
+                                 -13                          50 
+  1431 evitarSubTours[27,26]
+                                 -12                          50 
   1432 evitarSubTours[27,28]
                                   -3                          50 
   1433 evitarSubTours[27,29]
                                   -2                          50 
   1434 evitarSubTours[27,30]
-                                  -8                          50 
+                                   1                          50 
   1435 evitarSubTours[27,31]
-                                 -13                          50 
+                                 -11                          50 
   1436 evitarSubTours[27,32]
-                                  18                          50 
+                                  20                          50 
   1437 evitarSubTours[27,33]
-                                  -9                          50 
+                                   2                          50 
   1438 evitarSubTours[27,34]
                                   50                          50 
   1439 evitarSubTours[27,35]
                                   15                          50 
   1440 evitarSubTours[27,36]
-                                 -10                          50 
+                                   3                          50 
   1441 evitarSubTours[27,37]
-                                 -12                          50 
+                                  14                          50 
   1442 evitarSubTours[27,38]
                                    4                          50 
   1443 evitarSubTours[27,39]
-                                  16                          50 
+                                  18                          50 
   1444 evitarSubTours[27,40]
                                    5                          50 
   1445 evitarSubTours[27,41]
-                                  14                          50 
-  1446 evitarSubTours[27,42]
-                                 -11                          50 
-  1447 evitarSubTours[27,43]
                                   17                          50 
-  1448 evitarSubTours[27,44]
+  1446 evitarSubTours[27,42]
                                   13                          50 
+  1447 evitarSubTours[27,43]
+                                  19                          50 
+  1448 evitarSubTours[27,44]
+                                  16                          50 
   1449 evitarSubTours[27,45]
-                                  10                          50 
-  1450 evitarSubTours[27,46]
                                   11                          50 
+  1450 evitarSubTours[27,46]
+                                  10                          50 
   1451 evitarSubTours[27,47]
-                                   9                          50 
-  1452 evitarSubTours[27,48]
                                   12                          50 
+  1452 evitarSubTours[27,48]
+                                   9                          50 
   1453 evitarSubTours[27,49]
                                    6                          50 
   1454 evitarSubTours[27,50]
@@ -2813,99 +2813,99 @@ Objective:  total = 25505.5 (MINimum)
   1455 evitarSubTours[27,51]
                                    8                          50 
   1456 evitarSubTours[28,1]
-                                 -25                          50 
-  1457 evitarSubTours[28,2]
-                                   5                          50 
-  1458 evitarSubTours[28,3]
-                                 -27                          50 
-  1459 evitarSubTours[28,4]
-                                   6                          50 
-  1460 evitarSubTours[28,5]
-                                   4                          50 
-  1461 evitarSubTours[28,6]
-                                 -26                          50 
-  1462 evitarSubTours[28,7]
                                  -24                          50 
+  1457 evitarSubTours[28,2]
+                                  -3                          50 
+  1458 evitarSubTours[28,3]
+                                 -25                          50 
+  1459 evitarSubTours[28,4]
+                                  -2                          50 
+  1460 evitarSubTours[28,5]
+                                  50                          50 
+  1461 evitarSubTours[28,6]
+                                 -13                          50 
+  1462 evitarSubTours[28,7]
+                                 -22                          50 
   1463 evitarSubTours[28,8]
                                  -23                          50 
   1464 evitarSubTours[28,9]
-                                 -18                          50 
-  1465 evitarSubTours[28,10]
-                                 -15                          50 
-  1466 evitarSubTours[28,11]
-                                  50                          50 
-  1467 evitarSubTours[28,12]
-                                 -17                          50 
-  1468 evitarSubTours[28,13]
                                  -16                          50 
-  1469 evitarSubTours[28,14]
-                                  -2                          50 
-  1470 evitarSubTours[28,15]
-                                 -19                          50 
-  1471 evitarSubTours[28,16]
-                                 -22                          50 
-  1472 evitarSubTours[28,17]
-                                  23                          50 
-  1473 evitarSubTours[28,18]
+  1465 evitarSubTours[28,10]
                                  -14                          50 
-  1474 evitarSubTours[28,19]
-                                 -20                          50 
-  1475 evitarSubTours[28,20]
-                                 -21                          50 
-  1476 evitarSubTours[28,21]
+  1466 evitarSubTours[28,11]
                                   -4                          50 
-  1477 evitarSubTours[28,22]
-                                  22                          50 
-  1478 evitarSubTours[28,23]
-                                  -3                          50 
-  1479 evitarSubTours[28,24]
-                                 -13                          50 
-  1480 evitarSubTours[28,25]
+  1467 evitarSubTours[28,12]
+                                 -15                          50 
+  1468 evitarSubTours[28,13]
+                                 -17                          50 
+  1469 evitarSubTours[28,14]
+                                  -5                          50 
+  1470 evitarSubTours[28,15]
+                                 -18                          50 
+  1471 evitarSubTours[28,16]
+                                 -21                          50 
+  1472 evitarSubTours[28,17]
+                                  25                          50 
+  1473 evitarSubTours[28,18]
                                  -12                          50 
-  1481 evitarSubTours[28,26]
+  1474 evitarSubTours[28,19]
+                                 -19                          50 
+  1475 evitarSubTours[28,20]
+                                 -20                          50 
+  1476 evitarSubTours[28,21]
+                                  -6                          50 
+  1477 evitarSubTours[28,22]
+                                  24                          50 
+  1478 evitarSubTours[28,23]
+                                  -7                          50 
+  1479 evitarSubTours[28,24]
                                  -11                          50 
+  1480 evitarSubTours[28,25]
+                                 -10                          50 
+  1481 evitarSubTours[28,26]
+                                  -9                          50 
   1482 evitarSubTours[28,27]
                                    3                          50 
   1483 evitarSubTours[28,29]
                                    1                          50 
   1484 evitarSubTours[28,30]
-                                  -5                          50 
+                                   4                          50 
   1485 evitarSubTours[28,31]
-                                 -10                          50 
+                                  -8                          50 
   1486 evitarSubTours[28,32]
-                                  21                          50 
+                                  23                          50 
   1487 evitarSubTours[28,33]
-                                  -6                          50 
+                                   5                          50 
   1488 evitarSubTours[28,34]
                                    2                          50 
   1489 evitarSubTours[28,35]
                                   18                          50 
   1490 evitarSubTours[28,36]
-                                  -7                          50 
+                                   6                          50 
   1491 evitarSubTours[28,37]
-                                  -9                          50 
+                                  17                          50 
   1492 evitarSubTours[28,38]
                                    7                          50 
   1493 evitarSubTours[28,39]
-                                  19                          50 
+                                  21                          50 
   1494 evitarSubTours[28,40]
                                    8                          50 
   1495 evitarSubTours[28,41]
-                                  17                          50 
-  1496 evitarSubTours[28,42]
-                                  -8                          50 
-  1497 evitarSubTours[28,43]
                                   20                          50 
-  1498 evitarSubTours[28,44]
+  1496 evitarSubTours[28,42]
                                   16                          50 
+  1497 evitarSubTours[28,43]
+                                  22                          50 
+  1498 evitarSubTours[28,44]
+                                  19                          50 
   1499 evitarSubTours[28,45]
-                                  13                          50 
-  1500 evitarSubTours[28,46]
                                   14                          50 
+  1500 evitarSubTours[28,46]
+                                  13                          50 
   1501 evitarSubTours[28,47]
-                                  12                          50 
-  1502 evitarSubTours[28,48]
                                   15                          50 
+  1502 evitarSubTours[28,48]
+                                  12                          50 
   1503 evitarSubTours[28,49]
                                    9                          50 
   1504 evitarSubTours[28,50]
@@ -2913,99 +2913,99 @@ Objective:  total = 25505.5 (MINimum)
   1505 evitarSubTours[28,51]
                                   11                          50 
   1506 evitarSubTours[29,1]
-                                 -26                          50 
-  1507 evitarSubTours[29,2]
-                                   4                          50 
-  1508 evitarSubTours[29,3]
-                                 -28                          50 
-  1509 evitarSubTours[29,4]
-                                   5                          50 
-  1510 evitarSubTours[29,5]
-                                   3                          50 
-  1511 evitarSubTours[29,6]
-                                 -27                          50 
-  1512 evitarSubTours[29,7]
                                  -25                          50 
+  1507 evitarSubTours[29,2]
+                                  -4                          50 
+  1508 evitarSubTours[29,3]
+                                 -26                          50 
+  1509 evitarSubTours[29,4]
+                                  -3                          50 
+  1510 evitarSubTours[29,5]
+                                  -2                          50 
+  1511 evitarSubTours[29,6]
+                                 -14                          50 
+  1512 evitarSubTours[29,7]
+                                 -23                          50 
   1513 evitarSubTours[29,8]
                                  -24                          50 
   1514 evitarSubTours[29,9]
-                                 -19                          50 
-  1515 evitarSubTours[29,10]
-                                 -16                          50 
-  1516 evitarSubTours[29,11]
-                                  -2                          50 
-  1517 evitarSubTours[29,12]
-                                 -18                          50 
-  1518 evitarSubTours[29,13]
                                  -17                          50 
-  1519 evitarSubTours[29,14]
-                                  -3                          50 
-  1520 evitarSubTours[29,15]
-                                 -20                          50 
-  1521 evitarSubTours[29,16]
-                                 -23                          50 
-  1522 evitarSubTours[29,17]
-                                  22                          50 
-  1523 evitarSubTours[29,18]
+  1515 evitarSubTours[29,10]
                                  -15                          50 
-  1524 evitarSubTours[29,19]
-                                 -21                          50 
-  1525 evitarSubTours[29,20]
-                                 -22                          50 
-  1526 evitarSubTours[29,21]
+  1516 evitarSubTours[29,11]
                                   -5                          50 
-  1527 evitarSubTours[29,22]
-                                  21                          50 
-  1528 evitarSubTours[29,23]
-                                  -4                          50 
-  1529 evitarSubTours[29,24]
-                                 -14                          50 
-  1530 evitarSubTours[29,25]
+  1517 evitarSubTours[29,12]
+                                 -16                          50 
+  1518 evitarSubTours[29,13]
+                                 -18                          50 
+  1519 evitarSubTours[29,14]
+                                  -6                          50 
+  1520 evitarSubTours[29,15]
+                                 -19                          50 
+  1521 evitarSubTours[29,16]
+                                 -22                          50 
+  1522 evitarSubTours[29,17]
+                                  24                          50 
+  1523 evitarSubTours[29,18]
                                  -13                          50 
-  1531 evitarSubTours[29,26]
+  1524 evitarSubTours[29,19]
+                                 -20                          50 
+  1525 evitarSubTours[29,20]
+                                 -21                          50 
+  1526 evitarSubTours[29,21]
+                                  -7                          50 
+  1527 evitarSubTours[29,22]
+                                  23                          50 
+  1528 evitarSubTours[29,23]
+                                  -8                          50 
+  1529 evitarSubTours[29,24]
                                  -12                          50 
+  1530 evitarSubTours[29,25]
+                                 -11                          50 
+  1531 evitarSubTours[29,26]
+                                 -10                          50 
   1532 evitarSubTours[29,27]
                                    2                          50 
   1533 evitarSubTours[29,28]
                                   50                          50 
   1534 evitarSubTours[29,30]
-                                  -6                          50 
+                                   3                          50 
   1535 evitarSubTours[29,31]
-                                 -11                          50 
+                                  -9                          50 
   1536 evitarSubTours[29,32]
-                                  20                          50 
+                                  22                          50 
   1537 evitarSubTours[29,33]
-                                  -7                          50 
+                                   4                          50 
   1538 evitarSubTours[29,34]
                                    1                          50 
   1539 evitarSubTours[29,35]
                                   17                          50 
   1540 evitarSubTours[29,36]
-                                  -8                          50 
+                                   5                          50 
   1541 evitarSubTours[29,37]
-                                 -10                          50 
+                                  16                          50 
   1542 evitarSubTours[29,38]
                                    6                          50 
   1543 evitarSubTours[29,39]
-                                  18                          50 
+                                  20                          50 
   1544 evitarSubTours[29,40]
                                    7                          50 
   1545 evitarSubTours[29,41]
-                                  16                          50 
-  1546 evitarSubTours[29,42]
-                                  -9                          50 
-  1547 evitarSubTours[29,43]
                                   19                          50 
-  1548 evitarSubTours[29,44]
+  1546 evitarSubTours[29,42]
                                   15                          50 
+  1547 evitarSubTours[29,43]
+                                  21                          50 
+  1548 evitarSubTours[29,44]
+                                  18                          50 
   1549 evitarSubTours[29,45]
-                                  12                          50 
-  1550 evitarSubTours[29,46]
                                   13                          50 
+  1550 evitarSubTours[29,46]
+                                  12                          50 
   1551 evitarSubTours[29,47]
-                                  11                          50 
-  1552 evitarSubTours[29,48]
                                   14                          50 
+  1552 evitarSubTours[29,48]
+                                  11                          50 
   1553 evitarSubTours[29,49]
                                    8                          50 
   1554 evitarSubTours[29,50]
@@ -3013,151 +3013,151 @@ Objective:  total = 25505.5 (MINimum)
   1555 evitarSubTours[29,51]
                                   10                          50 
   1556 evitarSubTours[30,1]
-                                 -20                          50 
+                                 -28                          50 
   1557 evitarSubTours[30,2]
-                                  10                          50 
-  1558 evitarSubTours[30,3]
-                                 -22                          50 
-  1559 evitarSubTours[30,4]
-                                  11                          50 
-  1560 evitarSubTours[30,5]
-                                   9                          50 
-  1561 evitarSubTours[30,6]
-                                 -21                          50 
-  1562 evitarSubTours[30,7]
-                                 -19                          50 
-  1563 evitarSubTours[30,8]
-                                 -18                          50 
-  1564 evitarSubTours[30,9]
-                                 -13                          50 
-  1565 evitarSubTours[30,10]
-                                 -10                          50 
-  1566 evitarSubTours[30,11]
-                                   4                          50 
-  1567 evitarSubTours[30,12]
-                                 -12                          50 
-  1568 evitarSubTours[30,13]
-                                 -11                          50 
-  1569 evitarSubTours[30,14]
-                                   3                          50 
-  1570 evitarSubTours[30,15]
-                                 -14                          50 
-  1571 evitarSubTours[30,16]
-                                 -17                          50 
-  1572 evitarSubTours[30,17]
-                                  28                          50 
-  1573 evitarSubTours[30,18]
-                                  -9                          50 
-  1574 evitarSubTours[30,19]
-                                 -15                          50 
-  1575 evitarSubTours[30,20]
-                                 -16                          50 
-  1576 evitarSubTours[30,21]
-                                   1                          50 
-  1577 evitarSubTours[30,22]
-                                  27                          50 
-  1578 evitarSubTours[30,23]
-                                   2                          50 
-  1579 evitarSubTours[30,24]
-                                  -8                          50 
-  1580 evitarSubTours[30,25]
                                   -7                          50 
-  1581 evitarSubTours[30,26]
+  1558 evitarSubTours[30,3]
+                                 -29                          50 
+  1559 evitarSubTours[30,4]
                                   -6                          50 
-  1582 evitarSubTours[30,27]
-                                   8                          50 
-  1583 evitarSubTours[30,28]
-                                   5                          50 
-  1584 evitarSubTours[30,29]
-                                   6                          50 
-  1585 evitarSubTours[30,31]
+  1560 evitarSubTours[30,5]
                                   -5                          50 
-  1586 evitarSubTours[30,32]
-                                  26                          50 
-  1587 evitarSubTours[30,33]
-                                  50                          50 
-  1588 evitarSubTours[30,34]
-                                   7                          50 
-  1589 evitarSubTours[30,35]
-                                  23                          50 
-  1590 evitarSubTours[30,36]
-                                  -2                          50 
-  1591 evitarSubTours[30,37]
-                                  -4                          50 
-  1592 evitarSubTours[30,38]
-                                  12                          50 
-  1593 evitarSubTours[30,39]
-                                  24                          50 
-  1594 evitarSubTours[30,40]
-                                  13                          50 
-  1595 evitarSubTours[30,41]
-                                  22                          50 
-  1596 evitarSubTours[30,42]
-                                  -3                          50 
-  1597 evitarSubTours[30,43]
-                                  25                          50 
-  1598 evitarSubTours[30,44]
+  1561 evitarSubTours[30,6]
+                                 -17                          50 
+  1562 evitarSubTours[30,7]
+                                 -26                          50 
+  1563 evitarSubTours[30,8]
+                                 -27                          50 
+  1564 evitarSubTours[30,9]
+                                 -20                          50 
+  1565 evitarSubTours[30,10]
+                                 -18                          50 
+  1566 evitarSubTours[30,11]
+                                  -8                          50 
+  1567 evitarSubTours[30,12]
+                                 -19                          50 
+  1568 evitarSubTours[30,13]
+                                 -21                          50 
+  1569 evitarSubTours[30,14]
+                                  -9                          50 
+  1570 evitarSubTours[30,15]
+                                 -22                          50 
+  1571 evitarSubTours[30,16]
+                                 -25                          50 
+  1572 evitarSubTours[30,17]
                                   21                          50 
-  1599 evitarSubTours[30,45]
-                                  18                          50 
-  1600 evitarSubTours[30,46]
-                                  19                          50 
-  1601 evitarSubTours[30,47]
-                                  17                          50 
-  1602 evitarSubTours[30,48]
+  1573 evitarSubTours[30,18]
+                                 -16                          50 
+  1574 evitarSubTours[30,19]
+                                 -23                          50 
+  1575 evitarSubTours[30,20]
+                                 -24                          50 
+  1576 evitarSubTours[30,21]
+                                 -10                          50 
+  1577 evitarSubTours[30,22]
                                   20                          50 
-  1603 evitarSubTours[30,49]
-                                  14                          50 
-  1604 evitarSubTours[30,50]
-                                  15                          50 
-  1605 evitarSubTours[30,51]
-                                  16                          50 
-  1606 evitarSubTours[31,1]
+  1578 evitarSubTours[30,23]
+                                 -11                          50 
+  1579 evitarSubTours[30,24]
                                  -15                          50 
-  1607 evitarSubTours[31,2]
+  1580 evitarSubTours[30,25]
+                                 -14                          50 
+  1581 evitarSubTours[30,26]
+                                 -13                          50 
+  1582 evitarSubTours[30,27]
+                                  50                          50 
+  1583 evitarSubTours[30,28]
+                                  -4                          50 
+  1584 evitarSubTours[30,29]
+                                  -3                          50 
+  1585 evitarSubTours[30,31]
+                                 -12                          50 
+  1586 evitarSubTours[30,32]
+                                  19                          50 
+  1587 evitarSubTours[30,33]
+                                   1                          50 
+  1588 evitarSubTours[30,34]
+                                  -2                          50 
+  1589 evitarSubTours[30,35]
+                                  14                          50 
+  1590 evitarSubTours[30,36]
+                                   2                          50 
+  1591 evitarSubTours[30,37]
+                                  13                          50 
+  1592 evitarSubTours[30,38]
+                                   3                          50 
+  1593 evitarSubTours[30,39]
+                                  17                          50 
+  1594 evitarSubTours[30,40]
+                                   4                          50 
+  1595 evitarSubTours[30,41]
+                                  16                          50 
+  1596 evitarSubTours[30,42]
+                                  12                          50 
+  1597 evitarSubTours[30,43]
+                                  18                          50 
+  1598 evitarSubTours[30,44]
                                   15                          50 
+  1599 evitarSubTours[30,45]
+                                  10                          50 
+  1600 evitarSubTours[30,46]
+                                   9                          50 
+  1601 evitarSubTours[30,47]
+                                  11                          50 
+  1602 evitarSubTours[30,48]
+                                   8                          50 
+  1603 evitarSubTours[30,49]
+                                   5                          50 
+  1604 evitarSubTours[30,50]
+                                   6                          50 
+  1605 evitarSubTours[30,51]
+                                   7                          50 
+  1606 evitarSubTours[31,1]
+                                 -16                          50 
+  1607 evitarSubTours[31,2]
+                                   5                          50 
   1608 evitarSubTours[31,3]
                                  -17                          50 
   1609 evitarSubTours[31,4]
-                                  16                          50 
+                                   6                          50 
   1610 evitarSubTours[31,5]
-                                  14                          50 
+                                   7                          50 
   1611 evitarSubTours[31,6]
-                                 -16                          50 
+                                  -5                          50 
   1612 evitarSubTours[31,7]
                                  -14                          50 
   1613 evitarSubTours[31,8]
-                                 -13                          50 
+                                 -15                          50 
   1614 evitarSubTours[31,9]
                                   -8                          50 
   1615 evitarSubTours[31,10]
-                                  -5                          50 
+                                  -6                          50 
   1616 evitarSubTours[31,11]
-                                   9                          50 
+                                   4                          50 
   1617 evitarSubTours[31,12]
                                   -7                          50 
   1618 evitarSubTours[31,13]
-                                  -6                          50 
-  1619 evitarSubTours[31,14]
-                                   8                          50 
-  1620 evitarSubTours[31,15]
                                   -9                          50 
+  1619 evitarSubTours[31,14]
+                                   3                          50 
+  1620 evitarSubTours[31,15]
+                                 -10                          50 
   1621 evitarSubTours[31,16]
-                                 -12                          50 
+                                 -13                          50 
   1622 evitarSubTours[31,17]
                                   33                          50 
   1623 evitarSubTours[31,18]
                                   -4                          50 
   1624 evitarSubTours[31,19]
-                                 -10                          50 
-  1625 evitarSubTours[31,20]
                                  -11                          50 
+  1625 evitarSubTours[31,20]
+                                 -12                          50 
   1626 evitarSubTours[31,21]
-                                   6                          50 
+                                   2                          50 
   1627 evitarSubTours[31,22]
                                   32                          50 
   1628 evitarSubTours[31,23]
-                                   7                          50 
+                                   1                          50 
   1629 evitarSubTours[31,24]
                                   -3                          50 
   1630 evitarSubTours[31,25]
@@ -3165,99 +3165,99 @@ Objective:  total = 25505.5 (MINimum)
   1631 evitarSubTours[31,26]
                                   50                          50 
   1632 evitarSubTours[31,27]
-                                  13                          50 
-  1633 evitarSubTours[31,28]
-                                  10                          50 
-  1634 evitarSubTours[31,29]
                                   11                          50 
+  1633 evitarSubTours[31,28]
+                                   8                          50 
+  1634 evitarSubTours[31,29]
+                                   9                          50 
   1635 evitarSubTours[31,30]
-                                   5                          50 
+                                  12                          50 
   1636 evitarSubTours[31,32]
                                   31                          50 
   1637 evitarSubTours[31,33]
-                                   4                          50 
+                                  13                          50 
   1638 evitarSubTours[31,34]
-                                  12                          50 
+                                  10                          50 
   1639 evitarSubTours[31,35]
-                                  28                          50 
+                                  26                          50 
   1640 evitarSubTours[31,36]
-                                   3                          50 
+                                  14                          50 
   1641 evitarSubTours[31,37]
-                                   1                          50 
+                                  25                          50 
   1642 evitarSubTours[31,38]
-                                  17                          50 
+                                  15                          50 
   1643 evitarSubTours[31,39]
                                   29                          50 
   1644 evitarSubTours[31,40]
-                                  18                          50 
+                                  16                          50 
   1645 evitarSubTours[31,41]
-                                  27                          50 
+                                  28                          50 
   1646 evitarSubTours[31,42]
-                                   2                          50 
+                                  24                          50 
   1647 evitarSubTours[31,43]
                                   30                          50 
   1648 evitarSubTours[31,44]
-                                  26                          50 
+                                  27                          50 
   1649 evitarSubTours[31,45]
-                                  23                          50 
-  1650 evitarSubTours[31,46]
-                                  24                          50 
-  1651 evitarSubTours[31,47]
                                   22                          50 
-  1652 evitarSubTours[31,48]
-                                  25                          50 
-  1653 evitarSubTours[31,49]
-                                  19                          50 
-  1654 evitarSubTours[31,50]
-                                  20                          50 
-  1655 evitarSubTours[31,51]
+  1650 evitarSubTours[31,46]
                                   21                          50 
+  1651 evitarSubTours[31,47]
+                                  23                          50 
+  1652 evitarSubTours[31,48]
+                                  20                          50 
+  1653 evitarSubTours[31,49]
+                                  17                          50 
+  1654 evitarSubTours[31,50]
+                                  18                          50 
+  1655 evitarSubTours[31,51]
+                                  19                          50 
   1656 evitarSubTours[32,1]
-                                 -46                          50 
+                                 -47                          50 
   1657 evitarSubTours[32,2]
-                                 -16                          50 
+                                 -26                          50 
   1658 evitarSubTours[32,3]
                                  -48                          50 
   1659 evitarSubTours[32,4]
-                                 -15                          50 
+                                 -25                          50 
   1660 evitarSubTours[32,5]
-                                 -17                          50 
+                                 -24                          50 
   1661 evitarSubTours[32,6]
-                                 -47                          50 
+                                 -36                          50 
   1662 evitarSubTours[32,7]
                                  -45                          50 
   1663 evitarSubTours[32,8]
-                                 -44                          50 
+                                 -46                          50 
   1664 evitarSubTours[32,9]
                                  -39                          50 
   1665 evitarSubTours[32,10]
-                                 -36                          50 
+                                 -37                          50 
   1666 evitarSubTours[32,11]
-                                 -22                          50 
+                                 -27                          50 
   1667 evitarSubTours[32,12]
                                  -38                          50 
   1668 evitarSubTours[32,13]
-                                 -37                          50 
-  1669 evitarSubTours[32,14]
-                                 -23                          50 
-  1670 evitarSubTours[32,15]
                                  -40                          50 
+  1669 evitarSubTours[32,14]
+                                 -28                          50 
+  1670 evitarSubTours[32,15]
+                                 -41                          50 
   1671 evitarSubTours[32,16]
-                                 -43                          50 
+                                 -44                          50 
   1672 evitarSubTours[32,17]
                                    2                          50 
   1673 evitarSubTours[32,18]
                                  -35                          50 
   1674 evitarSubTours[32,19]
-                                 -41                          50 
-  1675 evitarSubTours[32,20]
                                  -42                          50 
+  1675 evitarSubTours[32,20]
+                                 -43                          50 
   1676 evitarSubTours[32,21]
-                                 -25                          50 
+                                 -29                          50 
   1677 evitarSubTours[32,22]
                                    1                          50 
   1678 evitarSubTours[32,23]
-                                 -24                          50 
+                                 -30                          50 
   1679 evitarSubTours[32,24]
                                  -34                          50 
   1680 evitarSubTours[32,25]
@@ -3265,205 +3265,205 @@ Objective:  total = 25505.5 (MINimum)
   1681 evitarSubTours[32,26]
                                  -32                          50 
   1682 evitarSubTours[32,27]
-                                 -18                          50 
-  1683 evitarSubTours[32,28]
-                                 -21                          50 
-  1684 evitarSubTours[32,29]
                                  -20                          50 
+  1683 evitarSubTours[32,28]
+                                 -23                          50 
+  1684 evitarSubTours[32,29]
+                                 -22                          50 
   1685 evitarSubTours[32,30]
-                                 -26                          50 
+                                 -19                          50 
   1686 evitarSubTours[32,31]
                                  -31                          50 
   1687 evitarSubTours[32,33]
-                                 -27                          50 
+                                 -18                          50 
   1688 evitarSubTours[32,34]
-                                 -19                          50 
+                                 -21                          50 
   1689 evitarSubTours[32,35]
-                                  -3                          50 
+                                  -5                          50 
   1690 evitarSubTours[32,36]
-                                 -28                          50 
+                                 -17                          50 
   1691 evitarSubTours[32,37]
-                                 -30                          50 
+                                  -6                          50 
   1692 evitarSubTours[32,38]
-                                 -14                          50 
+                                 -16                          50 
   1693 evitarSubTours[32,39]
                                   -2                          50 
   1694 evitarSubTours[32,40]
-                                 -13                          50 
+                                 -15                          50 
   1695 evitarSubTours[32,41]
-                                  -4                          50 
+                                  -3                          50 
   1696 evitarSubTours[32,42]
-                                 -29                          50 
+                                  -7                          50 
   1697 evitarSubTours[32,43]
                                   50                          50 
   1698 evitarSubTours[32,44]
-                                  -5                          50 
-  1699 evitarSubTours[32,45]
-                                  -8                          50 
-  1700 evitarSubTours[32,46]
-                                  -7                          50 
-  1701 evitarSubTours[32,47]
-                                  -9                          50 
-  1702 evitarSubTours[32,48]
-                                  -6                          50 
-  1703 evitarSubTours[32,49]
-                                 -12                          50 
-  1704 evitarSubTours[32,50]
-                                 -11                          50 
-  1705 evitarSubTours[32,51]
-                                 -10                          50 
-  1706 evitarSubTours[33,1]
-                                 -19                          50 
-  1707 evitarSubTours[33,2]
-                                  11                          50 
-  1708 evitarSubTours[33,3]
-                                 -21                          50 
-  1709 evitarSubTours[33,4]
-                                  12                          50 
-  1710 evitarSubTours[33,5]
-                                  10                          50 
-  1711 evitarSubTours[33,6]
-                                 -20                          50 
-  1712 evitarSubTours[33,7]
-                                 -18                          50 
-  1713 evitarSubTours[33,8]
-                                 -17                          50 
-  1714 evitarSubTours[33,9]
-                                 -12                          50 
-  1715 evitarSubTours[33,10]
-                                  -9                          50 
-  1716 evitarSubTours[33,11]
-                                   5                          50 
-  1717 evitarSubTours[33,12]
-                                 -11                          50 
-  1718 evitarSubTours[33,13]
-                                 -10                          50 
-  1719 evitarSubTours[33,14]
-                                   4                          50 
-  1720 evitarSubTours[33,15]
-                                 -13                          50 
-  1721 evitarSubTours[33,16]
-                                 -16                          50 
-  1722 evitarSubTours[33,17]
-                                  29                          50 
-  1723 evitarSubTours[33,18]
-                                  -8                          50 
-  1724 evitarSubTours[33,19]
-                                 -14                          50 
-  1725 evitarSubTours[33,20]
-                                 -15                          50 
-  1726 evitarSubTours[33,21]
-                                   2                          50 
-  1727 evitarSubTours[33,22]
-                                  28                          50 
-  1728 evitarSubTours[33,23]
-                                   3                          50 
-  1729 evitarSubTours[33,24]
-                                  -7                          50 
-  1730 evitarSubTours[33,25]
-                                  -6                          50 
-  1731 evitarSubTours[33,26]
-                                  -5                          50 
-  1732 evitarSubTours[33,27]
-                                   9                          50 
-  1733 evitarSubTours[33,28]
-                                   6                          50 
-  1734 evitarSubTours[33,29]
-                                   7                          50 
-  1735 evitarSubTours[33,30]
-                                   1                          50 
-  1736 evitarSubTours[33,31]
                                   -4                          50 
-  1737 evitarSubTours[33,32]
-                                  27                          50 
-  1738 evitarSubTours[33,34]
-                                   8                          50 
-  1739 evitarSubTours[33,35]
-                                  24                          50 
-  1740 evitarSubTours[33,36]
-                                  50                          50 
-  1741 evitarSubTours[33,37]
-                                  -3                          50 
-  1742 evitarSubTours[33,38]
-                                  13                          50 
-  1743 evitarSubTours[33,39]
-                                  25                          50 
-  1744 evitarSubTours[33,40]
-                                  14                          50 
-  1745 evitarSubTours[33,41]
-                                  23                          50 
-  1746 evitarSubTours[33,42]
-                                  -2                          50 
-  1747 evitarSubTours[33,43]
-                                  26                          50 
-  1748 evitarSubTours[33,44]
-                                  22                          50 
-  1749 evitarSubTours[33,45]
-                                  19                          50 
-  1750 evitarSubTours[33,46]
-                                  20                          50 
-  1751 evitarSubTours[33,47]
-                                  18                          50 
-  1752 evitarSubTours[33,48]
-                                  21                          50 
-  1753 evitarSubTours[33,49]
-                                  15                          50 
-  1754 evitarSubTours[33,50]
-                                  16                          50 
-  1755 evitarSubTours[33,51]
-                                  17                          50 
-  1756 evitarSubTours[34,1]
-                                 -27                          50 
-  1757 evitarSubTours[34,2]
-                                   3                          50 
-  1758 evitarSubTours[34,3]
+  1699 evitarSubTours[32,45]
+                                  -9                          50 
+  1700 evitarSubTours[32,46]
+                                 -10                          50 
+  1701 evitarSubTours[32,47]
+                                  -8                          50 
+  1702 evitarSubTours[32,48]
+                                 -11                          50 
+  1703 evitarSubTours[32,49]
+                                 -14                          50 
+  1704 evitarSubTours[32,50]
+                                 -13                          50 
+  1705 evitarSubTours[32,51]
+                                 -12                          50 
+  1706 evitarSubTours[33,1]
                                  -29                          50 
-  1759 evitarSubTours[34,4]
-                                   4                          50 
-  1760 evitarSubTours[34,5]
-                                   2                          50 
-  1761 evitarSubTours[34,6]
+  1707 evitarSubTours[33,2]
+                                  -8                          50 
+  1708 evitarSubTours[33,3]
+                                 -30                          50 
+  1709 evitarSubTours[33,4]
+                                  -7                          50 
+  1710 evitarSubTours[33,5]
+                                  -6                          50 
+  1711 evitarSubTours[33,6]
+                                 -18                          50 
+  1712 evitarSubTours[33,7]
+                                 -27                          50 
+  1713 evitarSubTours[33,8]
                                  -28                          50 
-  1762 evitarSubTours[34,7]
+  1714 evitarSubTours[33,9]
+                                 -21                          50 
+  1715 evitarSubTours[33,10]
+                                 -19                          50 
+  1716 evitarSubTours[33,11]
+                                  -9                          50 
+  1717 evitarSubTours[33,12]
+                                 -20                          50 
+  1718 evitarSubTours[33,13]
+                                 -22                          50 
+  1719 evitarSubTours[33,14]
+                                 -10                          50 
+  1720 evitarSubTours[33,15]
+                                 -23                          50 
+  1721 evitarSubTours[33,16]
                                  -26                          50 
+  1722 evitarSubTours[33,17]
+                                  20                          50 
+  1723 evitarSubTours[33,18]
+                                 -17                          50 
+  1724 evitarSubTours[33,19]
+                                 -24                          50 
+  1725 evitarSubTours[33,20]
+                                 -25                          50 
+  1726 evitarSubTours[33,21]
+                                 -11                          50 
+  1727 evitarSubTours[33,22]
+                                  19                          50 
+  1728 evitarSubTours[33,23]
+                                 -12                          50 
+  1729 evitarSubTours[33,24]
+                                 -16                          50 
+  1730 evitarSubTours[33,25]
+                                 -15                          50 
+  1731 evitarSubTours[33,26]
+                                 -14                          50 
+  1732 evitarSubTours[33,27]
+                                  -2                          50 
+  1733 evitarSubTours[33,28]
+                                  -5                          50 
+  1734 evitarSubTours[33,29]
+                                  -4                          50 
+  1735 evitarSubTours[33,30]
+                                  50                          50 
+  1736 evitarSubTours[33,31]
+                                 -13                          50 
+  1737 evitarSubTours[33,32]
+                                  18                          50 
+  1738 evitarSubTours[33,34]
+                                  -3                          50 
+  1739 evitarSubTours[33,35]
+                                  13                          50 
+  1740 evitarSubTours[33,36]
+                                   1                          50 
+  1741 evitarSubTours[33,37]
+                                  12                          50 
+  1742 evitarSubTours[33,38]
+                                   2                          50 
+  1743 evitarSubTours[33,39]
+                                  16                          50 
+  1744 evitarSubTours[33,40]
+                                   3                          50 
+  1745 evitarSubTours[33,41]
+                                  15                          50 
+  1746 evitarSubTours[33,42]
+                                  11                          50 
+  1747 evitarSubTours[33,43]
+                                  17                          50 
+  1748 evitarSubTours[33,44]
+                                  14                          50 
+  1749 evitarSubTours[33,45]
+                                   9                          50 
+  1750 evitarSubTours[33,46]
+                                   8                          50 
+  1751 evitarSubTours[33,47]
+                                  10                          50 
+  1752 evitarSubTours[33,48]
+                                   7                          50 
+  1753 evitarSubTours[33,49]
+                                   4                          50 
+  1754 evitarSubTours[33,50]
+                                   5                          50 
+  1755 evitarSubTours[33,51]
+                                   6                          50 
+  1756 evitarSubTours[34,1]
+                                 -26                          50 
+  1757 evitarSubTours[34,2]
+                                  -5                          50 
+  1758 evitarSubTours[34,3]
+                                 -27                          50 
+  1759 evitarSubTours[34,4]
+                                  -4                          50 
+  1760 evitarSubTours[34,5]
+                                  -3                          50 
+  1761 evitarSubTours[34,6]
+                                 -15                          50 
+  1762 evitarSubTours[34,7]
+                                 -24                          50 
   1763 evitarSubTours[34,8]
                                  -25                          50 
   1764 evitarSubTours[34,9]
-                                 -20                          50 
-  1765 evitarSubTours[34,10]
-                                 -17                          50 
-  1766 evitarSubTours[34,11]
-                                  -3                          50 
-  1767 evitarSubTours[34,12]
-                                 -19                          50 
-  1768 evitarSubTours[34,13]
                                  -18                          50 
-  1769 evitarSubTours[34,14]
-                                  -4                          50 
-  1770 evitarSubTours[34,15]
-                                 -21                          50 
-  1771 evitarSubTours[34,16]
-                                 -24                          50 
-  1772 evitarSubTours[34,17]
-                                  21                          50 
-  1773 evitarSubTours[34,18]
+  1765 evitarSubTours[34,10]
                                  -16                          50 
-  1774 evitarSubTours[34,19]
-                                 -22                          50 
-  1775 evitarSubTours[34,20]
-                                 -23                          50 
-  1776 evitarSubTours[34,21]
+  1766 evitarSubTours[34,11]
                                   -6                          50 
-  1777 evitarSubTours[34,22]
-                                  20                          50 
-  1778 evitarSubTours[34,23]
-                                  -5                          50 
-  1779 evitarSubTours[34,24]
-                                 -15                          50 
-  1780 evitarSubTours[34,25]
+  1767 evitarSubTours[34,12]
+                                 -17                          50 
+  1768 evitarSubTours[34,13]
+                                 -19                          50 
+  1769 evitarSubTours[34,14]
+                                  -7                          50 
+  1770 evitarSubTours[34,15]
+                                 -20                          50 
+  1771 evitarSubTours[34,16]
+                                 -23                          50 
+  1772 evitarSubTours[34,17]
+                                  23                          50 
+  1773 evitarSubTours[34,18]
                                  -14                          50 
-  1781 evitarSubTours[34,26]
+  1774 evitarSubTours[34,19]
+                                 -21                          50 
+  1775 evitarSubTours[34,20]
+                                 -22                          50 
+  1776 evitarSubTours[34,21]
+                                  -8                          50 
+  1777 evitarSubTours[34,22]
+                                  22                          50 
+  1778 evitarSubTours[34,23]
+                                  -9                          50 
+  1779 evitarSubTours[34,24]
                                  -13                          50 
+  1780 evitarSubTours[34,25]
+                                 -12                          50 
+  1781 evitarSubTours[34,26]
+                                 -11                          50 
   1782 evitarSubTours[34,27]
                                    1                          50 
   1783 evitarSubTours[34,28]
@@ -3471,41 +3471,41 @@ Objective:  total = 25505.5 (MINimum)
   1784 evitarSubTours[34,29]
                                   50                          50 
   1785 evitarSubTours[34,30]
-                                  -7                          50 
+                                   2                          50 
   1786 evitarSubTours[34,31]
-                                 -12                          50 
+                                 -10                          50 
   1787 evitarSubTours[34,32]
-                                  19                          50 
+                                  21                          50 
   1788 evitarSubTours[34,33]
-                                  -8                          50 
+                                   3                          50 
   1789 evitarSubTours[34,35]
                                   16                          50 
   1790 evitarSubTours[34,36]
-                                  -9                          50 
+                                   4                          50 
   1791 evitarSubTours[34,37]
-                                 -11                          50 
+                                  15                          50 
   1792 evitarSubTours[34,38]
                                    5                          50 
   1793 evitarSubTours[34,39]
-                                  17                          50 
+                                  19                          50 
   1794 evitarSubTours[34,40]
                                    6                          50 
   1795 evitarSubTours[34,41]
-                                  15                          50 
-  1796 evitarSubTours[34,42]
-                                 -10                          50 
-  1797 evitarSubTours[34,43]
                                   18                          50 
-  1798 evitarSubTours[34,44]
+  1796 evitarSubTours[34,42]
                                   14                          50 
+  1797 evitarSubTours[34,43]
+                                  20                          50 
+  1798 evitarSubTours[34,44]
+                                  17                          50 
   1799 evitarSubTours[34,45]
-                                  11                          50 
-  1800 evitarSubTours[34,46]
                                   12                          50 
+  1800 evitarSubTours[34,46]
+                                  11                          50 
   1801 evitarSubTours[34,47]
-                                  10                          50 
-  1802 evitarSubTours[34,48]
                                   13                          50 
+  1802 evitarSubTours[34,48]
+                                  10                          50 
   1803 evitarSubTours[34,49]
                                    7                          50 
   1804 evitarSubTours[34,50]
@@ -3513,57 +3513,57 @@ Objective:  total = 25505.5 (MINimum)
   1805 evitarSubTours[34,51]
                                    9                          50 
   1806 evitarSubTours[35,1]
-                                 -43                          50 
-  1807 evitarSubTours[35,2]
-                                 -13                          50 
-  1808 evitarSubTours[35,3]
-                                 -45                          50 
-  1809 evitarSubTours[35,4]
-                                 -12                          50 
-  1810 evitarSubTours[35,5]
-                                 -14                          50 
-  1811 evitarSubTours[35,6]
-                                 -44                          50 
-  1812 evitarSubTours[35,7]
                                  -42                          50 
+  1807 evitarSubTours[35,2]
+                                 -21                          50 
+  1808 evitarSubTours[35,3]
+                                 -43                          50 
+  1809 evitarSubTours[35,4]
+                                 -20                          50 
+  1810 evitarSubTours[35,5]
+                                 -19                          50 
+  1811 evitarSubTours[35,6]
+                                 -31                          50 
+  1812 evitarSubTours[35,7]
+                                 -40                          50 
   1813 evitarSubTours[35,8]
                                  -41                          50 
   1814 evitarSubTours[35,9]
-                                 -36                          50 
-  1815 evitarSubTours[35,10]
-                                 -33                          50 
-  1816 evitarSubTours[35,11]
-                                 -19                          50 
-  1817 evitarSubTours[35,12]
-                                 -35                          50 
-  1818 evitarSubTours[35,13]
                                  -34                          50 
-  1819 evitarSubTours[35,14]
-                                 -20                          50 
-  1820 evitarSubTours[35,15]
-                                 -37                          50 
-  1821 evitarSubTours[35,16]
-                                 -40                          50 
-  1822 evitarSubTours[35,17]
-                                   5                          50 
-  1823 evitarSubTours[35,18]
+  1815 evitarSubTours[35,10]
                                  -32                          50 
-  1824 evitarSubTours[35,19]
-                                 -38                          50 
-  1825 evitarSubTours[35,20]
-                                 -39                          50 
-  1826 evitarSubTours[35,21]
+  1816 evitarSubTours[35,11]
                                  -22                          50 
-  1827 evitarSubTours[35,22]
-                                   4                          50 
-  1828 evitarSubTours[35,23]
-                                 -21                          50 
-  1829 evitarSubTours[35,24]
-                                 -31                          50 
-  1830 evitarSubTours[35,25]
+  1817 evitarSubTours[35,12]
+                                 -33                          50 
+  1818 evitarSubTours[35,13]
+                                 -35                          50 
+  1819 evitarSubTours[35,14]
+                                 -23                          50 
+  1820 evitarSubTours[35,15]
+                                 -36                          50 
+  1821 evitarSubTours[35,16]
+                                 -39                          50 
+  1822 evitarSubTours[35,17]
+                                   7                          50 
+  1823 evitarSubTours[35,18]
                                  -30                          50 
-  1831 evitarSubTours[35,26]
+  1824 evitarSubTours[35,19]
+                                 -37                          50 
+  1825 evitarSubTours[35,20]
+                                 -38                          50 
+  1826 evitarSubTours[35,21]
+                                 -24                          50 
+  1827 evitarSubTours[35,22]
+                                   6                          50 
+  1828 evitarSubTours[35,23]
+                                 -25                          50 
+  1829 evitarSubTours[35,24]
                                  -29                          50 
+  1830 evitarSubTours[35,25]
+                                 -28                          50 
+  1831 evitarSubTours[35,26]
+                                 -27                          50 
   1832 evitarSubTours[35,27]
                                  -15                          50 
   1833 evitarSubTours[35,28]
@@ -3571,41 +3571,41 @@ Objective:  total = 25505.5 (MINimum)
   1834 evitarSubTours[35,29]
                                  -17                          50 
   1835 evitarSubTours[35,30]
-                                 -23                          50 
+                                 -14                          50 
   1836 evitarSubTours[35,31]
-                                 -28                          50 
+                                 -26                          50 
   1837 evitarSubTours[35,32]
-                                   3                          50 
+                                   5                          50 
   1838 evitarSubTours[35,33]
-                                 -24                          50 
+                                 -13                          50 
   1839 evitarSubTours[35,34]
                                  -16                          50 
   1840 evitarSubTours[35,36]
-                                 -25                          50 
+                                 -12                          50 
   1841 evitarSubTours[35,37]
-                                 -27                          50 
+                                  50                          50 
   1842 evitarSubTours[35,38]
                                  -11                          50 
   1843 evitarSubTours[35,39]
-                                   1                          50 
+                                   3                          50 
   1844 evitarSubTours[35,40]
                                  -10                          50 
   1845 evitarSubTours[35,41]
-                                  50                          50 
-  1846 evitarSubTours[35,42]
-                                 -26                          50 
-  1847 evitarSubTours[35,43]
                                    2                          50 
-  1848 evitarSubTours[35,44]
+  1846 evitarSubTours[35,42]
                                   -2                          50 
+  1847 evitarSubTours[35,43]
+                                   4                          50 
+  1848 evitarSubTours[35,44]
+                                   1                          50 
   1849 evitarSubTours[35,45]
-                                  -5                          50 
-  1850 evitarSubTours[35,46]
                                   -4                          50 
+  1850 evitarSubTours[35,46]
+                                  -5                          50 
   1851 evitarSubTours[35,47]
-                                  -6                          50 
-  1852 evitarSubTours[35,48]
                                   -3                          50 
+  1852 evitarSubTours[35,48]
+                                  -6                          50 
   1853 evitarSubTours[35,49]
                                   -9                          50 
   1854 evitarSubTours[35,50]
@@ -3613,257 +3613,257 @@ Objective:  total = 25505.5 (MINimum)
   1855 evitarSubTours[35,51]
                                   -7                          50 
   1856 evitarSubTours[36,1]
-                                 -18                          50 
+                                 -30                          50 
   1857 evitarSubTours[36,2]
-                                  12                          50 
+                                  -9                          50 
   1858 evitarSubTours[36,3]
-                                 -20                          50 
+                                 -31                          50 
   1859 evitarSubTours[36,4]
-                                  13                          50 
+                                  -8                          50 
   1860 evitarSubTours[36,5]
-                                  11                          50 
+                                  -7                          50 
   1861 evitarSubTours[36,6]
                                  -19                          50 
   1862 evitarSubTours[36,7]
-                                 -17                          50 
+                                 -28                          50 
   1863 evitarSubTours[36,8]
-                                 -16                          50 
+                                 -29                          50 
   1864 evitarSubTours[36,9]
-                                 -11                          50 
+                                 -22                          50 
   1865 evitarSubTours[36,10]
-                                  -8                          50 
+                                 -20                          50 
   1866 evitarSubTours[36,11]
-                                   6                          50 
+                                 -10                          50 
   1867 evitarSubTours[36,12]
-                                 -10                          50 
+                                 -21                          50 
   1868 evitarSubTours[36,13]
-                                  -9                          50 
+                                 -23                          50 
   1869 evitarSubTours[36,14]
-                                   5                          50 
-  1870 evitarSubTours[36,15]
-                                 -12                          50 
-  1871 evitarSubTours[36,16]
-                                 -15                          50 
-  1872 evitarSubTours[36,17]
-                                  30                          50 
-  1873 evitarSubTours[36,18]
-                                  -7                          50 
-  1874 evitarSubTours[36,19]
-                                 -13                          50 
-  1875 evitarSubTours[36,20]
-                                 -14                          50 
-  1876 evitarSubTours[36,21]
-                                   3                          50 
-  1877 evitarSubTours[36,22]
-                                  29                          50 
-  1878 evitarSubTours[36,23]
-                                   4                          50 
-  1879 evitarSubTours[36,24]
-                                  -6                          50 
-  1880 evitarSubTours[36,25]
-                                  -5                          50 
-  1881 evitarSubTours[36,26]
-                                  -4                          50 
-  1882 evitarSubTours[36,27]
-                                  10                          50 
-  1883 evitarSubTours[36,28]
-                                   7                          50 
-  1884 evitarSubTours[36,29]
-                                   8                          50 
-  1885 evitarSubTours[36,30]
-                                   2                          50 
-  1886 evitarSubTours[36,31]
-                                  -3                          50 
-  1887 evitarSubTours[36,32]
-                                  28                          50 
-  1888 evitarSubTours[36,33]
-                                   1                          50 
-  1889 evitarSubTours[36,34]
-                                   9                          50 
-  1890 evitarSubTours[36,35]
-                                  25                          50 
-  1891 evitarSubTours[36,37]
-                                  -2                          50 
-  1892 evitarSubTours[36,38]
-                                  14                          50 
-  1893 evitarSubTours[36,39]
-                                  26                          50 
-  1894 evitarSubTours[36,40]
-                                  15                          50 
-  1895 evitarSubTours[36,41]
-                                  24                          50 
-  1896 evitarSubTours[36,42]
-                                  50                          50 
-  1897 evitarSubTours[36,43]
-                                  27                          50 
-  1898 evitarSubTours[36,44]
-                                  23                          50 
-  1899 evitarSubTours[36,45]
-                                  20                          50 
-  1900 evitarSubTours[36,46]
-                                  21                          50 
-  1901 evitarSubTours[36,47]
-                                  19                          50 
-  1902 evitarSubTours[36,48]
-                                  22                          50 
-  1903 evitarSubTours[36,49]
-                                  16                          50 
-  1904 evitarSubTours[36,50]
-                                  17                          50 
-  1905 evitarSubTours[36,51]
-                                  18                          50 
-  1906 evitarSubTours[37,1]
-                                 -16                          50 
-  1907 evitarSubTours[37,2]
-                                  14                          50 
-  1908 evitarSubTours[37,3]
-                                 -18                          50 
-  1909 evitarSubTours[37,4]
-                                  15                          50 
-  1910 evitarSubTours[37,5]
-                                  13                          50 
-  1911 evitarSubTours[37,6]
-                                 -17                          50 
-  1912 evitarSubTours[37,7]
-                                 -15                          50 
-  1913 evitarSubTours[37,8]
-                                 -14                          50 
-  1914 evitarSubTours[37,9]
-                                  -9                          50 
-  1915 evitarSubTours[37,10]
-                                  -6                          50 
-  1916 evitarSubTours[37,11]
-                                   8                          50 
-  1917 evitarSubTours[37,12]
-                                  -8                          50 
-  1918 evitarSubTours[37,13]
-                                  -7                          50 
-  1919 evitarSubTours[37,14]
-                                   7                          50 
-  1920 evitarSubTours[37,15]
-                                 -10                          50 
-  1921 evitarSubTours[37,16]
-                                 -13                          50 
-  1922 evitarSubTours[37,17]
-                                  32                          50 
-  1923 evitarSubTours[37,18]
-                                  -5                          50 
-  1924 evitarSubTours[37,19]
                                  -11                          50 
-  1925 evitarSubTours[37,20]
-                                 -12                          50 
-  1926 evitarSubTours[37,21]
-                                   5                          50 
-  1927 evitarSubTours[37,22]
-                                  31                          50 
-  1928 evitarSubTours[37,23]
-                                   6                          50 
-  1929 evitarSubTours[37,24]
-                                  -4                          50 
-  1930 evitarSubTours[37,25]
-                                  -3                          50 
-  1931 evitarSubTours[37,26]
-                                  -2                          50 
-  1932 evitarSubTours[37,27]
-                                  12                          50 
-  1933 evitarSubTours[37,28]
-                                   9                          50 
-  1934 evitarSubTours[37,29]
-                                  10                          50 
-  1935 evitarSubTours[37,30]
-                                   4                          50 
-  1936 evitarSubTours[37,31]
-                                  50                          50 
-  1937 evitarSubTours[37,32]
-                                  30                          50 
-  1938 evitarSubTours[37,33]
-                                   3                          50 
-  1939 evitarSubTours[37,34]
-                                  11                          50 
-  1940 evitarSubTours[37,35]
-                                  27                          50 
-  1941 evitarSubTours[37,36]
-                                   2                          50 
-  1942 evitarSubTours[37,38]
-                                  16                          50 
-  1943 evitarSubTours[37,39]
-                                  28                          50 
-  1944 evitarSubTours[37,40]
-                                  17                          50 
-  1945 evitarSubTours[37,41]
-                                  26                          50 
-  1946 evitarSubTours[37,42]
-                                   1                          50 
-  1947 evitarSubTours[37,43]
-                                  29                          50 
-  1948 evitarSubTours[37,44]
-                                  25                          50 
-  1949 evitarSubTours[37,45]
-                                  22                          50 
-  1950 evitarSubTours[37,46]
-                                  23                          50 
-  1951 evitarSubTours[37,47]
-                                  21                          50 
-  1952 evitarSubTours[37,48]
-                                  24                          50 
-  1953 evitarSubTours[37,49]
-                                  18                          50 
-  1954 evitarSubTours[37,50]
+  1870 evitarSubTours[36,15]
+                                 -24                          50 
+  1871 evitarSubTours[36,16]
+                                 -27                          50 
+  1872 evitarSubTours[36,17]
                                   19                          50 
-  1955 evitarSubTours[37,51]
-                                  20                          50 
-  1956 evitarSubTours[38,1]
-                                 -32                          50 
-  1957 evitarSubTours[38,2]
-                                  -2                          50 
-  1958 evitarSubTours[38,3]
-                                 -34                          50 
-  1959 evitarSubTours[38,4]
-                                  50                          50 
-  1960 evitarSubTours[38,5]
+  1873 evitarSubTours[36,18]
+                                 -18                          50 
+  1874 evitarSubTours[36,19]
+                                 -25                          50 
+  1875 evitarSubTours[36,20]
+                                 -26                          50 
+  1876 evitarSubTours[36,21]
+                                 -12                          50 
+  1877 evitarSubTours[36,22]
+                                  18                          50 
+  1878 evitarSubTours[36,23]
+                                 -13                          50 
+  1879 evitarSubTours[36,24]
+                                 -17                          50 
+  1880 evitarSubTours[36,25]
+                                 -16                          50 
+  1881 evitarSubTours[36,26]
+                                 -15                          50 
+  1882 evitarSubTours[36,27]
                                   -3                          50 
-  1961 evitarSubTours[38,6]
+  1883 evitarSubTours[36,28]
+                                  -6                          50 
+  1884 evitarSubTours[36,29]
+                                  -5                          50 
+  1885 evitarSubTours[36,30]
+                                  -2                          50 
+  1886 evitarSubTours[36,31]
+                                 -14                          50 
+  1887 evitarSubTours[36,32]
+                                  17                          50 
+  1888 evitarSubTours[36,33]
+                                  50                          50 
+  1889 evitarSubTours[36,34]
+                                  -4                          50 
+  1890 evitarSubTours[36,35]
+                                  12                          50 
+  1891 evitarSubTours[36,37]
+                                  11                          50 
+  1892 evitarSubTours[36,38]
+                                   1                          50 
+  1893 evitarSubTours[36,39]
+                                  15                          50 
+  1894 evitarSubTours[36,40]
+                                   2                          50 
+  1895 evitarSubTours[36,41]
+                                  14                          50 
+  1896 evitarSubTours[36,42]
+                                  10                          50 
+  1897 evitarSubTours[36,43]
+                                  16                          50 
+  1898 evitarSubTours[36,44]
+                                  13                          50 
+  1899 evitarSubTours[36,45]
+                                   8                          50 
+  1900 evitarSubTours[36,46]
+                                   7                          50 
+  1901 evitarSubTours[36,47]
+                                   9                          50 
+  1902 evitarSubTours[36,48]
+                                   6                          50 
+  1903 evitarSubTours[36,49]
+                                   3                          50 
+  1904 evitarSubTours[36,50]
+                                   4                          50 
+  1905 evitarSubTours[36,51]
+                                   5                          50 
+  1906 evitarSubTours[37,1]
+                                 -41                          50 
+  1907 evitarSubTours[37,2]
+                                 -20                          50 
+  1908 evitarSubTours[37,3]
+                                 -42                          50 
+  1909 evitarSubTours[37,4]
+                                 -19                          50 
+  1910 evitarSubTours[37,5]
+                                 -18                          50 
+  1911 evitarSubTours[37,6]
+                                 -30                          50 
+  1912 evitarSubTours[37,7]
+                                 -39                          50 
+  1913 evitarSubTours[37,8]
+                                 -40                          50 
+  1914 evitarSubTours[37,9]
                                  -33                          50 
-  1962 evitarSubTours[38,7]
+  1915 evitarSubTours[37,10]
                                  -31                          50 
+  1916 evitarSubTours[37,11]
+                                 -21                          50 
+  1917 evitarSubTours[37,12]
+                                 -32                          50 
+  1918 evitarSubTours[37,13]
+                                 -34                          50 
+  1919 evitarSubTours[37,14]
+                                 -22                          50 
+  1920 evitarSubTours[37,15]
+                                 -35                          50 
+  1921 evitarSubTours[37,16]
+                                 -38                          50 
+  1922 evitarSubTours[37,17]
+                                   8                          50 
+  1923 evitarSubTours[37,18]
+                                 -29                          50 
+  1924 evitarSubTours[37,19]
+                                 -36                          50 
+  1925 evitarSubTours[37,20]
+                                 -37                          50 
+  1926 evitarSubTours[37,21]
+                                 -23                          50 
+  1927 evitarSubTours[37,22]
+                                   7                          50 
+  1928 evitarSubTours[37,23]
+                                 -24                          50 
+  1929 evitarSubTours[37,24]
+                                 -28                          50 
+  1930 evitarSubTours[37,25]
+                                 -27                          50 
+  1931 evitarSubTours[37,26]
+                                 -26                          50 
+  1932 evitarSubTours[37,27]
+                                 -14                          50 
+  1933 evitarSubTours[37,28]
+                                 -17                          50 
+  1934 evitarSubTours[37,29]
+                                 -16                          50 
+  1935 evitarSubTours[37,30]
+                                 -13                          50 
+  1936 evitarSubTours[37,31]
+                                 -25                          50 
+  1937 evitarSubTours[37,32]
+                                   6                          50 
+  1938 evitarSubTours[37,33]
+                                 -12                          50 
+  1939 evitarSubTours[37,34]
+                                 -15                          50 
+  1940 evitarSubTours[37,35]
+                                   1                          50 
+  1941 evitarSubTours[37,36]
+                                 -11                          50 
+  1942 evitarSubTours[37,38]
+                                 -10                          50 
+  1943 evitarSubTours[37,39]
+                                   4                          50 
+  1944 evitarSubTours[37,40]
+                                  -9                          50 
+  1945 evitarSubTours[37,41]
+                                   3                          50 
+  1946 evitarSubTours[37,42]
+                                  50                          50 
+  1947 evitarSubTours[37,43]
+                                   5                          50 
+  1948 evitarSubTours[37,44]
+                                   2                          50 
+  1949 evitarSubTours[37,45]
+                                  -3                          50 
+  1950 evitarSubTours[37,46]
+                                  -4                          50 
+  1951 evitarSubTours[37,47]
+                                  -2                          50 
+  1952 evitarSubTours[37,48]
+                                  -5                          50 
+  1953 evitarSubTours[37,49]
+                                  -8                          50 
+  1954 evitarSubTours[37,50]
+                                  -7                          50 
+  1955 evitarSubTours[37,51]
+                                  -6                          50 
+  1956 evitarSubTours[38,1]
+                                 -31                          50 
+  1957 evitarSubTours[38,2]
+                                 -10                          50 
+  1958 evitarSubTours[38,3]
+                                 -32                          50 
+  1959 evitarSubTours[38,4]
+                                  -9                          50 
+  1960 evitarSubTours[38,5]
+                                  -8                          50 
+  1961 evitarSubTours[38,6]
+                                 -20                          50 
+  1962 evitarSubTours[38,7]
+                                 -29                          50 
   1963 evitarSubTours[38,8]
                                  -30                          50 
   1964 evitarSubTours[38,9]
-                                 -25                          50 
-  1965 evitarSubTours[38,10]
-                                 -22                          50 
-  1966 evitarSubTours[38,11]
-                                  -8                          50 
-  1967 evitarSubTours[38,12]
-                                 -24                          50 
-  1968 evitarSubTours[38,13]
                                  -23                          50 
-  1969 evitarSubTours[38,14]
-                                  -9                          50 
-  1970 evitarSubTours[38,15]
-                                 -26                          50 
-  1971 evitarSubTours[38,16]
-                                 -29                          50 
-  1972 evitarSubTours[38,17]
-                                  16                          50 
-  1973 evitarSubTours[38,18]
+  1965 evitarSubTours[38,10]
                                  -21                          50 
-  1974 evitarSubTours[38,19]
-                                 -27                          50 
-  1975 evitarSubTours[38,20]
-                                 -28                          50 
-  1976 evitarSubTours[38,21]
+  1966 evitarSubTours[38,11]
                                  -11                          50 
-  1977 evitarSubTours[38,22]
-                                  15                          50 
-  1978 evitarSubTours[38,23]
-                                 -10                          50 
-  1979 evitarSubTours[38,24]
-                                 -20                          50 
-  1980 evitarSubTours[38,25]
+  1967 evitarSubTours[38,12]
+                                 -22                          50 
+  1968 evitarSubTours[38,13]
+                                 -24                          50 
+  1969 evitarSubTours[38,14]
+                                 -12                          50 
+  1970 evitarSubTours[38,15]
+                                 -25                          50 
+  1971 evitarSubTours[38,16]
+                                 -28                          50 
+  1972 evitarSubTours[38,17]
+                                  18                          50 
+  1973 evitarSubTours[38,18]
                                  -19                          50 
-  1981 evitarSubTours[38,26]
+  1974 evitarSubTours[38,19]
+                                 -26                          50 
+  1975 evitarSubTours[38,20]
+                                 -27                          50 
+  1976 evitarSubTours[38,21]
+                                 -13                          50 
+  1977 evitarSubTours[38,22]
+                                  17                          50 
+  1978 evitarSubTours[38,23]
+                                 -14                          50 
+  1979 evitarSubTours[38,24]
                                  -18                          50 
+  1980 evitarSubTours[38,25]
+                                 -17                          50 
+  1981 evitarSubTours[38,26]
+                                 -16                          50 
   1982 evitarSubTours[38,27]
                                   -4                          50 
   1983 evitarSubTours[38,28]
@@ -3871,41 +3871,41 @@ Objective:  total = 25505.5 (MINimum)
   1984 evitarSubTours[38,29]
                                   -6                          50 
   1985 evitarSubTours[38,30]
-                                 -12                          50 
+                                  -3                          50 
   1986 evitarSubTours[38,31]
-                                 -17                          50 
+                                 -15                          50 
   1987 evitarSubTours[38,32]
-                                  14                          50 
+                                  16                          50 
   1988 evitarSubTours[38,33]
-                                 -13                          50 
+                                  -2                          50 
   1989 evitarSubTours[38,34]
                                   -5                          50 
   1990 evitarSubTours[38,35]
                                   11                          50 
   1991 evitarSubTours[38,36]
-                                 -14                          50 
+                                  50                          50 
   1992 evitarSubTours[38,37]
-                                 -16                          50 
+                                  10                          50 
   1993 evitarSubTours[38,39]
-                                  12                          50 
+                                  14                          50 
   1994 evitarSubTours[38,40]
                                    1                          50 
   1995 evitarSubTours[38,41]
-                                  10                          50 
-  1996 evitarSubTours[38,42]
-                                 -15                          50 
-  1997 evitarSubTours[38,43]
                                   13                          50 
-  1998 evitarSubTours[38,44]
+  1996 evitarSubTours[38,42]
                                    9                          50 
+  1997 evitarSubTours[38,43]
+                                  15                          50 
+  1998 evitarSubTours[38,44]
+                                  12                          50 
   1999 evitarSubTours[38,45]
-                                   6                          50 
-  2000 evitarSubTours[38,46]
                                    7                          50 
+  2000 evitarSubTours[38,46]
+                                   6                          50 
   2001 evitarSubTours[38,47]
-                                   5                          50 
-  2002 evitarSubTours[38,48]
                                    8                          50 
+  2002 evitarSubTours[38,48]
+                                   5                          50 
   2003 evitarSubTours[38,49]
                                    2                          50 
   2004 evitarSubTours[38,50]
@@ -3913,51 +3913,51 @@ Objective:  total = 25505.5 (MINimum)
   2005 evitarSubTours[38,51]
                                    4                          50 
   2006 evitarSubTours[39,1]
-                                 -44                          50 
+                                 -45                          50 
   2007 evitarSubTours[39,2]
-                                 -14                          50 
+                                 -24                          50 
   2008 evitarSubTours[39,3]
                                  -46                          50 
   2009 evitarSubTours[39,4]
-                                 -13                          50 
+                                 -23                          50 
   2010 evitarSubTours[39,5]
-                                 -15                          50 
+                                 -22                          50 
   2011 evitarSubTours[39,6]
-                                 -45                          50 
+                                 -34                          50 
   2012 evitarSubTours[39,7]
                                  -43                          50 
   2013 evitarSubTours[39,8]
-                                 -42                          50 
+                                 -44                          50 
   2014 evitarSubTours[39,9]
                                  -37                          50 
   2015 evitarSubTours[39,10]
-                                 -34                          50 
+                                 -35                          50 
   2016 evitarSubTours[39,11]
-                                 -20                          50 
+                                 -25                          50 
   2017 evitarSubTours[39,12]
                                  -36                          50 
   2018 evitarSubTours[39,13]
-                                 -35                          50 
-  2019 evitarSubTours[39,14]
-                                 -21                          50 
-  2020 evitarSubTours[39,15]
                                  -38                          50 
+  2019 evitarSubTours[39,14]
+                                 -26                          50 
+  2020 evitarSubTours[39,15]
+                                 -39                          50 
   2021 evitarSubTours[39,16]
-                                 -41                          50 
+                                 -42                          50 
   2022 evitarSubTours[39,17]
                                    4                          50 
   2023 evitarSubTours[39,18]
                                  -33                          50 
   2024 evitarSubTours[39,19]
-                                 -39                          50 
-  2025 evitarSubTours[39,20]
                                  -40                          50 
+  2025 evitarSubTours[39,20]
+                                 -41                          50 
   2026 evitarSubTours[39,21]
-                                 -23                          50 
+                                 -27                          50 
   2027 evitarSubTours[39,22]
                                    3                          50 
   2028 evitarSubTours[39,23]
-                                 -22                          50 
+                                 -28                          50 
   2029 evitarSubTours[39,24]
                                  -32                          50 
   2030 evitarSubTours[39,25]
@@ -3965,105 +3965,105 @@ Objective:  total = 25505.5 (MINimum)
   2031 evitarSubTours[39,26]
                                  -30                          50 
   2032 evitarSubTours[39,27]
-                                 -16                          50 
-  2033 evitarSubTours[39,28]
-                                 -19                          50 
-  2034 evitarSubTours[39,29]
                                  -18                          50 
+  2033 evitarSubTours[39,28]
+                                 -21                          50 
+  2034 evitarSubTours[39,29]
+                                 -20                          50 
   2035 evitarSubTours[39,30]
-                                 -24                          50 
+                                 -17                          50 
   2036 evitarSubTours[39,31]
                                  -29                          50 
   2037 evitarSubTours[39,32]
                                    2                          50 
   2038 evitarSubTours[39,33]
-                                 -25                          50 
+                                 -16                          50 
   2039 evitarSubTours[39,34]
-                                 -17                          50 
+                                 -19                          50 
   2040 evitarSubTours[39,35]
-                                  50                          50 
+                                  -3                          50 
   2041 evitarSubTours[39,36]
-                                 -26                          50 
+                                 -15                          50 
   2042 evitarSubTours[39,37]
-                                 -28                          50 
+                                  -4                          50 
   2043 evitarSubTours[39,38]
-                                 -12                          50 
+                                 -14                          50 
   2044 evitarSubTours[39,40]
-                                 -11                          50 
+                                 -13                          50 
   2045 evitarSubTours[39,41]
-                                  -2                          50 
+                                  50                          50 
   2046 evitarSubTours[39,42]
-                                 -27                          50 
+                                  -5                          50 
   2047 evitarSubTours[39,43]
                                    1                          50 
   2048 evitarSubTours[39,44]
-                                  -3                          50 
-  2049 evitarSubTours[39,45]
-                                  -6                          50 
-  2050 evitarSubTours[39,46]
-                                  -5                          50 
-  2051 evitarSubTours[39,47]
-                                  -7                          50 
-  2052 evitarSubTours[39,48]
-                                  -4                          50 
-  2053 evitarSubTours[39,49]
-                                 -10                          50 
-  2054 evitarSubTours[39,50]
-                                  -9                          50 
-  2055 evitarSubTours[39,51]
-                                  -8                          50 
-  2056 evitarSubTours[40,1]
-                                 -33                          50 
-  2057 evitarSubTours[40,2]
-                                  -3                          50 
-  2058 evitarSubTours[40,3]
-                                 -35                          50 
-  2059 evitarSubTours[40,4]
                                   -2                          50 
-  2060 evitarSubTours[40,5]
-                                  -4                          50 
-  2061 evitarSubTours[40,6]
-                                 -34                          50 
-  2062 evitarSubTours[40,7]
+  2049 evitarSubTours[39,45]
+                                  -7                          50 
+  2050 evitarSubTours[39,46]
+                                  -8                          50 
+  2051 evitarSubTours[39,47]
+                                  -6                          50 
+  2052 evitarSubTours[39,48]
+                                  -9                          50 
+  2053 evitarSubTours[39,49]
+                                 -12                          50 
+  2054 evitarSubTours[39,50]
+                                 -11                          50 
+  2055 evitarSubTours[39,51]
+                                 -10                          50 
+  2056 evitarSubTours[40,1]
                                  -32                          50 
+  2057 evitarSubTours[40,2]
+                                 -11                          50 
+  2058 evitarSubTours[40,3]
+                                 -33                          50 
+  2059 evitarSubTours[40,4]
+                                 -10                          50 
+  2060 evitarSubTours[40,5]
+                                  -9                          50 
+  2061 evitarSubTours[40,6]
+                                 -21                          50 
+  2062 evitarSubTours[40,7]
+                                 -30                          50 
   2063 evitarSubTours[40,8]
                                  -31                          50 
   2064 evitarSubTours[40,9]
-                                 -26                          50 
-  2065 evitarSubTours[40,10]
-                                 -23                          50 
-  2066 evitarSubTours[40,11]
-                                  -9                          50 
-  2067 evitarSubTours[40,12]
-                                 -25                          50 
-  2068 evitarSubTours[40,13]
                                  -24                          50 
-  2069 evitarSubTours[40,14]
-                                 -10                          50 
-  2070 evitarSubTours[40,15]
-                                 -27                          50 
-  2071 evitarSubTours[40,16]
-                                 -30                          50 
-  2072 evitarSubTours[40,17]
-                                  15                          50 
-  2073 evitarSubTours[40,18]
+  2065 evitarSubTours[40,10]
                                  -22                          50 
-  2074 evitarSubTours[40,19]
-                                 -28                          50 
-  2075 evitarSubTours[40,20]
-                                 -29                          50 
-  2076 evitarSubTours[40,21]
+  2066 evitarSubTours[40,11]
                                  -12                          50 
-  2077 evitarSubTours[40,22]
-                                  14                          50 
-  2078 evitarSubTours[40,23]
-                                 -11                          50 
-  2079 evitarSubTours[40,24]
-                                 -21                          50 
-  2080 evitarSubTours[40,25]
+  2067 evitarSubTours[40,12]
+                                 -23                          50 
+  2068 evitarSubTours[40,13]
+                                 -25                          50 
+  2069 evitarSubTours[40,14]
+                                 -13                          50 
+  2070 evitarSubTours[40,15]
+                                 -26                          50 
+  2071 evitarSubTours[40,16]
+                                 -29                          50 
+  2072 evitarSubTours[40,17]
+                                  17                          50 
+  2073 evitarSubTours[40,18]
                                  -20                          50 
-  2081 evitarSubTours[40,26]
+  2074 evitarSubTours[40,19]
+                                 -27                          50 
+  2075 evitarSubTours[40,20]
+                                 -28                          50 
+  2076 evitarSubTours[40,21]
+                                 -14                          50 
+  2077 evitarSubTours[40,22]
+                                  16                          50 
+  2078 evitarSubTours[40,23]
+                                 -15                          50 
+  2079 evitarSubTours[40,24]
                                  -19                          50 
+  2080 evitarSubTours[40,25]
+                                 -18                          50 
+  2081 evitarSubTours[40,26]
+                                 -17                          50 
   2082 evitarSubTours[40,27]
                                   -5                          50 
   2083 evitarSubTours[40,28]
@@ -4071,41 +4071,41 @@ Objective:  total = 25505.5 (MINimum)
   2084 evitarSubTours[40,29]
                                   -7                          50 
   2085 evitarSubTours[40,30]
-                                 -13                          50 
+                                  -4                          50 
   2086 evitarSubTours[40,31]
-                                 -18                          50 
+                                 -16                          50 
   2087 evitarSubTours[40,32]
-                                  13                          50 
+                                  15                          50 
   2088 evitarSubTours[40,33]
-                                 -14                          50 
+                                  -3                          50 
   2089 evitarSubTours[40,34]
                                   -6                          50 
   2090 evitarSubTours[40,35]
                                   10                          50 
   2091 evitarSubTours[40,36]
-                                 -15                          50 
+                                  -2                          50 
   2092 evitarSubTours[40,37]
-                                 -17                          50 
+                                   9                          50 
   2093 evitarSubTours[40,38]
                                   50                          50 
   2094 evitarSubTours[40,39]
-                                  11                          50 
+                                  13                          50 
   2095 evitarSubTours[40,41]
-                                   9                          50 
-  2096 evitarSubTours[40,42]
-                                 -16                          50 
-  2097 evitarSubTours[40,43]
                                   12                          50 
-  2098 evitarSubTours[40,44]
+  2096 evitarSubTours[40,42]
                                    8                          50 
+  2097 evitarSubTours[40,43]
+                                  14                          50 
+  2098 evitarSubTours[40,44]
+                                  11                          50 
   2099 evitarSubTours[40,45]
-                                   5                          50 
-  2100 evitarSubTours[40,46]
                                    6                          50 
+  2100 evitarSubTours[40,46]
+                                   5                          50 
   2101 evitarSubTours[40,47]
-                                   4                          50 
-  2102 evitarSubTours[40,48]
                                    7                          50 
+  2102 evitarSubTours[40,48]
+                                   4                          50 
   2103 evitarSubTours[40,49]
                                    1                          50 
   2104 evitarSubTours[40,50]
@@ -4113,251 +4113,251 @@ Objective:  total = 25505.5 (MINimum)
   2105 evitarSubTours[40,51]
                                    3                          50 
   2106 evitarSubTours[41,1]
-                                 -42                          50 
-  2107 evitarSubTours[41,2]
-                                 -12                          50 
-  2108 evitarSubTours[41,3]
                                  -44                          50 
-  2109 evitarSubTours[41,4]
-                                 -11                          50 
-  2110 evitarSubTours[41,5]
-                                 -13                          50 
-  2111 evitarSubTours[41,6]
-                                 -43                          50 
-  2112 evitarSubTours[41,7]
-                                 -41                          50 
-  2113 evitarSubTours[41,8]
-                                 -40                          50 
-  2114 evitarSubTours[41,9]
-                                 -35                          50 
-  2115 evitarSubTours[41,10]
-                                 -32                          50 
-  2116 evitarSubTours[41,11]
-                                 -18                          50 
-  2117 evitarSubTours[41,12]
-                                 -34                          50 
-  2118 evitarSubTours[41,13]
-                                 -33                          50 
-  2119 evitarSubTours[41,14]
-                                 -19                          50 
-  2120 evitarSubTours[41,15]
-                                 -36                          50 
-  2121 evitarSubTours[41,16]
-                                 -39                          50 
-  2122 evitarSubTours[41,17]
-                                   6                          50 
-  2123 evitarSubTours[41,18]
-                                 -31                          50 
-  2124 evitarSubTours[41,19]
-                                 -37                          50 
-  2125 evitarSubTours[41,20]
-                                 -38                          50 
-  2126 evitarSubTours[41,21]
-                                 -21                          50 
-  2127 evitarSubTours[41,22]
-                                   5                          50 
-  2128 evitarSubTours[41,23]
-                                 -20                          50 
-  2129 evitarSubTours[41,24]
-                                 -30                          50 
-  2130 evitarSubTours[41,25]
-                                 -29                          50 
-  2131 evitarSubTours[41,26]
-                                 -28                          50 
-  2132 evitarSubTours[41,27]
-                                 -14                          50 
-  2133 evitarSubTours[41,28]
-                                 -17                          50 
-  2134 evitarSubTours[41,29]
-                                 -16                          50 
-  2135 evitarSubTours[41,30]
-                                 -22                          50 
-  2136 evitarSubTours[41,31]
-                                 -27                          50 
-  2137 evitarSubTours[41,32]
-                                   4                          50 
-  2138 evitarSubTours[41,33]
+  2107 evitarSubTours[41,2]
                                  -23                          50 
-  2139 evitarSubTours[41,34]
-                                 -15                          50 
-  2140 evitarSubTours[41,35]
-                                   1                          50 
-  2141 evitarSubTours[41,36]
+  2108 evitarSubTours[41,3]
+                                 -45                          50 
+  2109 evitarSubTours[41,4]
+                                 -22                          50 
+  2110 evitarSubTours[41,5]
+                                 -21                          50 
+  2111 evitarSubTours[41,6]
+                                 -33                          50 
+  2112 evitarSubTours[41,7]
+                                 -42                          50 
+  2113 evitarSubTours[41,8]
+                                 -43                          50 
+  2114 evitarSubTours[41,9]
+                                 -36                          50 
+  2115 evitarSubTours[41,10]
+                                 -34                          50 
+  2116 evitarSubTours[41,11]
                                  -24                          50 
-  2142 evitarSubTours[41,37]
-                                 -26                          50 
-  2143 evitarSubTours[41,38]
-                                 -10                          50 
-  2144 evitarSubTours[41,39]
-                                   2                          50 
-  2145 evitarSubTours[41,40]
-                                  -9                          50 
-  2146 evitarSubTours[41,42]
+  2117 evitarSubTours[41,12]
+                                 -35                          50 
+  2118 evitarSubTours[41,13]
+                                 -37                          50 
+  2119 evitarSubTours[41,14]
                                  -25                          50 
-  2147 evitarSubTours[41,43]
+  2120 evitarSubTours[41,15]
+                                 -38                          50 
+  2121 evitarSubTours[41,16]
+                                 -41                          50 
+  2122 evitarSubTours[41,17]
+                                   5                          50 
+  2123 evitarSubTours[41,18]
+                                 -32                          50 
+  2124 evitarSubTours[41,19]
+                                 -39                          50 
+  2125 evitarSubTours[41,20]
+                                 -40                          50 
+  2126 evitarSubTours[41,21]
+                                 -26                          50 
+  2127 evitarSubTours[41,22]
+                                   4                          50 
+  2128 evitarSubTours[41,23]
+                                 -27                          50 
+  2129 evitarSubTours[41,24]
+                                 -31                          50 
+  2130 evitarSubTours[41,25]
+                                 -30                          50 
+  2131 evitarSubTours[41,26]
+                                 -29                          50 
+  2132 evitarSubTours[41,27]
+                                 -17                          50 
+  2133 evitarSubTours[41,28]
+                                 -20                          50 
+  2134 evitarSubTours[41,29]
+                                 -19                          50 
+  2135 evitarSubTours[41,30]
+                                 -16                          50 
+  2136 evitarSubTours[41,31]
+                                 -28                          50 
+  2137 evitarSubTours[41,32]
                                    3                          50 
+  2138 evitarSubTours[41,33]
+                                 -15                          50 
+  2139 evitarSubTours[41,34]
+                                 -18                          50 
+  2140 evitarSubTours[41,35]
+                                  -2                          50 
+  2141 evitarSubTours[41,36]
+                                 -14                          50 
+  2142 evitarSubTours[41,37]
+                                  -3                          50 
+  2143 evitarSubTours[41,38]
+                                 -13                          50 
+  2144 evitarSubTours[41,39]
+                                   1                          50 
+  2145 evitarSubTours[41,40]
+                                 -12                          50 
+  2146 evitarSubTours[41,42]
+                                  -4                          50 
+  2147 evitarSubTours[41,43]
+                                   2                          50 
   2148 evitarSubTours[41,44]
                                   50                          50 
   2149 evitarSubTours[41,45]
-                                  -4                          50 
+                                  -6                          50 
   2150 evitarSubTours[41,46]
-                                  -3                          50 
+                                  -7                          50 
   2151 evitarSubTours[41,47]
                                   -5                          50 
   2152 evitarSubTours[41,48]
-                                  -2                          50 
+                                  -8                          50 
   2153 evitarSubTours[41,49]
-                                  -8                          50 
-  2154 evitarSubTours[41,50]
-                                  -7                          50 
-  2155 evitarSubTours[41,51]
-                                  -6                          50 
-  2156 evitarSubTours[42,1]
-                                 -17                          50 
-  2157 evitarSubTours[42,2]
-                                  13                          50 
-  2158 evitarSubTours[42,3]
-                                 -19                          50 
-  2159 evitarSubTours[42,4]
-                                  14                          50 
-  2160 evitarSubTours[42,5]
-                                  12                          50 
-  2161 evitarSubTours[42,6]
-                                 -18                          50 
-  2162 evitarSubTours[42,7]
-                                 -16                          50 
-  2163 evitarSubTours[42,8]
-                                 -15                          50 
-  2164 evitarSubTours[42,9]
-                                 -10                          50 
-  2165 evitarSubTours[42,10]
-                                  -7                          50 
-  2166 evitarSubTours[42,11]
-                                   7                          50 
-  2167 evitarSubTours[42,12]
-                                  -9                          50 
-  2168 evitarSubTours[42,13]
-                                  -8                          50 
-  2169 evitarSubTours[42,14]
-                                   6                          50 
-  2170 evitarSubTours[42,15]
                                  -11                          50 
+  2154 evitarSubTours[41,50]
+                                 -10                          50 
+  2155 evitarSubTours[41,51]
+                                  -9                          50 
+  2156 evitarSubTours[42,1]
+                                 -40                          50 
+  2157 evitarSubTours[42,2]
+                                 -19                          50 
+  2158 evitarSubTours[42,3]
+                                 -41                          50 
+  2159 evitarSubTours[42,4]
+                                 -18                          50 
+  2160 evitarSubTours[42,5]
+                                 -17                          50 
+  2161 evitarSubTours[42,6]
+                                 -29                          50 
+  2162 evitarSubTours[42,7]
+                                 -38                          50 
+  2163 evitarSubTours[42,8]
+                                 -39                          50 
+  2164 evitarSubTours[42,9]
+                                 -32                          50 
+  2165 evitarSubTours[42,10]
+                                 -30                          50 
+  2166 evitarSubTours[42,11]
+                                 -20                          50 
+  2167 evitarSubTours[42,12]
+                                 -31                          50 
+  2168 evitarSubTours[42,13]
+                                 -33                          50 
+  2169 evitarSubTours[42,14]
+                                 -21                          50 
+  2170 evitarSubTours[42,15]
+                                 -34                          50 
   2171 evitarSubTours[42,16]
-                                 -14                          50 
+                                 -37                          50 
   2172 evitarSubTours[42,17]
-                                  31                          50 
-  2173 evitarSubTours[42,18]
-                                  -6                          50 
-  2174 evitarSubTours[42,19]
-                                 -12                          50 
-  2175 evitarSubTours[42,20]
-                                 -13                          50 
-  2176 evitarSubTours[42,21]
-                                   4                          50 
-  2177 evitarSubTours[42,22]
-                                  30                          50 
-  2178 evitarSubTours[42,23]
-                                   5                          50 
-  2179 evitarSubTours[42,24]
-                                  -5                          50 
-  2180 evitarSubTours[42,25]
-                                  -4                          50 
-  2181 evitarSubTours[42,26]
-                                  -3                          50 
-  2182 evitarSubTours[42,27]
-                                  11                          50 
-  2183 evitarSubTours[42,28]
-                                   8                          50 
-  2184 evitarSubTours[42,29]
                                    9                          50 
-  2185 evitarSubTours[42,30]
-                                   3                          50 
-  2186 evitarSubTours[42,31]
-                                  -2                          50 
-  2187 evitarSubTours[42,32]
-                                  29                          50 
-  2188 evitarSubTours[42,33]
-                                   2                          50 
-  2189 evitarSubTours[42,34]
-                                  10                          50 
-  2190 evitarSubTours[42,35]
-                                  26                          50 
-  2191 evitarSubTours[42,36]
-                                   1                          50 
-  2192 evitarSubTours[42,37]
-                                  50                          50 
-  2193 evitarSubTours[42,38]
-                                  15                          50 
-  2194 evitarSubTours[42,39]
-                                  27                          50 
-  2195 evitarSubTours[42,40]
-                                  16                          50 
-  2196 evitarSubTours[42,41]
-                                  25                          50 
-  2197 evitarSubTours[42,43]
-                                  28                          50 
-  2198 evitarSubTours[42,44]
-                                  24                          50 
-  2199 evitarSubTours[42,45]
-                                  21                          50 
-  2200 evitarSubTours[42,46]
-                                  22                          50 
-  2201 evitarSubTours[42,47]
-                                  20                          50 
-  2202 evitarSubTours[42,48]
-                                  23                          50 
-  2203 evitarSubTours[42,49]
-                                  17                          50 
-  2204 evitarSubTours[42,50]
-                                  18                          50 
-  2205 evitarSubTours[42,51]
-                                  19                          50 
-  2206 evitarSubTours[43,1]
-                                 -45                          50 
-  2207 evitarSubTours[43,2]
+  2173 evitarSubTours[42,18]
+                                 -28                          50 
+  2174 evitarSubTours[42,19]
+                                 -35                          50 
+  2175 evitarSubTours[42,20]
+                                 -36                          50 
+  2176 evitarSubTours[42,21]
+                                 -22                          50 
+  2177 evitarSubTours[42,22]
+                                   8                          50 
+  2178 evitarSubTours[42,23]
+                                 -23                          50 
+  2179 evitarSubTours[42,24]
+                                 -27                          50 
+  2180 evitarSubTours[42,25]
+                                 -26                          50 
+  2181 evitarSubTours[42,26]
+                                 -25                          50 
+  2182 evitarSubTours[42,27]
+                                 -13                          50 
+  2183 evitarSubTours[42,28]
+                                 -16                          50 
+  2184 evitarSubTours[42,29]
                                  -15                          50 
+  2185 evitarSubTours[42,30]
+                                 -12                          50 
+  2186 evitarSubTours[42,31]
+                                 -24                          50 
+  2187 evitarSubTours[42,32]
+                                   7                          50 
+  2188 evitarSubTours[42,33]
+                                 -11                          50 
+  2189 evitarSubTours[42,34]
+                                 -14                          50 
+  2190 evitarSubTours[42,35]
+                                   2                          50 
+  2191 evitarSubTours[42,36]
+                                 -10                          50 
+  2192 evitarSubTours[42,37]
+                                   1                          50 
+  2193 evitarSubTours[42,38]
+                                  -9                          50 
+  2194 evitarSubTours[42,39]
+                                   5                          50 
+  2195 evitarSubTours[42,40]
+                                  -8                          50 
+  2196 evitarSubTours[42,41]
+                                   4                          50 
+  2197 evitarSubTours[42,43]
+                                   6                          50 
+  2198 evitarSubTours[42,44]
+                                   3                          50 
+  2199 evitarSubTours[42,45]
+                                  -2                          50 
+  2200 evitarSubTours[42,46]
+                                  -3                          50 
+  2201 evitarSubTours[42,47]
+                                  50                          50 
+  2202 evitarSubTours[42,48]
+                                  -4                          50 
+  2203 evitarSubTours[42,49]
+                                  -7                          50 
+  2204 evitarSubTours[42,50]
+                                  -6                          50 
+  2205 evitarSubTours[42,51]
+                                  -5                          50 
+  2206 evitarSubTours[43,1]
+                                 -46                          50 
+  2207 evitarSubTours[43,2]
+                                 -25                          50 
   2208 evitarSubTours[43,3]
                                  -47                          50 
   2209 evitarSubTours[43,4]
-                                 -14                          50 
+                                 -24                          50 
   2210 evitarSubTours[43,5]
-                                 -16                          50 
+                                 -23                          50 
   2211 evitarSubTours[43,6]
-                                 -46                          50 
+                                 -35                          50 
   2212 evitarSubTours[43,7]
                                  -44                          50 
   2213 evitarSubTours[43,8]
-                                 -43                          50 
+                                 -45                          50 
   2214 evitarSubTours[43,9]
                                  -38                          50 
   2215 evitarSubTours[43,10]
-                                 -35                          50 
+                                 -36                          50 
   2216 evitarSubTours[43,11]
-                                 -21                          50 
+                                 -26                          50 
   2217 evitarSubTours[43,12]
                                  -37                          50 
   2218 evitarSubTours[43,13]
-                                 -36                          50 
-  2219 evitarSubTours[43,14]
-                                 -22                          50 
-  2220 evitarSubTours[43,15]
                                  -39                          50 
+  2219 evitarSubTours[43,14]
+                                 -27                          50 
+  2220 evitarSubTours[43,15]
+                                 -40                          50 
   2221 evitarSubTours[43,16]
-                                 -42                          50 
+                                 -43                          50 
   2222 evitarSubTours[43,17]
                                    3                          50 
   2223 evitarSubTours[43,18]
                                  -34                          50 
   2224 evitarSubTours[43,19]
-                                 -40                          50 
-  2225 evitarSubTours[43,20]
                                  -41                          50 
+  2225 evitarSubTours[43,20]
+                                 -42                          50 
   2226 evitarSubTours[43,21]
-                                 -24                          50 
+                                 -28                          50 
   2227 evitarSubTours[43,22]
                                    2                          50 
   2228 evitarSubTours[43,23]
-                                 -23                          50 
+                                 -29                          50 
   2229 evitarSubTours[43,24]
                                  -33                          50 
   2230 evitarSubTours[43,25]
@@ -4365,605 +4365,605 @@ Objective:  total = 25505.5 (MINimum)
   2231 evitarSubTours[43,26]
                                  -31                          50 
   2232 evitarSubTours[43,27]
-                                 -17                          50 
-  2233 evitarSubTours[43,28]
-                                 -20                          50 
-  2234 evitarSubTours[43,29]
                                  -19                          50 
+  2233 evitarSubTours[43,28]
+                                 -22                          50 
+  2234 evitarSubTours[43,29]
+                                 -21                          50 
   2235 evitarSubTours[43,30]
-                                 -25                          50 
+                                 -18                          50 
   2236 evitarSubTours[43,31]
                                  -30                          50 
   2237 evitarSubTours[43,32]
                                    1                          50 
   2238 evitarSubTours[43,33]
-                                 -26                          50 
+                                 -17                          50 
   2239 evitarSubTours[43,34]
-                                 -18                          50 
+                                 -20                          50 
   2240 evitarSubTours[43,35]
-                                  -2                          50 
+                                  -4                          50 
   2241 evitarSubTours[43,36]
-                                 -27                          50 
+                                 -16                          50 
   2242 evitarSubTours[43,37]
-                                 -29                          50 
+                                  -5                          50 
   2243 evitarSubTours[43,38]
-                                 -13                          50 
+                                 -15                          50 
   2244 evitarSubTours[43,39]
                                   50                          50 
   2245 evitarSubTours[43,40]
-                                 -12                          50 
-  2246 evitarSubTours[43,41]
-                                  -3                          50 
-  2247 evitarSubTours[43,42]
-                                 -28                          50 
-  2248 evitarSubTours[43,44]
-                                  -4                          50 
-  2249 evitarSubTours[43,45]
-                                  -7                          50 
-  2250 evitarSubTours[43,46]
-                                  -6                          50 
-  2251 evitarSubTours[43,47]
-                                  -8                          50 
-  2252 evitarSubTours[43,48]
-                                  -5                          50 
-  2253 evitarSubTours[43,49]
-                                 -11                          50 
-  2254 evitarSubTours[43,50]
-                                 -10                          50 
-  2255 evitarSubTours[43,51]
-                                  -9                          50 
-  2256 evitarSubTours[44,1]
-                                 -41                          50 
-  2257 evitarSubTours[44,2]
-                                 -11                          50 
-  2258 evitarSubTours[44,3]
-                                 -43                          50 
-  2259 evitarSubTours[44,4]
-                                 -10                          50 
-  2260 evitarSubTours[44,5]
-                                 -12                          50 
-  2261 evitarSubTours[44,6]
-                                 -42                          50 
-  2262 evitarSubTours[44,7]
-                                 -40                          50 
-  2263 evitarSubTours[44,8]
-                                 -39                          50 
-  2264 evitarSubTours[44,9]
-                                 -34                          50 
-  2265 evitarSubTours[44,10]
-                                 -31                          50 
-  2266 evitarSubTours[44,11]
-                                 -17                          50 
-  2267 evitarSubTours[44,12]
-                                 -33                          50 
-  2268 evitarSubTours[44,13]
-                                 -32                          50 
-  2269 evitarSubTours[44,14]
-                                 -18                          50 
-  2270 evitarSubTours[44,15]
-                                 -35                          50 
-  2271 evitarSubTours[44,16]
-                                 -38                          50 
-  2272 evitarSubTours[44,17]
-                                   7                          50 
-  2273 evitarSubTours[44,18]
-                                 -30                          50 
-  2274 evitarSubTours[44,19]
-                                 -36                          50 
-  2275 evitarSubTours[44,20]
-                                 -37                          50 
-  2276 evitarSubTours[44,21]
-                                 -20                          50 
-  2277 evitarSubTours[44,22]
-                                   6                          50 
-  2278 evitarSubTours[44,23]
-                                 -19                          50 
-  2279 evitarSubTours[44,24]
-                                 -29                          50 
-  2280 evitarSubTours[44,25]
-                                 -28                          50 
-  2281 evitarSubTours[44,26]
-                                 -27                          50 
-  2282 evitarSubTours[44,27]
-                                 -13                          50 
-  2283 evitarSubTours[44,28]
-                                 -16                          50 
-  2284 evitarSubTours[44,29]
-                                 -15                          50 
-  2285 evitarSubTours[44,30]
-                                 -21                          50 
-  2286 evitarSubTours[44,31]
-                                 -26                          50 
-  2287 evitarSubTours[44,32]
-                                   5                          50 
-  2288 evitarSubTours[44,33]
-                                 -22                          50 
-  2289 evitarSubTours[44,34]
                                  -14                          50 
-  2290 evitarSubTours[44,35]
-                                   2                          50 
-  2291 evitarSubTours[44,36]
-                                 -23                          50 
-  2292 evitarSubTours[44,37]
-                                 -25                          50 
-  2293 evitarSubTours[44,38]
-                                  -9                          50 
-  2294 evitarSubTours[44,39]
-                                   3                          50 
-  2295 evitarSubTours[44,40]
+  2246 evitarSubTours[43,41]
+                                  -2                          50 
+  2247 evitarSubTours[43,42]
+                                  -6                          50 
+  2248 evitarSubTours[43,44]
+                                  -3                          50 
+  2249 evitarSubTours[43,45]
                                   -8                          50 
+  2250 evitarSubTours[43,46]
+                                  -9                          50 
+  2251 evitarSubTours[43,47]
+                                  -7                          50 
+  2252 evitarSubTours[43,48]
+                                 -10                          50 
+  2253 evitarSubTours[43,49]
+                                 -13                          50 
+  2254 evitarSubTours[43,50]
+                                 -12                          50 
+  2255 evitarSubTours[43,51]
+                                 -11                          50 
+  2256 evitarSubTours[44,1]
+                                 -43                          50 
+  2257 evitarSubTours[44,2]
+                                 -22                          50 
+  2258 evitarSubTours[44,3]
+                                 -44                          50 
+  2259 evitarSubTours[44,4]
+                                 -21                          50 
+  2260 evitarSubTours[44,5]
+                                 -20                          50 
+  2261 evitarSubTours[44,6]
+                                 -32                          50 
+  2262 evitarSubTours[44,7]
+                                 -41                          50 
+  2263 evitarSubTours[44,8]
+                                 -42                          50 
+  2264 evitarSubTours[44,9]
+                                 -35                          50 
+  2265 evitarSubTours[44,10]
+                                 -33                          50 
+  2266 evitarSubTours[44,11]
+                                 -23                          50 
+  2267 evitarSubTours[44,12]
+                                 -34                          50 
+  2268 evitarSubTours[44,13]
+                                 -36                          50 
+  2269 evitarSubTours[44,14]
+                                 -24                          50 
+  2270 evitarSubTours[44,15]
+                                 -37                          50 
+  2271 evitarSubTours[44,16]
+                                 -40                          50 
+  2272 evitarSubTours[44,17]
+                                   6                          50 
+  2273 evitarSubTours[44,18]
+                                 -31                          50 
+  2274 evitarSubTours[44,19]
+                                 -38                          50 
+  2275 evitarSubTours[44,20]
+                                 -39                          50 
+  2276 evitarSubTours[44,21]
+                                 -25                          50 
+  2277 evitarSubTours[44,22]
+                                   5                          50 
+  2278 evitarSubTours[44,23]
+                                 -26                          50 
+  2279 evitarSubTours[44,24]
+                                 -30                          50 
+  2280 evitarSubTours[44,25]
+                                 -29                          50 
+  2281 evitarSubTours[44,26]
+                                 -28                          50 
+  2282 evitarSubTours[44,27]
+                                 -16                          50 
+  2283 evitarSubTours[44,28]
+                                 -19                          50 
+  2284 evitarSubTours[44,29]
+                                 -18                          50 
+  2285 evitarSubTours[44,30]
+                                 -15                          50 
+  2286 evitarSubTours[44,31]
+                                 -27                          50 
+  2287 evitarSubTours[44,32]
+                                   4                          50 
+  2288 evitarSubTours[44,33]
+                                 -14                          50 
+  2289 evitarSubTours[44,34]
+                                 -17                          50 
+  2290 evitarSubTours[44,35]
+                                  50                          50 
+  2291 evitarSubTours[44,36]
+                                 -13                          50 
+  2292 evitarSubTours[44,37]
+                                  -2                          50 
+  2293 evitarSubTours[44,38]
+                                 -12                          50 
+  2294 evitarSubTours[44,39]
+                                   2                          50 
+  2295 evitarSubTours[44,40]
+                                 -11                          50 
   2296 evitarSubTours[44,41]
                                    1                          50 
   2297 evitarSubTours[44,42]
-                                 -24                          50 
-  2298 evitarSubTours[44,43]
-                                   4                          50 
-  2299 evitarSubTours[44,45]
                                   -3                          50 
+  2298 evitarSubTours[44,43]
+                                   3                          50 
+  2299 evitarSubTours[44,45]
+                                  -5                          50 
   2300 evitarSubTours[44,46]
-                                  -2                          50 
+                                  -6                          50 
   2301 evitarSubTours[44,47]
                                   -4                          50 
   2302 evitarSubTours[44,48]
-                                  50                          50 
-  2303 evitarSubTours[44,49]
                                   -7                          50 
+  2303 evitarSubTours[44,49]
+                                 -10                          50 
   2304 evitarSubTours[44,50]
-                                  -6                          50 
+                                  -9                          50 
   2305 evitarSubTours[44,51]
-                                  -5                          50 
+                                  -8                          50 
   2306 evitarSubTours[45,1]
                                  -38                          50 
   2307 evitarSubTours[45,2]
-                                  -8                          50 
+                                 -17                          50 
   2308 evitarSubTours[45,3]
-                                 -40                          50 
-  2309 evitarSubTours[45,4]
-                                  -7                          50 
-  2310 evitarSubTours[45,5]
-                                  -9                          50 
-  2311 evitarSubTours[45,6]
                                  -39                          50 
+  2309 evitarSubTours[45,4]
+                                 -16                          50 
+  2310 evitarSubTours[45,5]
+                                 -15                          50 
+  2311 evitarSubTours[45,6]
+                                 -27                          50 
   2312 evitarSubTours[45,7]
-                                 -37                          50 
-  2313 evitarSubTours[45,8]
                                  -36                          50 
+  2313 evitarSubTours[45,8]
+                                 -37                          50 
   2314 evitarSubTours[45,9]
-                                 -31                          50 
+                                 -30                          50 
   2315 evitarSubTours[45,10]
                                  -28                          50 
   2316 evitarSubTours[45,11]
-                                 -14                          50 
+                                 -18                          50 
   2317 evitarSubTours[45,12]
-                                 -30                          50 
-  2318 evitarSubTours[45,13]
                                  -29                          50 
+  2318 evitarSubTours[45,13]
+                                 -31                          50 
   2319 evitarSubTours[45,14]
-                                 -15                          50 
+                                 -19                          50 
   2320 evitarSubTours[45,15]
                                  -32                          50 
   2321 evitarSubTours[45,16]
                                  -35                          50 
   2322 evitarSubTours[45,17]
-                                  10                          50 
+                                  11                          50 
   2323 evitarSubTours[45,18]
-                                 -27                          50 
+                                 -26                          50 
   2324 evitarSubTours[45,19]
                                  -33                          50 
   2325 evitarSubTours[45,20]
                                  -34                          50 
   2326 evitarSubTours[45,21]
-                                 -17                          50 
-  2327 evitarSubTours[45,22]
-                                   9                          50 
-  2328 evitarSubTours[45,23]
-                                 -16                          50 
-  2329 evitarSubTours[45,24]
-                                 -26                          50 
-  2330 evitarSubTours[45,25]
-                                 -25                          50 
-  2331 evitarSubTours[45,26]
-                                 -24                          50 
-  2332 evitarSubTours[45,27]
-                                 -10                          50 
-  2333 evitarSubTours[45,28]
-                                 -13                          50 
-  2334 evitarSubTours[45,29]
-                                 -12                          50 
-  2335 evitarSubTours[45,30]
-                                 -18                          50 
-  2336 evitarSubTours[45,31]
-                                 -23                          50 
-  2337 evitarSubTours[45,32]
-                                   8                          50 
-  2338 evitarSubTours[45,33]
-                                 -19                          50 
-  2339 evitarSubTours[45,34]
-                                 -11                          50 
-  2340 evitarSubTours[45,35]
-                                   5                          50 
-  2341 evitarSubTours[45,36]
                                  -20                          50 
-  2342 evitarSubTours[45,37]
-                                 -22                          50 
-  2343 evitarSubTours[45,38]
-                                  -6                          50 
-  2344 evitarSubTours[45,39]
-                                   6                          50 
-  2345 evitarSubTours[45,40]
-                                  -5                          50 
-  2346 evitarSubTours[45,41]
-                                   4                          50 
-  2347 evitarSubTours[45,42]
+  2327 evitarSubTours[45,22]
+                                  10                          50 
+  2328 evitarSubTours[45,23]
                                  -21                          50 
-  2348 evitarSubTours[45,43]
-                                   7                          50 
-  2349 evitarSubTours[45,44]
-                                   3                          50 
-  2350 evitarSubTours[45,46]
-                                   1                          50 
-  2351 evitarSubTours[45,47]
-                                  50                          50 
-  2352 evitarSubTours[45,48]
-                                   2                          50 
-  2353 evitarSubTours[45,49]
-                                  -4                          50 
-  2354 evitarSubTours[45,50]
-                                  -3                          50 
-  2355 evitarSubTours[45,51]
-                                  -2                          50 
-  2356 evitarSubTours[46,1]
-                                 -39                          50 
-  2357 evitarSubTours[46,2]
-                                  -9                          50 
-  2358 evitarSubTours[46,3]
-                                 -41                          50 
-  2359 evitarSubTours[46,4]
-                                  -8                          50 
-  2360 evitarSubTours[46,5]
+  2329 evitarSubTours[45,24]
+                                 -25                          50 
+  2330 evitarSubTours[45,25]
+                                 -24                          50 
+  2331 evitarSubTours[45,26]
+                                 -23                          50 
+  2332 evitarSubTours[45,27]
+                                 -11                          50 
+  2333 evitarSubTours[45,28]
+                                 -14                          50 
+  2334 evitarSubTours[45,29]
+                                 -13                          50 
+  2335 evitarSubTours[45,30]
                                  -10                          50 
-  2361 evitarSubTours[46,6]
-                                 -40                          50 
-  2362 evitarSubTours[46,7]
-                                 -38                          50 
-  2363 evitarSubTours[46,8]
+  2336 evitarSubTours[45,31]
+                                 -22                          50 
+  2337 evitarSubTours[45,32]
+                                   9                          50 
+  2338 evitarSubTours[45,33]
+                                  -9                          50 
+  2339 evitarSubTours[45,34]
+                                 -12                          50 
+  2340 evitarSubTours[45,35]
+                                   4                          50 
+  2341 evitarSubTours[45,36]
+                                  -8                          50 
+  2342 evitarSubTours[45,37]
+                                   3                          50 
+  2343 evitarSubTours[45,38]
+                                  -7                          50 
+  2344 evitarSubTours[45,39]
+                                   7                          50 
+  2345 evitarSubTours[45,40]
+                                  -6                          50 
+  2346 evitarSubTours[45,41]
+                                   6                          50 
+  2347 evitarSubTours[45,42]
+                                   2                          50 
+  2348 evitarSubTours[45,43]
+                                   8                          50 
+  2349 evitarSubTours[45,44]
+                                   5                          50 
+  2350 evitarSubTours[45,46]
+                                  50                          50 
+  2351 evitarSubTours[45,47]
+                                   1                          50 
+  2352 evitarSubTours[45,48]
+                                  -2                          50 
+  2353 evitarSubTours[45,49]
+                                  -5                          50 
+  2354 evitarSubTours[45,50]
+                                  -4                          50 
+  2355 evitarSubTours[45,51]
+                                  -3                          50 
+  2356 evitarSubTours[46,1]
                                  -37                          50 
-  2364 evitarSubTours[46,9]
-                                 -32                          50 
-  2365 evitarSubTours[46,10]
-                                 -29                          50 
-  2366 evitarSubTours[46,11]
+  2357 evitarSubTours[46,2]
+                                 -16                          50 
+  2358 evitarSubTours[46,3]
+                                 -38                          50 
+  2359 evitarSubTours[46,4]
                                  -15                          50 
+  2360 evitarSubTours[46,5]
+                                 -14                          50 
+  2361 evitarSubTours[46,6]
+                                 -26                          50 
+  2362 evitarSubTours[46,7]
+                                 -35                          50 
+  2363 evitarSubTours[46,8]
+                                 -36                          50 
+  2364 evitarSubTours[46,9]
+                                 -29                          50 
+  2365 evitarSubTours[46,10]
+                                 -27                          50 
+  2366 evitarSubTours[46,11]
+                                 -17                          50 
   2367 evitarSubTours[46,12]
-                                 -31                          50 
+                                 -28                          50 
   2368 evitarSubTours[46,13]
                                  -30                          50 
   2369 evitarSubTours[46,14]
-                                 -16                          50 
+                                 -18                          50 
   2370 evitarSubTours[46,15]
-                                 -33                          50 
-  2371 evitarSubTours[46,16]
-                                 -36                          50 
-  2372 evitarSubTours[46,17]
-                                   9                          50 
-  2373 evitarSubTours[46,18]
-                                 -28                          50 
-  2374 evitarSubTours[46,19]
-                                 -34                          50 
-  2375 evitarSubTours[46,20]
-                                 -35                          50 
-  2376 evitarSubTours[46,21]
-                                 -18                          50 
-  2377 evitarSubTours[46,22]
-                                   8                          50 
-  2378 evitarSubTours[46,23]
-                                 -17                          50 
-  2379 evitarSubTours[46,24]
-                                 -27                          50 
-  2380 evitarSubTours[46,25]
-                                 -26                          50 
-  2381 evitarSubTours[46,26]
-                                 -25                          50 
-  2382 evitarSubTours[46,27]
-                                 -11                          50 
-  2383 evitarSubTours[46,28]
-                                 -14                          50 
-  2384 evitarSubTours[46,29]
-                                 -13                          50 
-  2385 evitarSubTours[46,30]
-                                 -19                          50 
-  2386 evitarSubTours[46,31]
-                                 -24                          50 
-  2387 evitarSubTours[46,32]
-                                   7                          50 
-  2388 evitarSubTours[46,33]
-                                 -20                          50 
-  2389 evitarSubTours[46,34]
-                                 -12                          50 
-  2390 evitarSubTours[46,35]
-                                   4                          50 
-  2391 evitarSubTours[46,36]
-                                 -21                          50 
-  2392 evitarSubTours[46,37]
-                                 -23                          50 
-  2393 evitarSubTours[46,38]
-                                  -7                          50 
-  2394 evitarSubTours[46,39]
-                                   5                          50 
-  2395 evitarSubTours[46,40]
-                                  -6                          50 
-  2396 evitarSubTours[46,41]
-                                   3                          50 
-  2397 evitarSubTours[46,42]
-                                 -22                          50 
-  2398 evitarSubTours[46,43]
-                                   6                          50 
-  2399 evitarSubTours[46,44]
-                                   2                          50 
-  2400 evitarSubTours[46,45]
-                                  50                          50 
-  2401 evitarSubTours[46,47]
-                                  -2                          50 
-  2402 evitarSubTours[46,48]
-                                   1                          50 
-  2403 evitarSubTours[46,49]
-                                  -5                          50 
-  2404 evitarSubTours[46,50]
-                                  -4                          50 
-  2405 evitarSubTours[46,51]
-                                  -3                          50 
-  2406 evitarSubTours[47,1]
-                                 -37                          50 
-  2407 evitarSubTours[47,2]
-                                  -7                          50 
-  2408 evitarSubTours[47,3]
-                                 -39                          50 
-  2409 evitarSubTours[47,4]
-                                  -6                          50 
-  2410 evitarSubTours[47,5]
-                                  -8                          50 
-  2411 evitarSubTours[47,6]
-                                 -38                          50 
-  2412 evitarSubTours[47,7]
-                                 -36                          50 
-  2413 evitarSubTours[47,8]
-                                 -35                          50 
-  2414 evitarSubTours[47,9]
-                                 -30                          50 
-  2415 evitarSubTours[47,10]
-                                 -27                          50 
-  2416 evitarSubTours[47,11]
-                                 -13                          50 
-  2417 evitarSubTours[47,12]
-                                 -29                          50 
-  2418 evitarSubTours[47,13]
-                                 -28                          50 
-  2419 evitarSubTours[47,14]
-                                 -14                          50 
-  2420 evitarSubTours[47,15]
                                  -31                          50 
-  2421 evitarSubTours[47,16]
+  2371 evitarSubTours[46,16]
                                  -34                          50 
-  2422 evitarSubTours[47,17]
-                                  11                          50 
-  2423 evitarSubTours[47,18]
-                                 -26                          50 
-  2424 evitarSubTours[47,19]
-                                 -32                          50 
-  2425 evitarSubTours[47,20]
-                                 -33                          50 
-  2426 evitarSubTours[47,21]
-                                 -16                          50 
-  2427 evitarSubTours[47,22]
-                                  10                          50 
-  2428 evitarSubTours[47,23]
-                                 -15                          50 
-  2429 evitarSubTours[47,24]
+  2372 evitarSubTours[46,17]
+                                  12                          50 
+  2373 evitarSubTours[46,18]
                                  -25                          50 
-  2430 evitarSubTours[47,25]
-                                 -24                          50 
-  2431 evitarSubTours[47,26]
-                                 -23                          50 
-  2432 evitarSubTours[47,27]
-                                  -9                          50 
-  2433 evitarSubTours[47,28]
-                                 -12                          50 
-  2434 evitarSubTours[47,29]
-                                 -11                          50 
-  2435 evitarSubTours[47,30]
-                                 -17                          50 
-  2436 evitarSubTours[47,31]
-                                 -22                          50 
-  2437 evitarSubTours[47,32]
-                                   9                          50 
-  2438 evitarSubTours[47,33]
-                                 -18                          50 
-  2439 evitarSubTours[47,34]
-                                 -10                          50 
-  2440 evitarSubTours[47,35]
-                                   6                          50 
-  2441 evitarSubTours[47,36]
+  2374 evitarSubTours[46,19]
+                                 -32                          50 
+  2375 evitarSubTours[46,20]
+                                 -33                          50 
+  2376 evitarSubTours[46,21]
                                  -19                          50 
-  2442 evitarSubTours[47,37]
+  2377 evitarSubTours[46,22]
+                                  11                          50 
+  2378 evitarSubTours[46,23]
+                                 -20                          50 
+  2379 evitarSubTours[46,24]
+                                 -24                          50 
+  2380 evitarSubTours[46,25]
+                                 -23                          50 
+  2381 evitarSubTours[46,26]
+                                 -22                          50 
+  2382 evitarSubTours[46,27]
+                                 -10                          50 
+  2383 evitarSubTours[46,28]
+                                 -13                          50 
+  2384 evitarSubTours[46,29]
+                                 -12                          50 
+  2385 evitarSubTours[46,30]
+                                  -9                          50 
+  2386 evitarSubTours[46,31]
                                  -21                          50 
-  2443 evitarSubTours[47,38]
+  2387 evitarSubTours[46,32]
+                                  10                          50 
+  2388 evitarSubTours[46,33]
+                                  -8                          50 
+  2389 evitarSubTours[46,34]
+                                 -11                          50 
+  2390 evitarSubTours[46,35]
+                                   5                          50 
+  2391 evitarSubTours[46,36]
+                                  -7                          50 
+  2392 evitarSubTours[46,37]
+                                   4                          50 
+  2393 evitarSubTours[46,38]
+                                  -6                          50 
+  2394 evitarSubTours[46,39]
+                                   8                          50 
+  2395 evitarSubTours[46,40]
                                   -5                          50 
-  2444 evitarSubTours[47,39]
+  2396 evitarSubTours[46,41]
                                    7                          50 
-  2445 evitarSubTours[47,40]
+  2397 evitarSubTours[46,42]
+                                   3                          50 
+  2398 evitarSubTours[46,43]
+                                   9                          50 
+  2399 evitarSubTours[46,44]
+                                   6                          50 
+  2400 evitarSubTours[46,45]
+                                   1                          50 
+  2401 evitarSubTours[46,47]
+                                   2                          50 
+  2402 evitarSubTours[46,48]
+                                  50                          50 
+  2403 evitarSubTours[46,49]
                                   -4                          50 
+  2404 evitarSubTours[46,50]
+                                  -3                          50 
+  2405 evitarSubTours[46,51]
+                                  -2                          50 
+  2406 evitarSubTours[47,1]
+                                 -39                          50 
+  2407 evitarSubTours[47,2]
+                                 -18                          50 
+  2408 evitarSubTours[47,3]
+                                 -40                          50 
+  2409 evitarSubTours[47,4]
+                                 -17                          50 
+  2410 evitarSubTours[47,5]
+                                 -16                          50 
+  2411 evitarSubTours[47,6]
+                                 -28                          50 
+  2412 evitarSubTours[47,7]
+                                 -37                          50 
+  2413 evitarSubTours[47,8]
+                                 -38                          50 
+  2414 evitarSubTours[47,9]
+                                 -31                          50 
+  2415 evitarSubTours[47,10]
+                                 -29                          50 
+  2416 evitarSubTours[47,11]
+                                 -19                          50 
+  2417 evitarSubTours[47,12]
+                                 -30                          50 
+  2418 evitarSubTours[47,13]
+                                 -32                          50 
+  2419 evitarSubTours[47,14]
+                                 -20                          50 
+  2420 evitarSubTours[47,15]
+                                 -33                          50 
+  2421 evitarSubTours[47,16]
+                                 -36                          50 
+  2422 evitarSubTours[47,17]
+                                  10                          50 
+  2423 evitarSubTours[47,18]
+                                 -27                          50 
+  2424 evitarSubTours[47,19]
+                                 -34                          50 
+  2425 evitarSubTours[47,20]
+                                 -35                          50 
+  2426 evitarSubTours[47,21]
+                                 -21                          50 
+  2427 evitarSubTours[47,22]
+                                   9                          50 
+  2428 evitarSubTours[47,23]
+                                 -22                          50 
+  2429 evitarSubTours[47,24]
+                                 -26                          50 
+  2430 evitarSubTours[47,25]
+                                 -25                          50 
+  2431 evitarSubTours[47,26]
+                                 -24                          50 
+  2432 evitarSubTours[47,27]
+                                 -12                          50 
+  2433 evitarSubTours[47,28]
+                                 -15                          50 
+  2434 evitarSubTours[47,29]
+                                 -14                          50 
+  2435 evitarSubTours[47,30]
+                                 -11                          50 
+  2436 evitarSubTours[47,31]
+                                 -23                          50 
+  2437 evitarSubTours[47,32]
+                                   8                          50 
+  2438 evitarSubTours[47,33]
+                                 -10                          50 
+  2439 evitarSubTours[47,34]
+                                 -13                          50 
+  2440 evitarSubTours[47,35]
+                                   3                          50 
+  2441 evitarSubTours[47,36]
+                                  -9                          50 
+  2442 evitarSubTours[47,37]
+                                   2                          50 
+  2443 evitarSubTours[47,38]
+                                  -8                          50 
+  2444 evitarSubTours[47,39]
+                                   6                          50 
+  2445 evitarSubTours[47,40]
+                                  -7                          50 
   2446 evitarSubTours[47,41]
                                    5                          50 
   2447 evitarSubTours[47,42]
-                                 -20                          50 
+                                   1                          50 
   2448 evitarSubTours[47,43]
-                                   8                          50 
+                                   7                          50 
   2449 evitarSubTours[47,44]
                                    4                          50 
   2450 evitarSubTours[47,45]
-                                   1                          50 
-  2451 evitarSubTours[47,46]
-                                   2                          50 
-  2452 evitarSubTours[47,48]
-                                   3                          50 
-  2453 evitarSubTours[47,49]
-                                  -3                          50 
-  2454 evitarSubTours[47,50]
-                                  -2                          50 
-  2455 evitarSubTours[47,51]
                                   50                          50 
+  2451 evitarSubTours[47,46]
+                                  -2                          50 
+  2452 evitarSubTours[47,48]
+                                  -3                          50 
+  2453 evitarSubTours[47,49]
+                                  -6                          50 
+  2454 evitarSubTours[47,50]
+                                  -5                          50 
+  2455 evitarSubTours[47,51]
+                                  -4                          50 
   2456 evitarSubTours[48,1]
-                                 -40                          50 
+                                 -36                          50 
   2457 evitarSubTours[48,2]
-                                 -10                          50 
+                                 -15                          50 
   2458 evitarSubTours[48,3]
-                                 -42                          50 
+                                 -37                          50 
   2459 evitarSubTours[48,4]
-                                  -9                          50 
+                                 -14                          50 
   2460 evitarSubTours[48,5]
-                                 -11                          50 
+                                 -13                          50 
   2461 evitarSubTours[48,6]
-                                 -41                          50 
+                                 -25                          50 
   2462 evitarSubTours[48,7]
-                                 -39                          50 
+                                 -34                          50 
   2463 evitarSubTours[48,8]
-                                 -38                          50 
+                                 -35                          50 
   2464 evitarSubTours[48,9]
-                                 -33                          50 
+                                 -28                          50 
   2465 evitarSubTours[48,10]
-                                 -30                          50 
+                                 -26                          50 
   2466 evitarSubTours[48,11]
                                  -16                          50 
   2467 evitarSubTours[48,12]
-                                 -32                          50 
+                                 -27                          50 
   2468 evitarSubTours[48,13]
-                                 -31                          50 
+                                 -29                          50 
   2469 evitarSubTours[48,14]
                                  -17                          50 
   2470 evitarSubTours[48,15]
-                                 -34                          50 
+                                 -30                          50 
   2471 evitarSubTours[48,16]
-                                 -37                          50 
-  2472 evitarSubTours[48,17]
-                                   8                          50 
-  2473 evitarSubTours[48,18]
-                                 -29                          50 
-  2474 evitarSubTours[48,19]
-                                 -35                          50 
-  2475 evitarSubTours[48,20]
-                                 -36                          50 
-  2476 evitarSubTours[48,21]
-                                 -19                          50 
-  2477 evitarSubTours[48,22]
-                                   7                          50 
-  2478 evitarSubTours[48,23]
-                                 -18                          50 
-  2479 evitarSubTours[48,24]
-                                 -28                          50 
-  2480 evitarSubTours[48,25]
-                                 -27                          50 
-  2481 evitarSubTours[48,26]
-                                 -26                          50 
-  2482 evitarSubTours[48,27]
-                                 -12                          50 
-  2483 evitarSubTours[48,28]
-                                 -15                          50 
-  2484 evitarSubTours[48,29]
-                                 -14                          50 
-  2485 evitarSubTours[48,30]
-                                 -20                          50 
-  2486 evitarSubTours[48,31]
-                                 -25                          50 
-  2487 evitarSubTours[48,32]
-                                   6                          50 
-  2488 evitarSubTours[48,33]
-                                 -21                          50 
-  2489 evitarSubTours[48,34]
-                                 -13                          50 
-  2490 evitarSubTours[48,35]
-                                   3                          50 
-  2491 evitarSubTours[48,36]
-                                 -22                          50 
-  2492 evitarSubTours[48,37]
-                                 -24                          50 
-  2493 evitarSubTours[48,38]
-                                  -8                          50 
-  2494 evitarSubTours[48,39]
-                                   4                          50 
-  2495 evitarSubTours[48,40]
-                                  -7                          50 
-  2496 evitarSubTours[48,41]
-                                   2                          50 
-  2497 evitarSubTours[48,42]
-                                 -23                          50 
-  2498 evitarSubTours[48,43]
-                                   5                          50 
-  2499 evitarSubTours[48,44]
-                                   1                          50 
-  2500 evitarSubTours[48,45]
-                                  -2                          50 
-  2501 evitarSubTours[48,46]
-                                  50                          50 
-  2502 evitarSubTours[48,47]
-                                  -3                          50 
-  2503 evitarSubTours[48,49]
-                                  -6                          50 
-  2504 evitarSubTours[48,50]
-                                  -5                          50 
-  2505 evitarSubTours[48,51]
-                                  -4                          50 
-  2506 evitarSubTours[49,1]
-                                 -34                          50 
-  2507 evitarSubTours[49,2]
-                                  -4                          50 
-  2508 evitarSubTours[49,3]
-                                 -36                          50 
-  2509 evitarSubTours[49,4]
-                                  -3                          50 
-  2510 evitarSubTours[49,5]
-                                  -5                          50 
-  2511 evitarSubTours[49,6]
-                                 -35                          50 
-  2512 evitarSubTours[49,7]
                                  -33                          50 
+  2472 evitarSubTours[48,17]
+                                  13                          50 
+  2473 evitarSubTours[48,18]
+                                 -24                          50 
+  2474 evitarSubTours[48,19]
+                                 -31                          50 
+  2475 evitarSubTours[48,20]
+                                 -32                          50 
+  2476 evitarSubTours[48,21]
+                                 -18                          50 
+  2477 evitarSubTours[48,22]
+                                  12                          50 
+  2478 evitarSubTours[48,23]
+                                 -19                          50 
+  2479 evitarSubTours[48,24]
+                                 -23                          50 
+  2480 evitarSubTours[48,25]
+                                 -22                          50 
+  2481 evitarSubTours[48,26]
+                                 -21                          50 
+  2482 evitarSubTours[48,27]
+                                  -9                          50 
+  2483 evitarSubTours[48,28]
+                                 -12                          50 
+  2484 evitarSubTours[48,29]
+                                 -11                          50 
+  2485 evitarSubTours[48,30]
+                                  -8                          50 
+  2486 evitarSubTours[48,31]
+                                 -20                          50 
+  2487 evitarSubTours[48,32]
+                                  11                          50 
+  2488 evitarSubTours[48,33]
+                                  -7                          50 
+  2489 evitarSubTours[48,34]
+                                 -10                          50 
+  2490 evitarSubTours[48,35]
+                                   6                          50 
+  2491 evitarSubTours[48,36]
+                                  -6                          50 
+  2492 evitarSubTours[48,37]
+                                   5                          50 
+  2493 evitarSubTours[48,38]
+                                  -5                          50 
+  2494 evitarSubTours[48,39]
+                                   9                          50 
+  2495 evitarSubTours[48,40]
+                                  -4                          50 
+  2496 evitarSubTours[48,41]
+                                   8                          50 
+  2497 evitarSubTours[48,42]
+                                   4                          50 
+  2498 evitarSubTours[48,43]
+                                  10                          50 
+  2499 evitarSubTours[48,44]
+                                   7                          50 
+  2500 evitarSubTours[48,45]
+                                   2                          50 
+  2501 evitarSubTours[48,46]
+                                   1                          50 
+  2502 evitarSubTours[48,47]
+                                   3                          50 
+  2503 evitarSubTours[48,49]
+                                  -3                          50 
+  2504 evitarSubTours[48,50]
+                                  -2                          50 
+  2505 evitarSubTours[48,51]
+                                  50                          50 
+  2506 evitarSubTours[49,1]
+                                 -33                          50 
+  2507 evitarSubTours[49,2]
+                                 -12                          50 
+  2508 evitarSubTours[49,3]
+                                 -34                          50 
+  2509 evitarSubTours[49,4]
+                                 -11                          50 
+  2510 evitarSubTours[49,5]
+                                 -10                          50 
+  2511 evitarSubTours[49,6]
+                                 -22                          50 
+  2512 evitarSubTours[49,7]
+                                 -31                          50 
   2513 evitarSubTours[49,8]
                                  -32                          50 
   2514 evitarSubTours[49,9]
-                                 -27                          50 
-  2515 evitarSubTours[49,10]
-                                 -24                          50 
-  2516 evitarSubTours[49,11]
-                                 -10                          50 
-  2517 evitarSubTours[49,12]
-                                 -26                          50 
-  2518 evitarSubTours[49,13]
                                  -25                          50 
-  2519 evitarSubTours[49,14]
-                                 -11                          50 
-  2520 evitarSubTours[49,15]
-                                 -28                          50 
-  2521 evitarSubTours[49,16]
-                                 -31                          50 
-  2522 evitarSubTours[49,17]
-                                  14                          50 
-  2523 evitarSubTours[49,18]
+  2515 evitarSubTours[49,10]
                                  -23                          50 
-  2524 evitarSubTours[49,19]
-                                 -29                          50 
-  2525 evitarSubTours[49,20]
-                                 -30                          50 
-  2526 evitarSubTours[49,21]
+  2516 evitarSubTours[49,11]
                                  -13                          50 
-  2527 evitarSubTours[49,22]
-                                  13                          50 
-  2528 evitarSubTours[49,23]
-                                 -12                          50 
-  2529 evitarSubTours[49,24]
-                                 -22                          50 
-  2530 evitarSubTours[49,25]
+  2517 evitarSubTours[49,12]
+                                 -24                          50 
+  2518 evitarSubTours[49,13]
+                                 -26                          50 
+  2519 evitarSubTours[49,14]
+                                 -14                          50 
+  2520 evitarSubTours[49,15]
+                                 -27                          50 
+  2521 evitarSubTours[49,16]
+                                 -30                          50 
+  2522 evitarSubTours[49,17]
+                                  16                          50 
+  2523 evitarSubTours[49,18]
                                  -21                          50 
-  2531 evitarSubTours[49,26]
+  2524 evitarSubTours[49,19]
+                                 -28                          50 
+  2525 evitarSubTours[49,20]
+                                 -29                          50 
+  2526 evitarSubTours[49,21]
+                                 -15                          50 
+  2527 evitarSubTours[49,22]
+                                  15                          50 
+  2528 evitarSubTours[49,23]
+                                 -16                          50 
+  2529 evitarSubTours[49,24]
                                  -20                          50 
+  2530 evitarSubTours[49,25]
+                                 -19                          50 
+  2531 evitarSubTours[49,26]
+                                 -18                          50 
   2532 evitarSubTours[49,27]
                                   -6                          50 
   2533 evitarSubTours[49,28]
@@ -4971,99 +4971,99 @@ Objective:  total = 25505.5 (MINimum)
   2534 evitarSubTours[49,29]
                                   -8                          50 
   2535 evitarSubTours[49,30]
-                                 -14                          50 
+                                  -5                          50 
   2536 evitarSubTours[49,31]
-                                 -19                          50 
+                                 -17                          50 
   2537 evitarSubTours[49,32]
-                                  12                          50 
+                                  14                          50 
   2538 evitarSubTours[49,33]
-                                 -15                          50 
+                                  -4                          50 
   2539 evitarSubTours[49,34]
                                   -7                          50 
   2540 evitarSubTours[49,35]
                                    9                          50 
   2541 evitarSubTours[49,36]
-                                 -16                          50 
+                                  -3                          50 
   2542 evitarSubTours[49,37]
-                                 -18                          50 
+                                   8                          50 
   2543 evitarSubTours[49,38]
                                   -2                          50 
   2544 evitarSubTours[49,39]
-                                  10                          50 
+                                  12                          50 
   2545 evitarSubTours[49,40]
                                   50                          50 
   2546 evitarSubTours[49,41]
-                                   8                          50 
-  2547 evitarSubTours[49,42]
-                                 -17                          50 
-  2548 evitarSubTours[49,43]
                                   11                          50 
-  2549 evitarSubTours[49,44]
+  2547 evitarSubTours[49,42]
                                    7                          50 
+  2548 evitarSubTours[49,43]
+                                  13                          50 
+  2549 evitarSubTours[49,44]
+                                  10                          50 
   2550 evitarSubTours[49,45]
-                                   4                          50 
-  2551 evitarSubTours[49,46]
                                    5                          50 
+  2551 evitarSubTours[49,46]
+                                   4                          50 
   2552 evitarSubTours[49,47]
-                                   3                          50 
-  2553 evitarSubTours[49,48]
                                    6                          50 
+  2553 evitarSubTours[49,48]
+                                   3                          50 
   2554 evitarSubTours[49,50]
                                    1                          50 
   2555 evitarSubTours[49,51]
                                    2                          50 
   2556 evitarSubTours[50,1]
-                                 -35                          50 
-  2557 evitarSubTours[50,2]
-                                  -5                          50 
-  2558 evitarSubTours[50,3]
-                                 -37                          50 
-  2559 evitarSubTours[50,4]
-                                  -4                          50 
-  2560 evitarSubTours[50,5]
-                                  -6                          50 
-  2561 evitarSubTours[50,6]
-                                 -36                          50 
-  2562 evitarSubTours[50,7]
                                  -34                          50 
+  2557 evitarSubTours[50,2]
+                                 -13                          50 
+  2558 evitarSubTours[50,3]
+                                 -35                          50 
+  2559 evitarSubTours[50,4]
+                                 -12                          50 
+  2560 evitarSubTours[50,5]
+                                 -11                          50 
+  2561 evitarSubTours[50,6]
+                                 -23                          50 
+  2562 evitarSubTours[50,7]
+                                 -32                          50 
   2563 evitarSubTours[50,8]
                                  -33                          50 
   2564 evitarSubTours[50,9]
-                                 -28                          50 
-  2565 evitarSubTours[50,10]
-                                 -25                          50 
-  2566 evitarSubTours[50,11]
-                                 -11                          50 
-  2567 evitarSubTours[50,12]
-                                 -27                          50 
-  2568 evitarSubTours[50,13]
                                  -26                          50 
-  2569 evitarSubTours[50,14]
-                                 -12                          50 
-  2570 evitarSubTours[50,15]
-                                 -29                          50 
-  2571 evitarSubTours[50,16]
-                                 -32                          50 
-  2572 evitarSubTours[50,17]
-                                  13                          50 
-  2573 evitarSubTours[50,18]
+  2565 evitarSubTours[50,10]
                                  -24                          50 
-  2574 evitarSubTours[50,19]
-                                 -30                          50 
-  2575 evitarSubTours[50,20]
-                                 -31                          50 
-  2576 evitarSubTours[50,21]
+  2566 evitarSubTours[50,11]
                                  -14                          50 
-  2577 evitarSubTours[50,22]
-                                  12                          50 
-  2578 evitarSubTours[50,23]
-                                 -13                          50 
-  2579 evitarSubTours[50,24]
-                                 -23                          50 
-  2580 evitarSubTours[50,25]
+  2567 evitarSubTours[50,12]
+                                 -25                          50 
+  2568 evitarSubTours[50,13]
+                                 -27                          50 
+  2569 evitarSubTours[50,14]
+                                 -15                          50 
+  2570 evitarSubTours[50,15]
+                                 -28                          50 
+  2571 evitarSubTours[50,16]
+                                 -31                          50 
+  2572 evitarSubTours[50,17]
+                                  15                          50 
+  2573 evitarSubTours[50,18]
                                  -22                          50 
-  2581 evitarSubTours[50,26]
+  2574 evitarSubTours[50,19]
+                                 -29                          50 
+  2575 evitarSubTours[50,20]
+                                 -30                          50 
+  2576 evitarSubTours[50,21]
+                                 -16                          50 
+  2577 evitarSubTours[50,22]
+                                  14                          50 
+  2578 evitarSubTours[50,23]
+                                 -17                          50 
+  2579 evitarSubTours[50,24]
                                  -21                          50 
+  2580 evitarSubTours[50,25]
+                                 -20                          50 
+  2581 evitarSubTours[50,26]
+                                 -19                          50 
   2582 evitarSubTours[50,27]
                                   -7                          50 
   2583 evitarSubTours[50,28]
@@ -5071,99 +5071,99 @@ Objective:  total = 25505.5 (MINimum)
   2584 evitarSubTours[50,29]
                                   -9                          50 
   2585 evitarSubTours[50,30]
-                                 -15                          50 
+                                  -6                          50 
   2586 evitarSubTours[50,31]
-                                 -20                          50 
+                                 -18                          50 
   2587 evitarSubTours[50,32]
-                                  11                          50 
+                                  13                          50 
   2588 evitarSubTours[50,33]
-                                 -16                          50 
+                                  -5                          50 
   2589 evitarSubTours[50,34]
                                   -8                          50 
   2590 evitarSubTours[50,35]
                                    8                          50 
   2591 evitarSubTours[50,36]
-                                 -17                          50 
+                                  -4                          50 
   2592 evitarSubTours[50,37]
-                                 -19                          50 
+                                   7                          50 
   2593 evitarSubTours[50,38]
                                   -3                          50 
   2594 evitarSubTours[50,39]
-                                   9                          50 
+                                  11                          50 
   2595 evitarSubTours[50,40]
                                   -2                          50 
   2596 evitarSubTours[50,41]
-                                   7                          50 
-  2597 evitarSubTours[50,42]
-                                 -18                          50 
-  2598 evitarSubTours[50,43]
                                   10                          50 
-  2599 evitarSubTours[50,44]
+  2597 evitarSubTours[50,42]
                                    6                          50 
+  2598 evitarSubTours[50,43]
+                                  12                          50 
+  2599 evitarSubTours[50,44]
+                                   9                          50 
   2600 evitarSubTours[50,45]
-                                   3                          50 
-  2601 evitarSubTours[50,46]
                                    4                          50 
+  2601 evitarSubTours[50,46]
+                                   3                          50 
   2602 evitarSubTours[50,47]
-                                   2                          50 
-  2603 evitarSubTours[50,48]
                                    5                          50 
+  2603 evitarSubTours[50,48]
+                                   2                          50 
   2604 evitarSubTours[50,49]
                                   50                          50 
   2605 evitarSubTours[50,51]
                                    1                          50 
   2606 evitarSubTours[51,1]
-                                 -36                          50 
-  2607 evitarSubTours[51,2]
-                                  -6                          50 
-  2608 evitarSubTours[51,3]
-                                 -38                          50 
-  2609 evitarSubTours[51,4]
-                                  -5                          50 
-  2610 evitarSubTours[51,5]
-                                  -7                          50 
-  2611 evitarSubTours[51,6]
-                                 -37                          50 
-  2612 evitarSubTours[51,7]
                                  -35                          50 
+  2607 evitarSubTours[51,2]
+                                 -14                          50 
+  2608 evitarSubTours[51,3]
+                                 -36                          50 
+  2609 evitarSubTours[51,4]
+                                 -13                          50 
+  2610 evitarSubTours[51,5]
+                                 -12                          50 
+  2611 evitarSubTours[51,6]
+                                 -24                          50 
+  2612 evitarSubTours[51,7]
+                                 -33                          50 
   2613 evitarSubTours[51,8]
                                  -34                          50 
   2614 evitarSubTours[51,9]
-                                 -29                          50 
-  2615 evitarSubTours[51,10]
-                                 -26                          50 
-  2616 evitarSubTours[51,11]
-                                 -12                          50 
-  2617 evitarSubTours[51,12]
-                                 -28                          50 
-  2618 evitarSubTours[51,13]
                                  -27                          50 
-  2619 evitarSubTours[51,14]
-                                 -13                          50 
-  2620 evitarSubTours[51,15]
-                                 -30                          50 
-  2621 evitarSubTours[51,16]
-                                 -33                          50 
-  2622 evitarSubTours[51,17]
-                                  12                          50 
-  2623 evitarSubTours[51,18]
+  2615 evitarSubTours[51,10]
                                  -25                          50 
-  2624 evitarSubTours[51,19]
-                                 -31                          50 
-  2625 evitarSubTours[51,20]
-                                 -32                          50 
-  2626 evitarSubTours[51,21]
+  2616 evitarSubTours[51,11]
                                  -15                          50 
-  2627 evitarSubTours[51,22]
-                                  11                          50 
-  2628 evitarSubTours[51,23]
-                                 -14                          50 
-  2629 evitarSubTours[51,24]
-                                 -24                          50 
-  2630 evitarSubTours[51,25]
+  2617 evitarSubTours[51,12]
+                                 -26                          50 
+  2618 evitarSubTours[51,13]
+                                 -28                          50 
+  2619 evitarSubTours[51,14]
+                                 -16                          50 
+  2620 evitarSubTours[51,15]
+                                 -29                          50 
+  2621 evitarSubTours[51,16]
+                                 -32                          50 
+  2622 evitarSubTours[51,17]
+                                  14                          50 
+  2623 evitarSubTours[51,18]
                                  -23                          50 
-  2631 evitarSubTours[51,26]
+  2624 evitarSubTours[51,19]
+                                 -30                          50 
+  2625 evitarSubTours[51,20]
+                                 -31                          50 
+  2626 evitarSubTours[51,21]
+                                 -17                          50 
+  2627 evitarSubTours[51,22]
+                                  13                          50 
+  2628 evitarSubTours[51,23]
+                                 -18                          50 
+  2629 evitarSubTours[51,24]
                                  -22                          50 
+  2630 evitarSubTours[51,25]
+                                 -21                          50 
+  2631 evitarSubTours[51,26]
+                                 -20                          50 
   2632 evitarSubTours[51,27]
                                   -8                          50 
   2633 evitarSubTours[51,28]
@@ -5171,93 +5171,93 @@ Objective:  total = 25505.5 (MINimum)
   2634 evitarSubTours[51,29]
                                  -10                          50 
   2635 evitarSubTours[51,30]
-                                 -16                          50 
+                                  -7                          50 
   2636 evitarSubTours[51,31]
-                                 -21                          50 
+                                 -19                          50 
   2637 evitarSubTours[51,32]
-                                  10                          50 
+                                  12                          50 
   2638 evitarSubTours[51,33]
-                                 -17                          50 
+                                  -6                          50 
   2639 evitarSubTours[51,34]
                                   -9                          50 
   2640 evitarSubTours[51,35]
                                    7                          50 
   2641 evitarSubTours[51,36]
-                                 -18                          50 
+                                  -5                          50 
   2642 evitarSubTours[51,37]
-                                 -20                          50 
+                                   6                          50 
   2643 evitarSubTours[51,38]
                                   -4                          50 
   2644 evitarSubTours[51,39]
-                                   8                          50 
+                                  10                          50 
   2645 evitarSubTours[51,40]
                                   -3                          50 
   2646 evitarSubTours[51,41]
-                                   6                          50 
-  2647 evitarSubTours[51,42]
-                                 -19                          50 
-  2648 evitarSubTours[51,43]
                                    9                          50 
-  2649 evitarSubTours[51,44]
+  2647 evitarSubTours[51,42]
                                    5                          50 
+  2648 evitarSubTours[51,43]
+                                  11                          50 
+  2649 evitarSubTours[51,44]
+                                   8                          50 
   2650 evitarSubTours[51,45]
-                                   2                          50 
-  2651 evitarSubTours[51,46]
                                    3                          50 
+  2651 evitarSubTours[51,46]
+                                   2                          50 
   2652 evitarSubTours[51,47]
-                                   1                          50 
-  2653 evitarSubTours[51,48]
                                    4                          50 
+  2653 evitarSubTours[51,48]
+                                   1                          50 
   2654 evitarSubTours[51,49]
                                   -2                          50 
   2655 evitarSubTours[51,50]
                                   50                          50 
   2656 rangoOrden[1]
-                                  49             1            51 
+                                  50             1            51 
   2657 rangoOrden[2]
-                                  19             1            51 
+                                  29             1            51 
   2658 rangoOrden[3]
                                   51             1            51 
   2659 rangoOrden[4]
-                                  18             1            51 
+                                  28             1            51 
   2660 rangoOrden[5]
-                                  20             1            51 
+                                  27             1            51 
   2661 rangoOrden[6]
-                                  50             1            51 
+                                  39             1            51 
   2662 rangoOrden[7]
                                   48             1            51 
   2663 rangoOrden[8]
-                                  47             1            51 
+                                  49             1            51 
   2664 rangoOrden[9]
                                   42             1            51 
   2665 rangoOrden[10]
-                                  39             1            51 
+                                  40             1            51 
   2666 rangoOrden[11]
-                                  25             1            51 
+                                  30             1            51 
   2667 rangoOrden[12]
                                   41             1            51 
   2668 rangoOrden[13]
-                                  40             1            51 
-  2669 rangoOrden[14]
-                                  26             1            51 
-  2670 rangoOrden[15]
                                   43             1            51 
+  2669 rangoOrden[14]
+                                  31             1            51 
+  2670 rangoOrden[15]
+                                  44             1            51 
   2671 rangoOrden[16]
-                                  46             1            51 
+                                  47             1            51 
   2672 rangoOrden[17]
                                    1             1            51 
   2673 rangoOrden[18]
                                   38             1            51 
   2674 rangoOrden[19]
-                                  44             1            51 
-  2675 rangoOrden[20]
                                   45             1            51 
+  2675 rangoOrden[20]
+                                  46             1            51 
   2676 rangoOrden[21]
-                                  28             1            51 
+                                  32             1            51 
   2677 rangoOrden[22]
                                    2             1            51 
   2678 rangoOrden[23]
-                                  27             1            51 
+                                  33             1            51 
   2679 rangoOrden[24]
                                   37             1            51 
   2680 rangoOrden[25]
@@ -5265,55 +5265,55 @@ Objective:  total = 25505.5 (MINimum)
   2681 rangoOrden[26]
                                   35             1            51 
   2682 rangoOrden[27]
-                                  21             1            51 
-  2683 rangoOrden[28]
-                                  24             1            51 
-  2684 rangoOrden[29]
                                   23             1            51 
+  2683 rangoOrden[28]
+                                  26             1            51 
+  2684 rangoOrden[29]
+                                  25             1            51 
   2685 rangoOrden[30]
-                                  29             1            51 
+                                  22             1            51 
   2686 rangoOrden[31]
                                   34             1            51 
   2687 rangoOrden[32]
                                    3             1            51 
   2688 rangoOrden[33]
-                                  30             1            51 
+                                  21             1            51 
   2689 rangoOrden[34]
-                                  22             1            51 
+                                  24             1            51 
   2690 rangoOrden[35]
-                                   6             1            51 
+                                   8             1            51 
   2691 rangoOrden[36]
-                                  31             1            51 
+                                  20             1            51 
   2692 rangoOrden[37]
-                                  33             1            51 
+                                   9             1            51 
   2693 rangoOrden[38]
-                                  17             1            51 
+                                  19             1            51 
   2694 rangoOrden[39]
                                    5             1            51 
   2695 rangoOrden[40]
-                                  16             1            51 
+                                  18             1            51 
   2696 rangoOrden[41]
-                                   7             1            51 
+                                   6             1            51 
   2697 rangoOrden[42]
-                                  32             1            51 
+                                  10             1            51 
   2698 rangoOrden[43]
                                    4             1            51 
   2699 rangoOrden[44]
-                                   8             1            51 
+                                   7             1            51 
   2700 rangoOrden[45]
-                                  11             1            51 
-  2701 rangoOrden[46]
-                                  10             1            51 
-  2702 rangoOrden[47]
                                   12             1            51 
-  2703 rangoOrden[48]
-                                   9             1            51 
-  2704 rangoOrden[49]
-                                  15             1            51 
-  2705 rangoOrden[50]
-                                  14             1            51 
-  2706 rangoOrden[51]
+  2701 rangoOrden[46]
                                   13             1            51 
+  2702 rangoOrden[47]
+                                  11             1            51 
+  2703 rangoOrden[48]
+                                  14             1            51 
+  2704 rangoOrden[49]
+                                  17             1            51 
+  2705 rangoOrden[50]
+                                  16             1            51 
+  2706 rangoOrden[51]
+                                  15             1            51 
 
    No. Column name       Activity     Lower bound   Upper bound
 ------ ------------    ------------- ------------- -------------
@@ -5370,10 +5370,10 @@ Objective:  total = 25505.5 (MINimum)
     51 Y[0,51]      *              0             0             1 
     52 Y[1,0]       *              0             0             1 
     53 Y[1,2]       *              0             0             1 
-    54 Y[1,3]       *              0             0             1 
+    54 Y[1,3]       *              1             0             1 
     55 Y[1,4]       *              0             0             1 
     56 Y[1,5]       *              0             0             1 
-    57 Y[1,6]       *              1             0             1 
+    57 Y[1,6]       *              0             0             1 
     58 Y[1,7]       *              0             0             1 
     59 Y[1,8]       *              0             0             1 
     60 Y[1,9]       *              0             0             1 
@@ -5423,13 +5423,13 @@ Objective:  total = 25505.5 (MINimum)
    104 Y[2,1]       *              0             0             1 
    105 Y[2,3]       *              0             0             1 
    106 Y[2,4]       *              0             0             1 
-   107 Y[2,5]       *              1             0             1 
+   107 Y[2,5]       *              0             0             1 
    108 Y[2,6]       *              0             0             1 
    109 Y[2,7]       *              0             0             1 
    110 Y[2,8]       *              0             0             1 
    111 Y[2,9]       *              0             0             1 
    112 Y[2,10]      *              0             0             1 
-   113 Y[2,11]      *              0             0             1 
+   113 Y[2,11]      *              1             0             1 
    114 Y[2,12]      *              0             0             1 
    115 Y[2,13]      *              0             0             1 
    116 Y[2,14]      *              0             0             1 
@@ -5576,7 +5576,7 @@ Objective:  total = 25505.5 (MINimum)
    257 Y[5,1]       *              0             0             1 
    258 Y[5,2]       *              0             0             1 
    259 Y[5,3]       *              0             0             1 
-   260 Y[5,4]       *              0             0             1 
+   260 Y[5,4]       *              1             0             1 
    261 Y[5,6]       *              0             0             1 
    262 Y[5,7]       *              0             0             1 
    263 Y[5,8]       *              0             0             1 
@@ -5598,7 +5598,7 @@ Objective:  total = 25505.5 (MINimum)
    279 Y[5,24]      *              0             0             1 
    280 Y[5,25]      *              0             0             1 
    281 Y[5,26]      *              0             0             1 
-   282 Y[5,27]      *              1             0             1 
+   282 Y[5,27]      *              0             0             1 
    283 Y[5,28]      *              0             0             1 
    284 Y[5,29]      *              0             0             1 
    285 Y[5,30]      *              0             0             1 
@@ -5626,13 +5626,13 @@ Objective:  total = 25505.5 (MINimum)
    307 Y[6,0]       *              0             0             1 
    308 Y[6,1]       *              0             0             1 
    309 Y[6,2]       *              0             0             1 
-   310 Y[6,3]       *              1             0             1 
+   310 Y[6,3]       *              0             0             1 
    311 Y[6,4]       *              0             0             1 
    312 Y[6,5]       *              0             0             1 
    313 Y[6,7]       *              0             0             1 
    314 Y[6,8]       *              0             0             1 
    315 Y[6,9]       *              0             0             1 
-   316 Y[6,10]      *              0             0             1 
+   316 Y[6,10]      *              1             0             1 
    317 Y[6,11]      *              0             0             1 
    318 Y[6,12]      *              0             0             1 
    319 Y[6,13]      *              0             0             1 
@@ -5675,13 +5675,13 @@ Objective:  total = 25505.5 (MINimum)
    356 Y[6,50]      *              0             0             1 
    357 Y[6,51]      *              0             0             1 
    358 Y[7,0]       *              0             0             1 
-   359 Y[7,1]       *              1             0             1 
+   359 Y[7,1]       *              0             0             1 
    360 Y[7,2]       *              0             0             1 
    361 Y[7,3]       *              0             0             1 
    362 Y[7,4]       *              0             0             1 
    363 Y[7,5]       *              0             0             1 
    364 Y[7,6]       *              0             0             1 
-   365 Y[7,8]       *              0             0             1 
+   365 Y[7,8]       *              1             0             1 
    366 Y[7,9]       *              0             0             1 
    367 Y[7,10]      *              0             0             1 
    368 Y[7,11]      *              0             0             1 
@@ -5726,13 +5726,13 @@ Objective:  total = 25505.5 (MINimum)
    407 Y[7,50]      *              0             0             1 
    408 Y[7,51]      *              0             0             1 
    409 Y[8,0]       *              0             0             1 
-   410 Y[8,1]       *              0             0             1 
+   410 Y[8,1]       *              1             0             1 
    411 Y[8,2]       *              0             0             1 
    412 Y[8,3]       *              0             0             1 
    413 Y[8,4]       *              0             0             1 
    414 Y[8,5]       *              0             0             1 
    415 Y[8,6]       *              0             0             1 
-   416 Y[8,7]       *              1             0             1 
+   416 Y[8,7]       *              0             0             1 
    417 Y[8,9]       *              0             0             1 
    418 Y[8,10]      *              0             0             1 
    419 Y[8,11]      *              0             0             1 
@@ -5788,9 +5788,9 @@ Objective:  total = 25505.5 (MINimum)
    469 Y[9,10]      *              0             0             1 
    470 Y[9,11]      *              0             0             1 
    471 Y[9,12]      *              0             0             1 
-   472 Y[9,13]      *              0             0             1 
+   472 Y[9,13]      *              1             0             1 
    473 Y[9,14]      *              0             0             1 
-   474 Y[9,15]      *              1             0             1 
+   474 Y[9,15]      *              0             0             1 
    475 Y[9,16]      *              0             0             1 
    476 Y[9,17]      *              0             0             1 
    477 Y[9,18]      *              0             0             1 
@@ -5838,8 +5838,8 @@ Objective:  total = 25505.5 (MINimum)
    519 Y[10,8]      *              0             0             1 
    520 Y[10,9]      *              0             0             1 
    521 Y[10,11]     *              0             0             1 
-   522 Y[10,12]     *              0             0             1 
-   523 Y[10,13]     *              1             0             1 
+   522 Y[10,12]     *              1             0             1 
+   523 Y[10,13]     *              0             0             1 
    524 Y[10,14]     *              0             0             1 
    525 Y[10,15]     *              0             0             1 
    526 Y[10,16]     *              0             0             1 
@@ -5992,9 +5992,9 @@ Objective:  total = 25505.5 (MINimum)
    673 Y[13,9]      *              0             0             1 
    674 Y[13,10]     *              0             0             1 
    675 Y[13,11]     *              0             0             1 
-   676 Y[13,12]     *              1             0             1 
+   676 Y[13,12]     *              0             0             1 
    677 Y[13,14]     *              0             0             1 
-   678 Y[13,15]     *              0             0             1 
+   678 Y[13,15]     *              1             0             1 
    679 Y[13,16]     *              0             0             1 
    680 Y[13,17]     *              0             0             1 
    681 Y[13,18]     *              0             0             1 
@@ -6051,9 +6051,9 @@ Objective:  total = 25505.5 (MINimum)
    732 Y[14,18]     *              0             0             1 
    733 Y[14,19]     *              0             0             1 
    734 Y[14,20]     *              0             0             1 
-   735 Y[14,21]     *              0             0             1 
+   735 Y[14,21]     *              1             0             1 
    736 Y[14,22]     *              0             0             1 
-   737 Y[14,23]     *              1             0             1 
+   737 Y[14,23]     *              0             0             1 
    738 Y[14,24]     *              0             0             1 
    739 Y[14,25]     *              0             0             1 
    740 Y[14,26]     *              0             0             1 
@@ -6140,8 +6140,8 @@ Objective:  total = 25505.5 (MINimum)
    821 Y[16,4]      *              0             0             1 
    822 Y[16,5]      *              0             0             1 
    823 Y[16,6]      *              0             0             1 
-   824 Y[16,7]      *              0             0             1 
-   825 Y[16,8]      *              1             0             1 
+   824 Y[16,7]      *              1             0             1 
+   825 Y[16,8]      *              0             0             1 
    826 Y[16,9]      *              0             0             1 
    827 Y[16,10]     *              0             0             1 
    828 Y[16,11]     *              0             0             1 
@@ -6241,11 +6241,11 @@ Objective:  total = 25505.5 (MINimum)
    922 Y[18,3]      *              0             0             1 
    923 Y[18,4]      *              0             0             1 
    924 Y[18,5]      *              0             0             1 
-   925 Y[18,6]      *              0             0             1 
+   925 Y[18,6]      *              1             0             1 
    926 Y[18,7]      *              0             0             1 
    927 Y[18,8]      *              0             0             1 
    928 Y[18,9]      *              0             0             1 
-   929 Y[18,10]     *              1             0             1 
+   929 Y[18,10]     *              0             0             1 
    930 Y[18,11]     *              0             0             1 
    931 Y[18,12]     *              0             0             1 
    932 Y[18,13]     *              0             0             1 
@@ -6410,14 +6410,14 @@ Objective:  total = 25505.5 (MINimum)
   1091 Y[21,19]     *              0             0             1 
   1092 Y[21,20]     *              0             0             1 
   1093 Y[21,22]     *              0             0             1 
-  1094 Y[21,23]     *              0             0             1 
+  1094 Y[21,23]     *              1             0             1 
   1095 Y[21,24]     *              0             0             1 
   1096 Y[21,25]     *              0             0             1 
   1097 Y[21,26]     *              0             0             1 
   1098 Y[21,27]     *              0             0             1 
   1099 Y[21,28]     *              0             0             1 
   1100 Y[21,29]     *              0             0             1 
-  1101 Y[21,30]     *              1             0             1 
+  1101 Y[21,30]     *              0             0             1 
   1102 Y[21,31]     *              0             0             1 
   1103 Y[21,32]     *              0             0             1 
   1104 Y[21,33]     *              0             0             1 
@@ -6511,7 +6511,7 @@ Objective:  total = 25505.5 (MINimum)
   1192 Y[23,18]     *              0             0             1 
   1193 Y[23,19]     *              0             0             1 
   1194 Y[23,20]     *              0             0             1 
-  1195 Y[23,21]     *              1             0             1 
+  1195 Y[23,21]     *              0             0             1 
   1196 Y[23,22]     *              0             0             1 
   1197 Y[23,24]     *              0             0             1 
   1198 Y[23,25]     *              0             0             1 
@@ -6520,7 +6520,7 @@ Objective:  total = 25505.5 (MINimum)
   1201 Y[23,28]     *              0             0             1 
   1202 Y[23,29]     *              0             0             1 
   1203 Y[23,30]     *              0             0             1 
-  1204 Y[23,31]     *              0             0             1 
+  1204 Y[23,31]     *              1             0             1 
   1205 Y[23,32]     *              0             0             1 
   1206 Y[23,33]     *              0             0             1 
   1207 Y[23,34]     *              0             0             1 
@@ -6750,13 +6750,13 @@ Objective:  total = 25505.5 (MINimum)
   1431 Y[28,2]      *              0             0             1 
   1432 Y[28,3]      *              0             0             1 
   1433 Y[28,4]      *              0             0             1 
-  1434 Y[28,5]      *              0             0             1 
+  1434 Y[28,5]      *              1             0             1 
   1435 Y[28,6]      *              0             0             1 
   1436 Y[28,7]      *              0             0             1 
   1437 Y[28,8]      *              0             0             1 
   1438 Y[28,9]      *              0             0             1 
   1439 Y[28,10]     *              0             0             1 
-  1440 Y[28,11]     *              1             0             1 
+  1440 Y[28,11]     *              0             0             1 
   1441 Y[28,12]     *              0             0             1 
   1442 Y[28,13]     *              0             0             1 
   1443 Y[28,14]     *              0             0             1 
@@ -6874,12 +6874,12 @@ Objective:  total = 25505.5 (MINimum)
   1555 Y[30,24]     *              0             0             1 
   1556 Y[30,25]     *              0             0             1 
   1557 Y[30,26]     *              0             0             1 
-  1558 Y[30,27]     *              0             0             1 
+  1558 Y[30,27]     *              1             0             1 
   1559 Y[30,28]     *              0             0             1 
   1560 Y[30,29]     *              0             0             1 
   1561 Y[30,31]     *              0             0             1 
   1562 Y[30,32]     *              0             0             1 
-  1563 Y[30,33]     *              1             0             1 
+  1563 Y[30,33]     *              0             0             1 
   1564 Y[30,34]     *              0             0             1 
   1565 Y[30,35]     *              0             0             1 
   1566 Y[30,36]     *              0             0             1 
@@ -7030,12 +7030,12 @@ Objective:  total = 25505.5 (MINimum)
   1711 Y[33,27]     *              0             0             1 
   1712 Y[33,28]     *              0             0             1 
   1713 Y[33,29]     *              0             0             1 
-  1714 Y[33,30]     *              0             0             1 
+  1714 Y[33,30]     *              1             0             1 
   1715 Y[33,31]     *              0             0             1 
   1716 Y[33,32]     *              0             0             1 
   1717 Y[33,34]     *              0             0             1 
   1718 Y[33,35]     *              0             0             1 
-  1719 Y[33,36]     *              1             0             1 
+  1719 Y[33,36]     *              0             0             1 
   1720 Y[33,37]     *              0             0             1 
   1721 Y[33,38]     *              0             0             1 
   1722 Y[33,39]     *              0             0             1 
@@ -7138,11 +7138,11 @@ Objective:  total = 25505.5 (MINimum)
   1819 Y[35,33]     *              0             0             1 
   1820 Y[35,34]     *              0             0             1 
   1821 Y[35,36]     *              0             0             1 
-  1822 Y[35,37]     *              0             0             1 
+  1822 Y[35,37]     *              1             0             1 
   1823 Y[35,38]     *              0             0             1 
   1824 Y[35,39]     *              0             0             1 
   1825 Y[35,40]     *              0             0             1 
-  1826 Y[35,41]     *              1             0             1 
+  1826 Y[35,41]     *              0             0             1 
   1827 Y[35,42]     *              0             0             1 
   1828 Y[35,43]     *              0             0             1 
   1829 Y[35,44]     *              0             0             1 
@@ -7186,7 +7186,7 @@ Objective:  total = 25505.5 (MINimum)
   1867 Y[36,30]     *              0             0             1 
   1868 Y[36,31]     *              0             0             1 
   1869 Y[36,32]     *              0             0             1 
-  1870 Y[36,33]     *              0             0             1 
+  1870 Y[36,33]     *              1             0             1 
   1871 Y[36,34]     *              0             0             1 
   1872 Y[36,35]     *              0             0             1 
   1873 Y[36,37]     *              0             0             1 
@@ -7194,7 +7194,7 @@ Objective:  total = 25505.5 (MINimum)
   1875 Y[36,39]     *              0             0             1 
   1876 Y[36,40]     *              0             0             1 
   1877 Y[36,41]     *              0             0             1 
-  1878 Y[36,42]     *              1             0             1 
+  1878 Y[36,42]     *              0             0             1 
   1879 Y[36,43]     *              0             0             1 
   1880 Y[36,44]     *              0             0             1 
   1881 Y[36,45]     *              0             0             1 
@@ -7235,7 +7235,7 @@ Objective:  total = 25505.5 (MINimum)
   1916 Y[37,28]     *              0             0             1 
   1917 Y[37,29]     *              0             0             1 
   1918 Y[37,30]     *              0             0             1 
-  1919 Y[37,31]     *              1             0             1 
+  1919 Y[37,31]     *              0             0             1 
   1920 Y[37,32]     *              0             0             1 
   1921 Y[37,33]     *              0             0             1 
   1922 Y[37,34]     *              0             0             1 
@@ -7245,7 +7245,7 @@ Objective:  total = 25505.5 (MINimum)
   1926 Y[37,39]     *              0             0             1 
   1927 Y[37,40]     *              0             0             1 
   1928 Y[37,41]     *              0             0             1 
-  1929 Y[37,42]     *              0             0             1 
+  1929 Y[37,42]     *              1             0             1 
   1930 Y[37,43]     *              0             0             1 
   1931 Y[37,44]     *              0             0             1 
   1932 Y[37,45]     *              0             0             1 
@@ -7259,7 +7259,7 @@ Objective:  total = 25505.5 (MINimum)
   1940 Y[38,1]      *              0             0             1 
   1941 Y[38,2]      *              0             0             1 
   1942 Y[38,3]      *              0             0             1 
-  1943 Y[38,4]      *              1             0             1 
+  1943 Y[38,4]      *              0             0             1 
   1944 Y[38,5]      *              0             0             1 
   1945 Y[38,6]      *              0             0             1 
   1946 Y[38,7]      *              0             0             1 
@@ -7291,7 +7291,7 @@ Objective:  total = 25505.5 (MINimum)
   1972 Y[38,33]     *              0             0             1 
   1973 Y[38,34]     *              0             0             1 
   1974 Y[38,35]     *              0             0             1 
-  1975 Y[38,36]     *              0             0             1 
+  1975 Y[38,36]     *              1             0             1 
   1976 Y[38,37]     *              0             0             1 
   1977 Y[38,39]     *              0             0             1 
   1978 Y[38,40]     *              0             0             1 
@@ -7341,12 +7341,12 @@ Objective:  total = 25505.5 (MINimum)
   2022 Y[39,32]     *              0             0             1 
   2023 Y[39,33]     *              0             0             1 
   2024 Y[39,34]     *              0             0             1 
-  2025 Y[39,35]     *              1             0             1 
+  2025 Y[39,35]     *              0             0             1 
   2026 Y[39,36]     *              0             0             1 
   2027 Y[39,37]     *              0             0             1 
   2028 Y[39,38]     *              0             0             1 
   2029 Y[39,40]     *              0             0             1 
-  2030 Y[39,41]     *              0             0             1 
+  2030 Y[39,41]     *              1             0             1 
   2031 Y[39,42]     *              0             0             1 
   2032 Y[39,43]     *              0             0             1 
   2033 Y[39,44]     *              0             0             1 
@@ -7496,7 +7496,7 @@ Objective:  total = 25505.5 (MINimum)
   2177 Y[42,34]     *              0             0             1 
   2178 Y[42,35]     *              0             0             1 
   2179 Y[42,36]     *              0             0             1 
-  2180 Y[42,37]     *              1             0             1 
+  2180 Y[42,37]     *              0             0             1 
   2181 Y[42,38]     *              0             0             1 
   2182 Y[42,39]     *              0             0             1 
   2183 Y[42,40]     *              0             0             1 
@@ -7505,7 +7505,7 @@ Objective:  total = 25505.5 (MINimum)
   2186 Y[42,44]     *              0             0             1 
   2187 Y[42,45]     *              0             0             1 
   2188 Y[42,46]     *              0             0             1 
-  2189 Y[42,47]     *              0             0             1 
+  2189 Y[42,47]     *              1             0             1 
   2190 Y[42,48]     *              0             0             1 
   2191 Y[42,49]     *              0             0             1 
   2192 Y[42,50]     *              0             0             1 
@@ -7596,7 +7596,7 @@ Objective:  total = 25505.5 (MINimum)
   2277 Y[44,32]     *              0             0             1 
   2278 Y[44,33]     *              0             0             1 
   2279 Y[44,34]     *              0             0             1 
-  2280 Y[44,35]     *              0             0             1 
+  2280 Y[44,35]     *              1             0             1 
   2281 Y[44,36]     *              0             0             1 
   2282 Y[44,37]     *              0             0             1 
   2283 Y[44,38]     *              0             0             1 
@@ -7608,7 +7608,7 @@ Objective:  total = 25505.5 (MINimum)
   2289 Y[44,45]     *              0             0             1 
   2290 Y[44,46]     *              0             0             1 
   2291 Y[44,47]     *              0             0             1 
-  2292 Y[44,48]     *              1             0             1 
+  2292 Y[44,48]     *              0             0             1 
   2293 Y[44,49]     *              0             0             1 
   2294 Y[44,50]     *              0             0             1 
   2295 Y[44,51]     *              0             0             1 
@@ -7657,8 +7657,8 @@ Objective:  total = 25505.5 (MINimum)
   2338 Y[45,42]     *              0             0             1 
   2339 Y[45,43]     *              0             0             1 
   2340 Y[45,44]     *              0             0             1 
-  2341 Y[45,46]     *              0             0             1 
-  2342 Y[45,47]     *              1             0             1 
+  2341 Y[45,46]     *              1             0             1 
+  2342 Y[45,47]     *              0             0             1 
   2343 Y[45,48]     *              0             0             1 
   2344 Y[45,49]     *              0             0             1 
   2345 Y[45,50]     *              0             0             1 
@@ -7708,9 +7708,9 @@ Objective:  total = 25505.5 (MINimum)
   2389 Y[46,42]     *              0             0             1 
   2390 Y[46,43]     *              0             0             1 
   2391 Y[46,44]     *              0             0             1 
-  2392 Y[46,45]     *              1             0             1 
+  2392 Y[46,45]     *              0             0             1 
   2393 Y[46,47]     *              0             0             1 
-  2394 Y[46,48]     *              0             0             1 
+  2394 Y[46,48]     *              1             0             1 
   2395 Y[46,49]     *              0             0             1 
   2396 Y[46,50]     *              0             0             1 
   2397 Y[46,51]     *              0             0             1 
@@ -7759,12 +7759,12 @@ Objective:  total = 25505.5 (MINimum)
   2440 Y[47,42]     *              0             0             1 
   2441 Y[47,43]     *              0             0             1 
   2442 Y[47,44]     *              0             0             1 
-  2443 Y[47,45]     *              0             0             1 
+  2443 Y[47,45]     *              1             0             1 
   2444 Y[47,46]     *              0             0             1 
   2445 Y[47,48]     *              0             0             1 
   2446 Y[47,49]     *              0             0             1 
   2447 Y[47,50]     *              0             0             1 
-  2448 Y[47,51]     *              1             0             1 
+  2448 Y[47,51]     *              0             0             1 
   2449 Y[48,0]      *              0             0             1 
   2450 Y[48,1]      *              0             0             1 
   2451 Y[48,2]      *              0             0             1 
@@ -7811,11 +7811,11 @@ Objective:  total = 25505.5 (MINimum)
   2492 Y[48,43]     *              0             0             1 
   2493 Y[48,44]     *              0             0             1 
   2494 Y[48,45]     *              0             0             1 
-  2495 Y[48,46]     *              1             0             1 
+  2495 Y[48,46]     *              0             0             1 
   2496 Y[48,47]     *              0             0             1 
   2497 Y[48,49]     *              0             0             1 
   2498 Y[48,50]     *              0             0             1 
-  2499 Y[48,51]     *              0             0             1 
+  2499 Y[48,51]     *              1             0             1 
   2500 Y[49,0]      *              0             0             1 
   2501 Y[49,1]      *              0             0             1 
   2502 Y[49,2]      *              0             0             1 
@@ -7969,57 +7969,57 @@ Objective:  total = 25505.5 (MINimum)
   2650 Y[51,48]     *              0             0             1 
   2651 Y[51,49]     *              0             0             1 
   2652 Y[51,50]     *              1             0             1 
-  2653 U[2]                       19                             
-  2654 U[1]                       49                             
+  2653 U[2]                       29                             
+  2654 U[1]                       50                             
   2655 U[3]                       51                             
-  2656 U[4]                       18                             
-  2657 U[5]                       20                             
-  2658 U[6]                       50                             
+  2656 U[4]                       28                             
+  2657 U[5]                       27                             
+  2658 U[6]                       39                             
   2659 U[7]                       48                             
-  2660 U[8]                       47                             
+  2660 U[8]                       49                             
   2661 U[9]                       42                             
-  2662 U[10]                      39                             
-  2663 U[11]                      25                             
+  2662 U[10]                      40                             
+  2663 U[11]                      30                             
   2664 U[12]                      41                             
-  2665 U[13]                      40                             
-  2666 U[14]                      26                             
-  2667 U[15]                      43                             
-  2668 U[16]                      46                             
+  2665 U[13]                      43                             
+  2666 U[14]                      31                             
+  2667 U[15]                      44                             
+  2668 U[16]                      47                             
   2669 U[17]                       1                             
   2670 U[18]                      38                             
-  2671 U[19]                      44                             
-  2672 U[20]                      45                             
-  2673 U[21]                      28                             
+  2671 U[19]                      45                             
+  2672 U[20]                      46                             
+  2673 U[21]                      32                             
   2674 U[22]                       2                             
-  2675 U[23]                      27                             
+  2675 U[23]                      33                             
   2676 U[24]                      37                             
   2677 U[25]                      36                             
   2678 U[26]                      35                             
-  2679 U[27]                      21                             
-  2680 U[28]                      24                             
-  2681 U[29]                      23                             
-  2682 U[30]                      29                             
+  2679 U[27]                      23                             
+  2680 U[28]                      26                             
+  2681 U[29]                      25                             
+  2682 U[30]                      22                             
   2683 U[31]                      34                             
   2684 U[32]                       3                             
-  2685 U[33]                      30                             
-  2686 U[34]                      22                             
-  2687 U[35]                       6                             
-  2688 U[36]                      31                             
-  2689 U[37]                      33                             
-  2690 U[38]                      17                             
+  2685 U[33]                      21                             
+  2686 U[34]                      24                             
+  2687 U[35]                       8                             
+  2688 U[36]                      20                             
+  2689 U[37]                       9                             
+  2690 U[38]                      19                             
   2691 U[39]                       5                             
-  2692 U[40]                      16                             
-  2693 U[41]                       7                             
-  2694 U[42]                      32                             
+  2692 U[40]                      18                             
+  2693 U[41]                       6                             
+  2694 U[42]                      10                             
   2695 U[43]                       4                             
-  2696 U[44]                       8                             
-  2697 U[45]                      11                             
-  2698 U[46]                      10                             
-  2699 U[47]                      12                             
-  2700 U[48]                       9                             
-  2701 U[49]                      15                             
-  2702 U[50]                      14                             
-  2703 U[51]                      13                             
+  2696 U[44]                       7                             
+  2697 U[45]                      12                             
+  2698 U[46]                      13                             
+  2699 U[47]                      11                             
+  2700 U[48]                      14                             
+  2701 U[49]                      17                             
+  2702 U[50]                      16                             
+  2703 U[51]                      15                             
 
 Integer feasibility conditions:
 
@@ -8027,8 +8027,8 @@ KKT.PE: max.abs.err = 0.00e+00 on row 0
         max.rel.err = 0.00e+00 on row 0
         High quality
 
-KKT.PB: max.abs.err = 7.11e-15 on row 567
-        max.rel.err = 1.39e-16 on row 567
+KKT.PB: max.abs.err = 7.11e-15 on row 2655
+        max.rel.err = 1.39e-16 on row 2655
         High quality
 
 End of output

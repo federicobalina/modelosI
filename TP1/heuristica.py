@@ -163,6 +163,8 @@ def heapsAristas(distancias):
 		i += 1
 	return heaps
 
+
+#Se recibe como parametro el string correspondiente al continente
 def main(argv):
 	if (not argv):
 		continente = AMSUR
