@@ -172,6 +172,7 @@ def main(argv):
 	else:
 		continente = argv[0]	
 	americaSur = (continente == AMSUR)
+	#americaSur = False
 	distancias = cargarDistancias(continente)
 	nombres = cargarNombres(continente)
 	heaps = heapsAristas(distancias)
@@ -193,6 +194,7 @@ def main(argv):
 			tour.agregarArista(arista)
 			i = arista.destino
 	tour.cerrarTour(distancias)
+	tour.mostrarTour(nombres)
 	tour.exportarTour("tour.csv")
 
 if __name__ == "__main__":
