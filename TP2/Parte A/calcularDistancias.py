@@ -8,7 +8,7 @@ class prettyfloat(float):
         return "%0.2f" % self
 
 def main():
-	continente = 'AmericaSur'
+	continente = 'AmericaSurBis'
 	fileName = 'capitales'+continente+'.csv'
 	file = open(fileName,'r')
 	reader = csv.reader(file,dialect = 'excel')

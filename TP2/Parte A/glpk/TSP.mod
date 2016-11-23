@@ -17,6 +17,8 @@ var U{ i in CIUDADES}; # Representa el orden en el que es visitada la ciudad i
 
 minimize total: sum{i in CIUDADES, j in CIUDADES} C[i,j] * Y[i,j];
 
+s.t. bound: sum{i in CIUDADES, j in CIUDADES} C[i,j] * Y[i,j] <= 24670;
+
 s.t. salida{i in CIUDADES}: sum{j in CIUDADES: j!=i } Y[i,j] = 1;
 
 s.t. llegada{j in CIUDADES}: sum{i in CIUDADES: i!=j } Y[i,j] = 1;

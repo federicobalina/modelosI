@@ -248,7 +248,7 @@ def main(argv):
 		continente = AMSUR
 	else:
 		continente = argv[0]
-	ventanas=True
+	ventanas=False
 	distancias = cargarDistancias(continente)
 	nombres = cargarNombres(continente)
 	tour = cargarTour("tour.csv",distancias)

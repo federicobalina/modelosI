@@ -86,9 +86,9 @@ s.t. estadiaBrasil1: TTA[BRA] >= 31;
 
 s.t. estadiaBrasil2: TTA[BRA]+TE[BRA] <= 59;
 
-s.t. estadiaPeru1: TTA[PER]+TE[PER] <= 31 + M2*(1-P);
+#s.t. estadiaPeru1: TTA[PER]+TE[PER] <= 31 + M2*(1-P);
 
-s.t. estadiaPeru2: TTA[PER] >= 59 - M2 * P;
+#s.t. estadiaPeru2: TTA[PER] >= 59 - M2 * P;
 
 solve;
 

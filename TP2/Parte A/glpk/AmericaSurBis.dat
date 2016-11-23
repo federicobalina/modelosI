@@ -1,0 +1,24 @@
+data;
+set CIUDADES := 0 1 2 3;
+set CIUDADES_SO := 1 2 3;
+
+param N := 3; 
+param M1 := 5; 
+param M2 := 90; 
+param M3 := 50;
+param TEF := 7; 
+param TD := 5; 
+param VEL := 4000;
+param K0 := 0;
+param ARG := 1;
+param BRA := 3;
+
+param C: 0 1 2 3  :=
+0	0.00	203.69	1341.54	2274.62
+1	203.69	0.00	1138.40	2341.92
+2	1341.54	1138.40	0.00	3013.15
+3	2274.62	2341.92	3013.15	0.00
+
+;
+
+end;
